@@ -1,10 +1,71 @@
 import Flexmatcher
 import pandas as pd
+import data.extractor as extraction
 
 def train_flexmatcher(schema_list, mapping_list):
     fm = Flexmatcher.FlexMatcher(schema_list, mapping_list, sample_size=1000)
+    fm.train()
 
-    return fm.train()
+    return fm
+
+def test():
+
+    dataframes = extraction.extract_data('../../data/train')
+
+    dataset12_mapping = {
+        'name': 'company_name',
+        'world_rank': 'company_rank',
+        'annual_revenue_in_usd': 'revenue',
+        'annual_net_income_in_usd': 'net_profit',
+        'headquarters_region_city': 'headquarters',
+        'headquarters_country': 'country',
+        'company_business': 'industry',
+        'number_of_employees': 'employees_count',
+        'company_website': 'website',
+        'total_assets_in_usd': 'total_assets',
+        'total_liabilities_in_usd': 'total_liabilities',
+        'total_equity_in_usd': 'total_equity',
+        'ceo': 'chief_executive',
+        'id': 'company_id'
+    }
+
+    dataset11_mapping = {
+        'name': 'company_name',
+        'company_number': 'registration_id',
+        'registered_office_address': 'headquarters',
+        'company_status': 'status',
+        'company_type': 'legal_type',
+        'company_creation_date': 'founding_date',
+        'nature_of_business': 'industry'
+    }
+
+    dataset8_mapping = {
+        'name': 'company_name',
+        'country': 'country',
+        'sales': 'revenue',
+        'profit': 'net_profit',
+        'assets': 'total_assets',
+        'market value': 'market_value'
+    }
+
+    dataset10_mapping = {
+        'name': 'company_name',
+        'headquarters': 'headquarters',
+        'number_of_employees': 'employees_count',
+        'address': 'headquarters',
+        'industry': 'industry',
+        'website': 'website',
+        'market_cap': 'market_value',
+        'telephone': 'phone_number',
+        'revenue': 'revenue'
+    }
+
+    mapping_list = [dataset8_mapping, dataset10_mapping, dataset11_mapping, dataset12_mapping]
+
+    fm = train_flexmatcher(dataframes, mapping_list)
+
+test()
+
 
 def test_flexmatcher():
     vals1 = [['year', 'Movie', 'imdb_rating'],
@@ -43,7 +104,7 @@ def test_flexmatcher():
     print(predicted_mapping)
 
 
-test_flexmatcher()
+
 
 
 

@@ -1,7 +1,7 @@
 # extract file in /data folder and save dataframes in /dataframes folder
-import pandas as pd
 
 import os
+
 import pandas as pd
 
 
@@ -28,7 +28,16 @@ def extract_data(path):
         else:
             raise ValueError('Invalid file format.')
 
+
         dataframes.append(df)
+
+    # remove all columns with unnamed like name
+    for i in range(len(dataframes)):
+        dataframes[i] = dataframes[i].loc[:, ~dataframes[i].columns.str.contains('^Unnamed')]
+
+    #all columns names of dataframes there is lowercase
+    for i in range(len(dataframes)):
+        dataframes[i].columns = dataframes[i].columns.str.lower()
 
     return dataframes
 
