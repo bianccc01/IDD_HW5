@@ -6,7 +6,6 @@ from Flexmatcher.classify import Classifier
 import numpy as np
 import Levenshtein as lev
 
-
 class KNNClassifier(Classifier):
 
     """Classify data-points (in string format) using their 3 nearest neighbors

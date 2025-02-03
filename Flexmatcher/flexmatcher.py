@@ -95,9 +95,9 @@ class FlexMatcher:
             knn_clf = \
                 clf.KNNClassifier()
             self.classifier_list = self.classifier_list + \
-                [col_char_dist_clf, col_trichar_count_clf,
-                 col_quadchar_count_clf, col_quintchar_count_clf,
-                 col_word_count_clf, knn_clf]
+                                   [col_char_dist_clf, col_trichar_count_clf,
+                                    col_quadchar_count_clf, col_quintchar_count_clf,
+                                    col_word_count_clf, knn_clf]
             self.classifier_type = self.classifier_type + (['column'] * 6)
 
     def create_training_data(self, dataframes, mappings, sample_size):
@@ -141,8 +141,8 @@ class FlexMatcher:
         # without notifying the user)
         available_columns = []
         for (datafr, mapping) in zip(dataframes, mappings):
-                for c in datafr.columns:
-                    available_columns.append(mapping[c])
+            for c in datafr.columns:
+                available_columns.append(mapping[c])
         self.columns = sorted(list(set(available_columns)))
 
     def train(self):
@@ -199,7 +199,7 @@ class FlexMatcher:
 
             # setting up the logistic regression
             stacker = linear_model.LogisticRegression(fit_intercept=True,
-                                                      class_weight='balanced')
+                                                      class_weight='balanced', max_iter=5000)
             stacker.fit(regression_data.iloc[:, 2:],
                         regression_data['is_class'])
             coeff_list.append(stacker.coef_.reshape(1, -1))
@@ -212,33 +212,44 @@ class FlexMatcher:
         by the meta-trainer) to combine the prediction of each classifier.
         """
         data = data.fillna('NA').copy(deep=True)
-        if data.shape[0] > 100:
-            data = data.sample(100)
-        # predicting each column
+        if data.shape[0] > 500:
+            data = data.sample(500)
+
         predicted_mapping = {}
+        confidence_threshold = 0.2  # Soglia per assegnare una colonna predefinita
+        default_column = "unknown_column"  # Nome di default per colonne sconosciute
+
         for column in list(data):
             column_dat = data[[column]]
             column_dat.columns = ['value']
-            column_name = pd.DataFrame({'value': [column]*column_dat.shape[0]})
+            column_name = pd.DataFrame({'value': [column] * column_dat.shape[0]})
             scores = np.zeros((len(column_dat), len(self.columns)))
+
             for clf_ind, clf_inst in enumerate(self.classifier_list):
                 if self.classifier_type[clf_ind] == 'value':
                     raw_prediction = clf_inst.predict(column_dat)
                 elif self.classifier_type[clf_ind] == 'column':
                     raw_prediction = clf_inst.predict(column_name)
-                # applying the weights to each class in the raw prediction
+
                 for class_ind in range(len(self.columns)):
-                    raw_prediction[:, class_ind] = \
-                        (raw_prediction[:, class_ind] *
-                         self.weights[class_ind, clf_ind])
-                scores = scores + raw_prediction
+                    raw_prediction[:, class_ind] *= self.weights[class_ind, clf_ind]
+
+                scores += raw_prediction
+
             flat_scores = scores.sum(axis=0) / len(column_dat)
             max_ind = flat_scores.argmax()
-            predicted_mapping[column] = self.columns[max_ind]
+            confidence = flat_scores[max_ind] / flat_scores.sum()
+
+            if confidence < confidence_threshold:
+                predicted_mapping[column] = default_column
+            else:
+                predicted_mapping[column] = self.columns[max_ind]
+
         return predicted_mapping
 
     def save_model(self, name):
         """Serializes the FlexMatcher object into a model file using python's
-        picke library."""
+        pickle library."""
         with open(name + '.model', 'wb') as f:
             pickle.dump(self, f)
+
