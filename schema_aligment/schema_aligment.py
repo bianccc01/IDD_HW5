@@ -1,6 +1,6 @@
 import os
 
-from fm.model import train_classifier
+from schema_aligment.fm.model import train_classifier
 import data.extractor as extraction
 import pandas as pd
 
@@ -10,8 +10,8 @@ def main():
     file_path = '../data'
     dataframes = []
 
-    for d in os.listdir(file_path):
-        dataframes.append(extraction.extract_data(file_path + '/' + d))
+    for df in dataframes:
+        print(f"Dataframe {df.shape[0]} rows")
 
     print(dataframes[0])
 
