@@ -26,7 +26,7 @@ class CharDistClassifier(Classifier):
 
     def __init__(self):
         """Initializes the classifier."""
-        self.clf = linear_model.LogisticRegression(class_weight='balanced')
+        self.clf = linear_model.LogisticRegression(class_weight='balanced', max_iter=1000)
 
     def fit(self, data):
         """Extracts features and labels from the data and fits a model.

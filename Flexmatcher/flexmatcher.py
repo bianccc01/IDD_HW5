@@ -199,7 +199,7 @@ class FlexMatcher:
 
             # setting up the logistic regression
             stacker = linear_model.LogisticRegression(fit_intercept=True,
-                                                      class_weight='balanced', max_iter=5000)
+                                                      class_weight='balanced', max_iter=1000)
             stacker.fit(regression_data.iloc[:, 2:],
                         regression_data['is_class'])
             coeff_list.append(stacker.coef_.reshape(1, -1))
@@ -216,8 +216,9 @@ class FlexMatcher:
             data = data.sample(500)
 
         predicted_mapping = {}
-        confidence_threshold = 0.2  # Soglia per assegnare una colonna predefinita
-        default_column = "unknown_column"  # Nome di default per colonne sconosciute
+        confidence_scores = {}  # Dizionario per tenere traccia dei punteggi di confidenza
+        confidence_threshold = 0.17
+        default_column = "unknown_column"
 
         for column in list(data):
             column_dat = data[[column]]

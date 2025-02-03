@@ -62,7 +62,7 @@ class NGramClassifier(Classifier):
         values = list(data['value'])
         self.features = self.vectorizer.fit_transform(values).toarray()
         # training the classifier
-        self.lrm = linear_model.LogisticRegression(class_weight='balanced')
+        self.lrm = linear_model.LogisticRegression(class_weight='balanced', max_iter=1000)
         self.lrm.fit(self.features, self.labels)
 
     def predict_training(self, folds=5):
@@ -71,7 +71,7 @@ class NGramClassifier(Classifier):
         Args:
             folds (int): Number of folds used for prediction on training data.
         """
-        partial_clf = linear_model.LogisticRegression(class_weight='balanced')
+        partial_clf = linear_model.LogisticRegression(class_weight='balanced', max_iter=1000)
         prediction = np.zeros((len(self.features), self.num_classes))
         skf = StratifiedKFold(n_splits=folds)
         for train_index, test_index in skf.split(self.features, self.labels):

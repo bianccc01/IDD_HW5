@@ -8,7 +8,7 @@ import os
 
 
 def train_flexmatcher(schema_list, mapping_list):
-    fm = Flexmatcher.FlexMatcher(schema_list, mapping_list, sample_size=600)
+    fm = Flexmatcher.FlexMatcher(schema_list, mapping_list, sample_size=12000)
     fm.train()
 
     return fm
@@ -16,10 +16,9 @@ def train_flexmatcher(schema_list, mapping_list):
 
 
 
+def train():
 
-
-
-def test():
+    #TODO: Implementare il preprocessing dei dati drop colonne inutili
 
     # Modifica il tuo codice per usare il preprocessing
     dataframes = extraction.extract_data('../../data/train')
@@ -41,24 +40,25 @@ def test():
     null_summary = df.isnull().sum()
     print(null_summary)
 
+    disfold_mapping = {
+        'link': 'company_website',
+        'name': 'company_name',
+        'headquarters': 'company_headquarters',
+        'employees': 'company_employees',
+        'ceo': 'company_ceo',
+        'market_cap': 'company_market_cap'
+    }
+
     wissel_aziende_ariregister_mapping = {
         'name': 'company_name',
-        'code': 'company_code',
+        'code': 'company_vat_code',
         'legal form': 'company_legal_form',
         'status': 'company_status',
-        'registration date': 'company_registration_date',
-        'capital': 'company_capital',
+        'registration date': 'company_foundation_date',
+        'capital': 'company_market_cap',
         'address': 'company_address',
-        'area of activity': 'company_area_of_activity',
-        'emtak code': 'company_emtak_code',
-        'nace code': 'company_nace_code',
-        'partners': 'company_partners',
-        'partner_participations': 'company_partner_participations',
-        'partner_contributions': 'company_partner_contributions',
-        'representatives': 'company_representatives',
-        'representative_roles': 'company_representative_roles',
-        'representative_start_dates': 'company_representative_start_dates',
-        'deletion date': 'company_deletion_date'
+        'area of activity': 'company_products_and_services',
+        'nace code': 'company_nace_code'
     }
 
     output_globaldata_mapping = {
@@ -69,42 +69,37 @@ def test():
         'industry': 'company_industry',
         'website': 'company_website',
         'market_cap': 'company_market_cap',
-        'telephone': 'company_telephone',
+        'telephone': 'company_phone_number',
         'revenue': 'company_revenue'
     }
 
     DDD_cbinsight_mapping = {
         'name': 'company_name',
-        'valuation': 'company_valuation',
-        'datejoined': 'company_date_joined',
+        'valuation': 'company_market_cap',
         'country': 'company_country',
-        'city': 'company_city',
+        'city': 'company_address',
         'industry': 'company_industry',
-        'investors': 'company_investors',
-        'founded': 'company_founded',
-        'stage': 'company_stage',
-        'totalraised': 'company_total_raised'
+        'founded': 'company_foundation_date'
     }
 
     hitHorizons_dataset_mapping = {
         'name': 'company_name',
         'address': 'company_address',
-        'nation': 'company_nation',
-        'hhid': 'company_hhid',
+        'nation': 'company_country',
         'industry': 'company_industry',
         'sic_code': 'company_sic_code',
-        'type': 'company_type',
-        'est_of_ownership': 'company_ownership_type'
+        'type': 'company_legal_form',
+        'est_of_ownership': 'company_foundation_date',
     }
 
     output_govuk_bigsize_mapping = {
         'name': 'company_name',
-        'company_number': 'company_number',
-        'registered_office_address': 'company_registered_office_address',
+        'company_number': 'company_phone_number',
+        'registered_office_address': 'company_address',
         'company_status': 'company_status',
-        'company_type': 'company_type',
-        'company_creation_date': 'company_creation_date',
-        'nature_of_business': 'company_nature_of_business'
+        'company_type': 'company_legal_form',
+        'company_creation_date': 'company_foundation_date',
+        'nature_of_business': 'company_products_and_services',
     }
 
 
@@ -113,20 +108,19 @@ def test():
         'output_globaldata': output_globaldata_mapping,
         'DDD_cbinsight': DDD_cbinsight_mapping,
         'hitHorizons_dataset': hitHorizons_dataset_mapping,
-        'output_govuk_bigsize': output_govuk_bigsize_mapping
+        'output_govuk_bigsize': output_govuk_bigsize_mapping,
+        'disfold': disfold_mapping
     }
 
-    list_mapping = []
-    for d in dataframes:
-        file_name = d['file_name'].iloc[0]
-        if file_name in mapping_dict:
-            list_mapping.append(mapping_dict[file_name])
-        else:
-            raise KeyError(f"Mapping for file {file_name} not found")
 
-    #remove file_name column
-    for i in range(len(dataframes)):
-        dataframes[i] = dataframes[i].drop(columns=['file_name'])
+
+    list_mapping = []
+    for i, d in enumerate(dataframes):
+        file_name = d['file_name'].iloc[0]
+        mapping = mapping_dict.get(file_name)
+        dataframes[i] = d[mapping.keys()]
+        list_mapping.append(mapping)
+
 
     try:
         fm = train_flexmatcher(dataframes, list_mapping)
@@ -137,25 +131,24 @@ def test():
     except Exception as e:
         print(f"Error with training: {str(e)}")
 
+train()
 
 
+def test_prediction(dataframe):
 
-
-
-
-def test_prediction():
     # load the model
     with open('flexmatcher.pkl.model', 'rb') as f:
         fm = pkl.load(f)
-    dataframes = extraction.extract_data('../../data/test')
 
-    #remove file_name column
-    for i in range(len(dataframes)):
-        dataframes[i] = dataframes[i].drop(columns=['file_name'])
+    # remove file_name column
+    file_name = dataframe['file_name'].iloc[0]
+    dataframe = dataframe.drop(columns=['file_name'])
 
-    for d in dataframes:
-        predicted_mapping = fm.make_prediction(d)
-        print(predicted_mapping)
+    prediction = fm.make_prediction(dataframe)
+
+    #add file_name to the prediction
+    prediction['file_name'] = file_name
+
+    return prediction
 
 
-test()
