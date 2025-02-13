@@ -1,0 +1,21 @@
+import pandas as pd
+import os
+import data.extractor as extraction
+
+
+def merge_csv(method):
+
+    path = f'../data/created/{method}'
+    dataframes = extraction.extract_data(path)
+
+
+    # Merge in base a 'company_name'
+    merged_df = pd.concat(dataframes).groupby("company_name", as_index=False).first()
+
+    # Salva il risultato
+    merged_df.to_csv(os.path.join(f'{path}/merged', "merged_data.csv"), index=False)
+
+    print("Merge completato. File salvato come 'merged_data.csv'")
+
+
+merge_csv('fm')

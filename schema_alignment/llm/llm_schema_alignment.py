@@ -1,6 +1,6 @@
 import json
 import data.extractor as extraction
-from llm.llm_connector import query_llm
+from schema_alignment.llm.utils.llm_connector import query_llm
 
 
 def align_schema_with_llm(df, target_mapping):
