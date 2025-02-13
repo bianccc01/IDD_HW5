@@ -46,6 +46,9 @@ def extract_data(path):
             if 'id' in df.columns:
                 df = df.drop(columns=['id'])
 
+            #change not found to np.nan
+            df = df.replace('Not found', np.nan)
+
             #add file name to dataframe, replace - with _ in file name and remove extension
             df['file_name'] = d.replace('-', '_').split('.')[0]
 

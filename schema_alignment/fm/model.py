@@ -102,10 +102,22 @@ def train():
         'nature_of_business': 'company_products_and_services',
     }
 
+    valueToday_dataset_mapping = {
+        'name' : 'company_name',
+        'annual_revenue_in_usd' : 'company_revenue',
+        'headquarters_region_city': 'company_country',
+        'headquarters_country' : 'company_headquarters',
+        'company_business' : 'company_industry',
+        'number_of_employees' : 'company_employees',
+        'ceo' : 'company_ceo',
+        'founders' : 'company_partners',
+        'company_website': 'company_website'
+    }
+
+
 
     mapping_dict = {
         'wissel_aziende_ariregister': wissel_aziende_ariregister_mapping,
-        'output_globaldata': output_globaldata_mapping,
         'DDD_cbinsight': DDD_cbinsight_mapping,
         'hitHorizons_dataset': hitHorizons_dataset_mapping,
         'output_govuk_bigsize': output_govuk_bigsize_mapping,
@@ -122,16 +134,14 @@ def train():
         list_mapping.append(mapping)
 
 
-    try:
-        fm = train_flexmatcher(dataframes, list_mapping)
-        print("FlexMatcher training finished")
+    fm = train_flexmatcher(dataframes, list_mapping)
+    print("FlexMatcher training finished")
 
-        #save the model
-        fm.save_model('flexmatcher.pkl')
-    except Exception as e:
-        print(f"Error with training: {str(e)}")
+    #save the model
+    fm.save_model('flexmatcher.pkl')
 
-train()
+
+
 
 
 def test_prediction(dataframe):
