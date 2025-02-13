@@ -5,12 +5,12 @@ import data.extractor as extraction
 
 def merge_csv(method):
 
-    path = f'../data/created/{method}'
+    path = f'../data/schema_alignment/created/{method}'
     dataframes = extraction.extract_data(path)
 
 
-    # Merge in base a 'company_name'
-    merged_df = pd.concat(dataframes).groupby("company_name", as_index=False).first()
+    # concat dataframes
+    merged_df = pd.concat(dataframes, ignore_index=True)
 
     # Salva il risultato
     merged_df.to_csv(os.path.join(f'{path}/merged', "merged_data.csv"), index=False)

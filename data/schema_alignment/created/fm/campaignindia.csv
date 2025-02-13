@@ -1,0 +1,1001 @@
+company_name,company_market_cap,company_employees,file_name
+Consumer electronics,"['Sony', 'Regional']","['1', '1']",campaignindia
+Electronics/White goods,"['Samsung', 'Regional']","['2', '2']",campaignindia
+Consumer electronics,"['Panasonic', 'Regional']","['3', '3']",campaignindia
+Electronics/White goods,"['LG', 'Regional']","['4', '4']",campaignindia
+Camera/Office equipment,"['Canon', 'Regional']","['5', '5']",campaignindia
+Mobile Phone,"['Apple', 'Regional']","['6', '9']",campaignindia
+Computer,"['Hewlett-Packard', 'Regional']","['7', '10']",campaignindia
+Internet search engine,"['Google', 'Regional']","['8', '6']",campaignindia
+Food and drink,"['NestlÃ©', 'Regional']","['9', '8']",campaignindia
+Sports retail,"['Nike', 'Regional']","['10', '13']",campaignindia
+Fast food,"['McDonaldâ\x80\x99s', 'Regional']","['11', '12']",campaignindia
+Sports retail,"['adidas', 'Regional']","['12', '16']",campaignindia
+Soft drinks,"['Coca-Cola', 'Regional']","['13', '11']",campaignindia
+Convenience store,"['7-Eleven', 'Regional']","['14', '17']",campaignindia
+Coffee chain,"['Starbucks', 'Regional']","['15', '14']",campaignindia
+Toothpaste,"['Colgate', 'Regional']","['16', '18']",campaignindia
+Social networking,"['Facebook', 'Regional']","['17', '20']",campaignindia
+Internet search engine,"['Yahoo', 'Regional']","['18', '7']",campaignindia
+Car/Motorcycle,"['Honda', 'Regional']","['19', '15']",campaignindia
+Electronics/White goods,"['Toshiba', 'Regional']","['20', '26']",campaignindia
+Computer Software,"['Microsoft', 'Regional']","['21', '22']",campaignindia
+Instant Noodles,"['Maggi', 'Regional']","['22', '29']",campaignindia
+Chewing/ Bubble gum,"['Lotte', 'Japan, Korea']","['23', '21']",campaignindia
+Fast-Food,"['KFC', 'Greater China, Southeast Asia']","['24', '24']",campaignindia
+Camera,"['Nikon', 'Regional']","['25', '30']",campaignindia
+Consumer Electronics,"['Hitachi', 'Regional']","['26', '25']",campaignindia
+Consumer Electronics,"['Sharp', 'Regional']","['27', '23']",campaignindia
+Mobile Phone,"['Nokia', 'Regional']","['28', '19']",campaignindia
+Gaming Console,"['Playstation', 'Regional']","['29', '60']",campaignindia
+Fragrance/Perfume/Luxury Fashion Retailer,"['Chanel', 'Regional']","['30', '28']",campaignindia
+Shower Gel/Soap /Shampoo,"['Dove', 'Regional']","['31', '36']",campaignindia
+Carbonated Soft Drink,"['Pepsi', 'Regional']","['32', '35']",campaignindia
+Coffee,"['NescafÃ©', 'Regional']","['33', '45']",campaignindia
+Chocolate,"['Cadbury', 'Regional']","['34', '37']",campaignindia
+Consumer electronics,"['Mitsubishi', 'Regional']","['35', '32']",campaignindia
+Printer,"['Epson', 'Regional']","['36', '50']",campaignindia
+Instant Noodles,"['Uni-president', 'Greater China']","['37', '39']",campaignindia
+Motorcycle,"['Yamaha', 'Regional']","['38', '33']",campaignindia
+Petrol/Gas Station,"['Shell', 'Greater China, Southeast Asia']","['39', '46']",campaignindia
+Courier Company,"['DHL', 'Regional']","['40', '47']",campaignindia
+Car/Automobile,"['Toyota', 'Regional']","['41', '43']",campaignindia
+Watch,"['Rolex', 'Regional']","['42', '42']",campaignindia
+Food,"['Meiji', 'Regional']","['43', '27']",campaignindia
+Toothpaste,"['Darlie', 'Greater China, Southeast Asia']","['44', '55']",campaignindia
+Tyre,"['Michelin', 'Regional']","['45', '48']",campaignindia
+Gaming Console,"['Nintendo', 'Regional']","['46', '31']",campaignindia
+Shower Gel/Soap,"['Lux', 'Regional']","['47', '52']",campaignindia
+Ice-cream,"['HÃ¤agen-Dazs', 'Regional']","['48', '61']",campaignindia
+Car/Automobile,"['BMW', 'Regional']","['49', '54']",campaignindia
+Computer,"['Dell', 'Regional']","['50', '62']",campaignindia
+Tyre,"['Bridgestone', 'Regional']","['51', '53']",campaignindia
+Credit Card,"['VISA', 'Regional']","['52', '63']",campaignindia
+Cosmetics/Skincare Shampoo,"['Lâ\x80\x99OrÃ©al', 'Regional']","['53', '57']",campaignindia
+Shampoo,"['Pantene', 'Regional']","['54', '77']",campaignindia
+Cosmetics,"['Shiseido', 'Regional']","['55', '34']",campaignindia
+Diaper,"['Pampers', 'Regional']","['56', '41']",campaignindia
+Consumer Electronics,"['Philips', 'Regional']","['57', '49']",campaignindia
+Budget Airlines,"['Air Asia', 'Southeast Asia']","['58', '66']",campaignindia
+Car/Automobile,"['Mercedes-Benz', 'Regional']","['59', '70']",campaignindia
+Social Networking Site,"['Twitter', 'Regional']","['60', '123']",campaignindia
+Pharmacy/Drugstore,"['Watsons', 'Greater China, Southeast Asia']","['61', '44']",campaignindia
+Skincare,"['Nivea', 'Regional']","['62', '56']",campaignindia
+Convenience Store,"['FamilyMart', 'Taiwan, Thailand']","['63', '85']",campaignindia
+Bank,"['HSBC', 'Regional']","['64', '81']",campaignindia
+Bank,"['Citibank', 'Regional']","['65', '78']",campaignindia
+Fragrance/Perfume/Cosmetics,"['Christian Dior', 'Regional']","['66', '67']",campaignindia
+Instant Noodles,"['Nissin', 'Regional']","['67', '82']",campaignindia
+Diaper,"['Huggies', 'Regional']","['68', '65']",campaignindia
+Courier Company,"['FedEx', 'Greater China, Southeast Asia']","['69', '58']",campaignindia
+Computer,"['Acer', 'Regional']","['70', '76']",campaignindia
+Sports Drink,"['Pocari Sweat', 'Regional']","['71', '69']",campaignindia
+Detergent,"['Kao', 'Greater China, Southeast Asia']","['72', '71']",campaignindia
+Chocolate,"['Ferrero Rocher', 'Regional']","['73', '90']",campaignindia
+Insurance,"['AIA', 'Regional']","['74', '88']",campaignindia
+Full-service Airlines,"['Singapore', 'Greater China, Southeast Asia']","['75', '74']",campaignindia
+Tea,"['Lipton', 'Regional']","['76', '40']",campaignindia
+Cigarette,"['Marlboro', 'Regional']","['77', '59']",campaignindia
+Instant Noodles,"['MasterKong', 'Greater China']","['78', '114']",campaignindia
+Credit Card,"['MasterCard', 'Regional']","['79', '91']",campaignindia
+Sports Drink,"['Gatorade', 'Regional']","['80', '68']",campaignindia
+Luxury Fashion Retailer,"['Gucci', 'Regional']","['81', '64']",campaignindia
+Cereal,"['Kelloggâ\x80\x99s', 'Regional']","['82', '92']",campaignindia
+Beer,"['Heineken', 'Regional']","['83', '95']",campaignindia
+Air Conditioner,"['Daikin', 'Japan, Singapore']","['84', '94']",campaignindia
+Shampoo,"['Head & Shoulders', 'Regional']","['85', '98']",campaignindia
+Female Skincare Product,"['SK-II', 'Regional']","['86', '104']",campaignindia
+Chewing/Bubble Gum,"['Wrigleyâ\x80\x99s Arrow', 'Regional']","['87', '83']",campaignindia
+Consumer Electronics,"['Sanyo', 'Regional']","['88', '75']",campaignindia
+Milk powder/Milk/Ice-cream,"['Amul', 'India']","['89', '73']",campaignindia
+Car/Automobile,"['Hyundai', 'Regional']","['90', '100']",campaignindia
+Cosmetics/Fagrance/Female Skincare,"['LancomÃ©', 'Regional']","['91', '122']",campaignindia
+Watch,"['Seiko', 'Regional']","['92', '109']",campaignindia
+Ice-cream,"['Wallâ\x80\x99s', 'Regional']","['93', '121']",campaignindia
+Watch,"['Casio', 'Regional']","['94', '111']",campaignindia
+Gaming Console,"['Xbox', 'Regional']","['95', '131']",campaignindia
+Supermarket,"['Tesco', 'Malaysia, Thailand']","['96', '126']",campaignindia
+Supermarket,"['NTUC FairPrice', 'Singapore']","['97', '89']",campaignindia
+White Goods,"['Whirlpool', 'Regional']","['98', '107']",campaignindia
+Female Skincare Product,"['Olay', 'Regional']","['99', '106']",campaignindia
+Mobile Phone,"['HTC', 'Regional']","['100', '532']",campaignindia
+Mineral Water,"['Evian', 'Regional']","['101', '105']",campaignindia
+Consumer Electronics,"['Haier', 'China, India']","['102', '108']",campaignindia
+Shampoo,"['Sunsilk', 'Regional']","['103', '115']",campaignindia
+Hotel,"['Hilton', 'Regional']","['104', '125']",campaignindia
+Full-service Airlines,"['Cathay Pacific', 'Regional']","['105', '93']",campaignindia
+Baby Food (excluding milk powder),"['Heinz', 'Regional']","['106', '79']",campaignindia
+Mobile Phone,"['Sony Ericsson', 'Regional']","['107', '72']",campaignindia
+Sports Drink,"['100 Plus', 'Southeast Asia, India']","['108', '120']",campaignindia
+Sweets and Candy,"['Morinaga', 'China, Japan']","['109', '87']",campaignindia
+Detergent,"['Breeze', 'Southeast Asia, Taiwan']","['110', '155']",campaignindia
+Petrol/Gas Station,"['Caltex', 'Regional']","['111', '124']",campaignindia
+Mobile Service Provider,"['Vodafone', 'Regional']","['112', '165']",campaignindia
+Petrol/Gas Station,"['Esso', 'China, Japan, Southeast Asia']","['113', '153']",campaignindia
+Personal Care,"['Johnson & Johnson', 'Regional']","['114', '86']",campaignindia
+Fragrance/Perfume/Luxury Fashion Retailer,"['Calvin Klein', 'Regional']","['115', '101']",campaignindia
+Beer/Full-service Airlines,"['Kingfisher', 'India']","['116', '140']",campaignindia
+Computer,"['Fujitsu', 'Regional']","['117', '134']",campaignindia
+Pharmacy/Drugstore,"['Guardian', 'Australia, Southeast Asia']","['118', '84']",campaignindia
+Motorcycle,"['Suzuki', 'Regional']","['119', '102']",campaignindia
+Ice-cream,"['Baskin Robbins', 'Regional']","['120', '173']",campaignindia
+Computer,"['Lenovo', 'Regional']","['121', '170']",campaignindia
+Watch,"['Omega', 'Regional']","['122', '132']",campaignindia
+Luxury Fashion Retailer,"['Louis Vuitton (LV)', 'Regional']","['123', '118']",campaignindia
+Supermarket,"['Wellcome', 'Hong Kong, Taiwan']","['124', '146']",campaignindia
+Supermarket,"['Coles', 'Australia']","['125', '127']",campaignindia
+Menâs Fashion Retailer,"['Armani', 'Regional']","['126', '117']",campaignindia
+Sauce/Condiment,"['Lee Kum Kee', 'China, Southeast Asia']","['127', '194']",campaignindia
+Spirits,"['Johnnie Walker', 'Regional']","['128', '133']",campaignindia
+Sporting Apparel,"['Reebok', 'Regional']","['129', '188']",campaignindia
+Snack Food,"['Layâ\x80\x99s', 'Regional']","['130', '147']",campaignindia
+Fruit Juice,"['Marigold', 'Malaysia, Singapore']","['131', '129']",campaignindia
+Convenience Store,"['Circle K', 'China, Japan']","['132', '185']",campaignindia
+Motorcycle,"['Harley Davidson', 'Regional']","['133', '143']",campaignindia
+Tyre,"['Goodyear', 'Regional']","['134', '138']",campaignindia
+Cereal,"['Quaker', 'Malaysia, Singapore']","['135', '97']",campaignindia
+Beer,"['Carlsberg', 'Regional']","['136', '130']",campaignindia
+Sporting Equipment/Apparel,"['Puma', 'Regional']","['137', '167']",campaignindia
+Budget Airlines,"['Jetstar', 'Australia, Southeast Asia']","['138', '137']",campaignindia
+Full-service Airlines,"['Thai Airways', 'Regional']","['139', '151']",campaignindia
+Computer,"['Asus', 'Regional']","['140', '199']",campaignindia
+Camcorder,"['JVC', 'Regional']","['141', '116']",campaignindia
+Insurance,"['Prudential (UK)', 'Regional']","['142', '161']",campaignindia
+Coffee,"['Maxims', 'Hong Kong, Japan, Korea']","['143', '190']",campaignindia
+Toothpaste,"['Lion', 'Regional']","['144', '181']",campaignindia
+Mobile Phone,"['BlackBerry', 'Regional']","['145', '446']",campaignindia
+Camera,"['Olympus', 'Regional']","['146', '174']",campaignindia
+Chewing/Bubble Gum,"['Extra', 'Regional']","['147', '176']",campaignindia
+Spirits/Beer,"['Suntory', 'China, Japan, Korea, Taiwan']","['148', '227']",campaignindia
+Skincare Product,"['Garnier', 'Australia, India, Southeast Asia']","['149', '195']",campaignindia
+Shampoo,"['Rejoice', 'Regional']","['150', '148']",campaignindia
+Full-service Airlines,"['Virgin', 'Regional']","['151', '168']",campaignindia
+Chewing/Bubble Gum,"['Doublemint', 'Regional']","['152', '184']",campaignindia
+Shower Gel/Soap,"['Palmolive', 'Regional']","['153', '152']",campaignindia
+Computer,"['IBM', 'Regional']","['154', '150']",campaignindia
+Diaper,"['Mamy Poko', 'China, Japan, Southeast Asia']","['155', '142']",campaignindia
+Shower Gel/Soap,"['Dettol', 'Australia, China']","['156', '198']",campaignindia
+Cosmetics,"['EstÃ©e Lauder', 'Regional']","['157', '145']",campaignindia
+Female Skincare Product/Cosmetics,"['Clinique', 'Regional']","['158', '113']",campaignindia
+Milk,"['Mengniu', 'China']","['159', '206']",campaignindia
+Chocolate,"['Lindt', 'Regional']","['160', '259']",campaignindia
+Chocolate,"['Hersheyâ\x80\x99s', 'Regional']","['161', '268']",campaignindia
+Jewellery,"['Cartier', 'Regional']","['162', '169']",campaignindia
+Full-service Airlines,"['Malaysia Airlines', 'Regional']","['163', '164']",campaignindia
+Fruit Juice,"['Tropicana', 'Regional']","['164', '204']",campaignindia
+Internet Search Engine,"['Baidu', 'China']","['165', '186']",campaignindia
+Female Skincare Product,"['Pondâ\x80\x99s', 'Regional']","['166', '228']",campaignindia
+Milk,"['Dutch Lady', 'Regional']","['167', '159']",campaignindia
+Bank,"['Bank of China', 'China, Hong Kong']","['168', '254']",campaignindia
+Shoes,"['BATA', 'India, Singapore']","['169', '157']",campaignindia
+Supermarket,"['Carrefour', 'China, Japan, Southeast Asia']","['170', '141']",campaignindia
+Beer,"['Tsingtao', 'China, Singapore']","['171', '158']",campaignindia
+Bank,"['Maybank', 'Malaysia, Singapore']","['172', '207']",campaignindia
+Beer,"['Kirin', 'China, Japan, Korea']","['173', '189']",campaignindia
+Bank,"['Kookmin Bank (KB)', 'Korea']","['174', '212']",campaignindia
+Tyre,"['Dunlop', 'Regional']","['175', '149']",campaignindia
+Sports Drink,"['Red Bull', 'Regional']","['176', '192']",campaignindia
+Courier Company,"['UPS', 'Regional']","['177', '200']",campaignindia
+Budget Airlines,"['Tiger Airways', 'Regional']","['178', '154']",campaignindia
+Ice-cream,"['Swensenâ\x80\x99s', 'Singapore']","['179', '253']",campaignindia
+Pet Food,"['Pedigree', 'Regional']","['180', '110']",campaignindia
+Internet Search Engine,"['Naver', 'Korea']","['181', '103']",campaignindia
+Food and Beverage,"['Wei Chuan', 'China, Taiwan']","['182', '163']",campaignindia
+Mobile Service Provider,"['China Mobile', 'China']","['183', '203']",campaignindia
+Supermarket,"['Big Bazaar', 'India']","['184', '248']",campaignindia
+Chocolate,"['Dove (Chocolate)', 'China, Taiwan']","['185', '201']",campaignindia
+Instant Noodles,"['Mama', 'Hong Kong, Thailand']","['186', '211']",campaignindia
+Petrol/Gas Station,"['CPC (Taiwan)', 'Taiwan']","['187', '215']",campaignindia
+Internet Search Engine,"['Bing', 'Regional']","['188', '591']",campaignindia
+Bank,"['Standard Chartered', 'Hong Kong, Southeast Asia']","['189', '336']",campaignindia
+Consumer Electronics,"['Siemens', 'Regional']","['190', '234']",campaignindia
+Full-service Airlines,"['ANA', 'Regional']","['191', '219']",campaignindia
+Jewellery,"['Tiffany & Co.', 'Regional']","['192', '144']",campaignindia
+Fruit Juice,"['Minute Maid', 'China']","['193', '265']",campaignindia
+Fast-Food,"['Burger King', 'Regional']","['194', '222']",campaignindia
+Beer,"['Tiger Beer', 'Southeast Asia']","['195', '183']",campaignindia
+Mobile Service Provider,"['Singtel', 'Singapore']","['196', '244']",campaignindia
+Full-service Airlines,"['Korean Air', 'Korea']","['197', '171']",campaignindia
+Mobile Service Provider,"['NTT', 'Japan']","['198', '250']",campaignindia
+Full-service Airlines,"['Qantas', 'Regional']","['199', '210']",campaignindia
+Instant Noodles,"['Nongshim', 'China, Korea']","['200', '236']",campaignindia
+Menâs Fashion Retailer/Fragrance,"['Ralph Lauren', 'Regional']","['201', '177']",campaignindia
+Bank,"['Siam Commercial Bank', 'Thailand']","['202', '230']",campaignindia
+Full-service Airlines,"['Asiana', 'Korea']","['203', '197']",campaignindia
+Supermarket,"['Park n shop', 'China, Hong Kong']","['204', '231']",campaignindia
+Milk,"['Seoul Milk', 'Korea']","['205', '179']",campaignindia
+Menâs and Womenâs Fashion Retailer,"['G2000', 'China, Southeast Asia']","['206', '208']",campaignindia
+Mobile Service Provider,"['SK Telecom', 'Korea']","['207', '225']",campaignindia
+Cigarette,"['Dunhill', 'Regional']","['208', '139']",campaignindia
+Computer Software,"['Adobe', 'Regional']","['209', '269']",campaignindia
+Bank,"['Shinhan bank', 'Korea']","['210', '242']",campaignindia
+Fast-Food,"['Lotteria', 'Korea']","['211', '275']",campaignindia
+Courier Company,"['Kuroneko Yamato', 'Japan']","['212', '251']",campaignindia
+Bank,"['DBS', 'Singapore']","['213', '271']",campaignindia
+Consumer Electronics,"['Pioneer', 'Regional']","['214', '162']",campaignindia
+Bank,"['ICICI Bank', 'India']","['215', '182']",campaignindia
+Bank,"['State Bank of India (SBI)', 'India']","['216', '226']",campaignindia
+Mobile Service Provider,"['Telstra', 'Australia']","['217', '345']",campaignindia
+Watch,"['Citizen', 'Regional']","['218', '223']",campaignindia
+Milk Powder,"['Dumex', 'China, India, Southeast Asia']","['219', '180']",campaignindia
+Cosmetics,"['Avon', 'Regional']","['220', '119']",campaignindia
+Mobile Service Provider,"['Airtel', 'India']","['221', '301']",campaignindia
+Petrol/Gas Station,"['Sinopec', 'China, Hong Kong']","['222', '214']",campaignindia
+Beer,"['Asahi', 'Regional']","['223', '375']",campaignindia
+Petrol/Gas Station,"['PTT', 'Thailand']","['224', '261']",campaignindia
+Coffee Shop,"['Coffee Bean', 'Australia, Southeast Asia']","['225', '217']",campaignindia
+Fast-Food,"['Mos Burger', 'Japan, Hong Kong, Singapore']","['226', '300']",campaignindia
+Full-service Airlines,"['China Airlines', 'Regional']","['227', '175']",campaignindia
+Computer,"['NEC', 'Regional']","['228', '263']",campaignindia
+Fruit Juice,"['Sunkist', 'Regional']","['229', '316']",campaignindia
+Mobile Service Provider,"['KTF', 'Korea']","['230', '294']",campaignindia
+Full-service Airlines,"['Japan Airlines (JAL)', 'Japan']","['231', '196']",campaignindia
+Bank,"['China Trust', 'Taiwan']","['232', '427']",campaignindia
+Supermarket,"['Woolworths', 'Australia']","['233', '235']",campaignindia
+Carbonated Soft Drink,"['Sprite', 'Regional']","['234', '283']",campaignindia
+Hotel,"['Shangri-La', 'Regional']","['235', '202']",campaignindia
+Milk,"['Yili', 'China, Hong Kong']","['236', '216']",campaignindia
+White Goods,"['Electrolux', 'Regional']","['237', '367']",campaignindia
+Carbonated Soft Drink,"['F&N', 'Malaysia, Singapore']","['238', '246']",campaignindia
+Mobile Service Provider,"['Chunghwa Telecom (CHT)', 'Taiwan']","['239', '172']",campaignindia
+Bank,"['ICBC Asia', 'China']","['240', '332']",campaignindia
+Watch,"['Tag Heuer', 'Regional']","['241', '321']",campaignindia
+Credit Card/Bank,"['China Merchants Bank', 'China']","['242', '351']",campaignindia
+Shower Gel/Soap,"['The Body Shop', 'China, Southeast Asia']","['243', '241']",campaignindia
+Supermarket,"['Giant', 'India, Malaysia, Singapore']","['244', '276']",campaignindia
+Coffee Shop,"['Old Town', 'Malaysia']","['245', '233']",campaignindia
+Tyre,"['Hankook', 'Korea']","['246', 'New entry']",campaignindia
+Beer,"['Taiwan Beer', 'Taiwan']","['247', '270']",campaignindia
+Fragrance/Jewellery,"['Bulgari', 'Regional']","['248', '218']",campaignindia
+Car/Automobile,"['Nissan', 'Regional']","['249', '370']",campaignindia
+Menâs Shoes,"['Kumkang', 'Korea']","['250', '255']",campaignindia
+Full-service Airlines,"['Emirates', 'Regional']","['251', '479']",campaignindia
+Insurance,"['LIC', 'India']","['252', '290']",campaignindia
+Bank,"['Kasikorn Bank', 'Thailand']","['253', '299']",campaignindia
+White Goods,"['Fisher & Paykel', 'Singapore']","['254', '359']",campaignindia
+Toothpaste,"['Sensodyne', 'Regional']","['255', '287']",campaignindia
+Tyre,"['Yokohama', 'Regional']","['256', '224']",campaignindia
+Printer,"['Brother', 'Regional']","['257', '344']",campaignindia
+Petrol/Gas Station,"['British Petroleum (BP)', 'Australia, Southeast Asia']","['258', '320']",campaignindia
+Hotel,"['Hyatt', 'Regional']","['259', '262']",campaignindia
+Sports Drink,"['Supau', 'Taiwan']","['260', '258']",campaignindia
+Petrol/Gas Station,"['CPC (China)', 'China']","['261', '295']",campaignindia
+Coffee,"['Moccona', 'Australia, Singapore']","['262', '465']",campaignindia
+Sports Drink,"['Powerade', 'Australia, Hong Kong, Japan']","['263', '281']",campaignindia
+Coffee,"['Cafe Coffee Day', 'India']","['264', '396']",campaignindia
+Mobile Service Provider,"['Advance Info Service', 'Thailand']","['265', '337']",campaignindia
+Social Networking site,"['MSN', 'Regional']","['266', '99']",campaignindia
+Detergent,"['OMO', 'Australia, China']","['267', '395']",campaignindia
+Beer,"['Singha', 'Hong Kong, Thailand']","['268', '324']",campaignindia
+Fast-Food,"['Subway', 'Australia, China, Southeast Asia']","['269', '472']",campaignindia
+Watch,"['Titan', 'India']","['270', '292']",campaignindia
+Jewellery,"['Chow Tai Fook', 'China, Hong Kong']","['271', '323']",campaignindia
+Convenience Store,"['Lawson', 'China, Japan']","['272', '331']",campaignindia
+Petrol/Gas Station,"['SK', 'Korea, Singapore']","['273', '260']",campaignindia
+Mobile Service Provider,"['DTAC', 'Thailand']","['274', '315']",campaignindia
+Savoury Snack Food,"['Ethnicans', 'Hong Kong']","['275', 'New entry']",campaignindia
+Chocolate,"['Godiva', 'Regional']","['276', '380']",campaignindia
+Coffee Shop,"['Pacific Coffee', 'Hong Kong']","['277', '322']",campaignindia
+Car/Automobile,"['Audi', 'Regional']","['278', '394']",campaignindia
+Toothpaste,"['Amway', 'Regional']","['279', '191']",campaignindia
+Fast-Food,"['CafÃ© De Coral', 'Hong Kong']","['280', '335']",campaignindia
+Detergent,"['Surf', 'Australia, India']","['281', '399']",campaignindia
+Convenience Store,"['GS 25', 'Korea']","['282', '713']",campaignindia
+Cigarette,"['Mild Seven', 'Regional']","['283', '229']",campaignindia
+Mobile Service Provider,"['Maxis', 'Malaysia']","['284', '277']",campaignindia
+Motorcycle,"['Kawasaki', 'Regional']","['285', '390']",campaignindia
+Coffee,"['Bru', 'India, Malaysia, Singapore']","['286', '306']",campaignindia
+Detergent,"['Fab', 'Hong Kong, Southeast Asia']","['287', '309']",campaignindia
+Cosmetics,"['Lakme', 'India']","['288', '289']",campaignindia
+Mobile Service Provider,"['Optus', 'Australia']","['289', '305']",campaignindia
+Bank,"['HDFC Bank', 'India']","['290', '341']",campaignindia
+Snack Food,"['Pringles', 'Regional']","['291', '334']",campaignindia
+White Goods,"['Westinghouse', 'Australia, Singapore']","['292', '297']",campaignindia
+Food,"['Haitai', 'Korea']","['293', '187']",campaignindia
+Tea,"['Oishi', 'Thailand']","['294', '326']",campaignindia
+Bank,"['Bangkok Bank', 'Thailand']","['295', '298']",campaignindia
+Budget Airlines,"['Nok Air', 'Thailand']","['296', '267']",campaignindia
+Detergent,"['Attack', 'China, Southeast Asia']","['297', '274']",campaignindia
+Instant Noodles,"['Samyang', 'Korea']","['298', '313']",campaignindia
+Menâs Shoes,"['Clarks', 'Regional']","['299', '243']",campaignindia
+Beverage,"['Vita', 'Hong Kong, Taiwan']","['300', '291']",campaignindia
+Beverage,"['Pokka', 'Japan, Singapore']","['301', '537']",campaignindia
+Convenience Store,"['Cheers', 'Singapore']","['302', '296']",campaignindia
+Petrol/Gas Station,"['Petronas', 'Southeast Asia']","['303', '282']",campaignindia
+Pharmacy/Drugstore,"['Apollo', 'India']","['304', '342']",campaignindia
+Sweets and Candy,"['Mentos', 'Regional']","['305', '205']",campaignindia
+Supermarket,"['Jusco', 'Hong Kong, China, Japan']","['306', '220']",campaignindia
+Milk Powder/Milk,"['Namyang', 'Korea']","['307', '193']",campaignindia
+Coffee Shop,"['Kopitiam', 'Singapore']","['308', '329']",campaignindia
+Internet Search Engine,"['Daum', 'Korea']","['309', '156']",campaignindia
+Insurance,"['Ping An Insurance', 'China']","['310', '353']",campaignindia
+Milk,"['Kuang-Chuan', 'Taiwan']","['311', '362']",campaignindia
+Consumer Electronics,"['Tatung', 'Taiwan']","['312', '429']",campaignindia
+White Goods,"['Midea', 'China']","['313', '539']",campaignindia
+Milk,"['Magnolia', 'Malaysia, Singapore']","['314', '178']",campaignindia
+Watch,"['Swatch', 'Regional']","['315', '286']",campaignindia
+Milk,"['Maeil', 'Korea']","['316', '213']",campaignindia
+Cosmetics,"['Revlon', 'Regional']","['317', '401']",campaignindia
+Mineral Water,"['Nongfu Shan Quan', 'China']","['318', '478']",campaignindia
+Insurance,"['Great Eastern', 'Malaysia, Singapore']","['319', '403']",campaignindia
+Bank,"['Hang Seng Bank', 'Hong Kong']","['320', '247']",campaignindia
+Instant Noodles,"['Wai Wai', 'Hong Kong, Thailand']","['321', '360']",campaignindia
+Cosmetics,"['Maybelline', 'Regional']","['322', '245']",campaignindia
+Mobile Service Provider,"['StarHub', 'Singapore']","['323', '378']",campaignindia
+Camera,"['Kodak', 'Regional']","['324', '232']",campaignindia
+Restaurant Chain,"['Outback', 'Korea, China']","['325', '431']",campaignindia
+Tyre,"['Madras Rubber Factory', 'India, Malaysia']","['326', '387']",campaignindia
+Snack Food,"['Glico', 'Japan, China']","['327', '237']",campaignindia
+Coffee,"['Mr. Brown', 'Hong Kong, Taiwan']","['328', '355']",campaignindia
+Milk,"['Dairy Farm', 'Australia, Hong Kong']","['329', '239']",campaignindia
+Camera,"['Fuji', 'Regional']","['330', '391']",campaignindia
+Shampoo,"['Vidal Sassoon', 'Regional']","['331', '397']",campaignindia
+Fragrance,"['Hugo Boss', 'Regional']","['332', '340']",campaignindia
+Spirits,"['Chivas', 'Regional']","['333', '350']",campaignindia
+Mineral Water,"['Bisleri', 'Australia, India']","['334', '368']",campaignindia
+Insurance,"['AXA', 'Hong Kong, Southeast Asia']","['335', '471']",campaignindia
+Hotel,"['Taj', 'India']","['336', '304']",campaignindia
+Bank,"['United Overseas Bank', 'Malaysia, Singapore']","['337', '374']",campaignindia
+Beer,"['Hite', 'Korea']","['338', '460']",campaignindia
+Detergent,"['Ariel', 'China, India']","['339', '424']",campaignindia
+Detergent,"['Dynamo', 'Malaysia, Singapore']","['340', '412']",campaignindia
+Skincare Product,"['Biotherm', 'Regional']","['341', '249']",campaignindia
+Fruit Juice,"['Malee', 'Japan, Thailand']","['342', '328']",campaignindia
+Mobile Service Provider,"['China Unicom', 'China']","['343', '364']",campaignindia
+Luxury Fashion Retailer,"['Burberry', 'Regional']","['344', '288']",campaignindia
+Pharmacy/Drugstore,"['Cosmed', 'Taiwan']","['345', '369']",campaignindia
+Chocolate,"['M&Mâ\x80\x99s', 'Regional']","['346', '266']",campaignindia
+Pharmacy/Drugstore,"['Manningâ\x80\x99s', 'Hong Kong']","['347', '272']",campaignindia
+Luxury Fashion Retailer,"['Prada', 'Regional']","['348', '252']",campaignindia
+Hotel,"['Sheraton', 'Regional']","['349', '393']",campaignindia
+Bank,"['CIMB Bank', 'Malaysia']","['350', '411']",campaignindia
+Full-service Airlines,"['China Southern Airlines', 'China, Hong Kong']","['351', '382']",campaignindia
+Coffee,"['UCC', 'Japan, China']","['352', '440']",campaignindia
+Chewing/Bubble Gum,"['Airwaves', 'Australia, China']","['353', '377']",campaignindia
+Tyre,"['Kumho', 'Korea']","['354', '325']",campaignindia
+Sports Drink,"['Sponsor', 'Thailand']","['355', '376']",campaignindia
+Petrol/Gas Station,"['GS Caltex', 'Korea']","['356', '541']",campaignindia
+Full-service Airlines,"['Eva Air', 'Taiwan']","['357', '278']",campaignindia
+Sauce/Condiment,"['Kissan', 'India']","['358', '482']",campaignindia
+Home Audio,"['Bose', 'Regional']","['359', '535']",campaignindia
+White Goods,"['Kelvinator', 'India']","['360', '317']",campaignindia
+Bank,"['OCBC', 'Malaysia, Singapore']","['361', '405']",campaignindia
+Car/Automobile,"['Ford', 'Regional']","['362', '420']",campaignindia
+White Goods,"['Teco', 'Taiwan']","['363', '464']",campaignindia
+Full-service Airlines,"['Air China', 'China']","['364', '436']",campaignindia
+Insurance,"['Fubon', 'Hong Kong, Taiwan']","['365', '511']",campaignindia
+Mobile Service Provider,"['Softbank', 'Japan']","['366', '512']",campaignindia
+Carbonated Soft Drink,"['Hey Song', 'Taiwan']","['367', '333']",campaignindia
+Fruit Juice,"['Del Monte', 'Hong Kong, Southeast Asia']","['368', '339']",campaignindia
+Coffee,"['Maxwell House', 'China, Southeast Asia']","['369', '381']",campaignindia
+Car/Automobile,"['Kia', 'Regional']","['370', '480']",campaignindia
+Sauce/Condiment,"['Cheil Jedang (CJ)', 'Korea']","['371', '771']",campaignindia
+Coffee Shop,"['Barista Lavazza (India)', 'India']","['372', '534']",campaignindia
+Courier Company,"['Sagawa', 'Japan']","['373', '400']",campaignindia
+Tea,"['Tao Ti', 'Hong Kong']","['374', '809']",campaignindia
+Shower Gel/Soap,"['Shokubutsu', 'Japan']","['375', '379']",campaignindia
+Toothpaste,"['Pepsodent', 'Australia, India']","['376', '406']",campaignindia
+Supermarket,"['Cold Storage', 'Malaysia, Singapore']","['377', '338']",campaignindia
+Fruit Juice,"['Mr. Juicy', 'China']","['378', '327']",campaignindia
+Sports Drink,"['Aquarius', 'Japan, Malaysia']","['379', '357']",campaignindia
+Petrol/Gas Station,"['Nippon Oil Corporation', 'Japan']","['380', 'New entry']",campaignindia
+Credit Card,"['American Express', 'Regional']","['381', '425']",campaignindia
+Snack Food,"['Orion', 'Korea, China']","['382', '438']",campaignindia
+Fruit Juice,"['Tipco', 'Thailand']","['383', '356']",campaignindia
+Pharmacy/Drugstore,"['Reliance (RIL)', 'India, Malaysia']","['384', '492']",campaignindia
+Mobile Service Provider,"['3', 'Hong Kong']","['385', '352']",campaignindia
+Skincare Product,"['BiorÃ©', 'Regional']","['386', '280']",campaignindia
+Social Networking Site,"['Orkut', 'Australia, India']","['387', '416']",campaignindia
+Toothpaste,"['Aekyung 2080', 'Korea']","['388', '631']",campaignindia
+Milk Powder,"['Anlene', 'Singapore']","['389', '354']",campaignindia
+Supermarket,"['Aeon', 'Japan']","['390', '495']",campaignindia
+Menâs Shoes,"['Bally', 'Japan, China']","['391', '422']",campaignindia
+Coffee Shop,"['Gloria Jeans', 'Australia, Singapore']","['392', '409']",campaignindia
+White Goods,"['Gree', 'China']","['393', '310']",campaignindia
+Ice-cream,"['Kwality', 'India']","['394', '496']",campaignindia
+Mobile Service Provider,"['Celcom', 'Malaysia']","['395', '418']",campaignindia
+Milk,"['Mother Dairy', 'India']","['396', '273']",campaignindia
+Full-service Airlines,"['China Eastern Airlines', 'China']","['397', '421']",campaignindia
+Bank,"['China Construction Bank', 'China']","['398', '458']",campaignindia
+Beer,"['Cass', 'Korea']","['399', '435']",campaignindia
+Courier Company,"['SF Express', 'China']","['400', '717']",campaignindia
+Cosmetics,"['Kanebo', 'Japan, Taiwan']","['401', '257']",campaignindia
+Jewellery,"['Chow Sang Sang', 'China, Hong Kong']","['402', '372']",campaignindia
+Milk,"['Foremost', 'Thailand']","['403', '238']",campaignindia
+Mineral Water,"['Spritzer', 'Malaysia']","['404', '419']",campaignindia
+Car/Automobile,"['Ferrari', 'Regional']","['405', '610']",campaignindia
+Coffee Shop,"['Doutor', 'Japan']","['406', '388']",campaignindia
+Petrol/Gas Station,"['Formosa Petrochemical', 'Taiwan']","['407', '384']",campaignindia
+Menâs Shoes,"['Hush Puppies', 'Regional']","['408', '417']",campaignindia
+Fragrance/Menâs Fashion Retailer,"['Boss', 'Regional']","['409', '240']",campaignindia
+Restaurant Chain,"['VIPS', 'Korea']","['410', '529']",campaignindia
+Motorcycle,"['Bajaj', 'India']","['411', '563']",campaignindia
+Tea,"['Nestea', 'Regional']","['412', '989']",campaignindia
+Mineral Water/Carbonated Soft Drink,"['Schweppes', 'Hong Kong']","['413', '462']",campaignindia
+Mobile Service Provider,"['M1', 'Singapore']","['414', '463']",campaignindia
+Air Conditioner,"['Carrier', 'China, Southeast Asia']","['415', '570']",campaignindia
+Sweets and Candy,"['Halls', 'Southeast Asia, Japan']","['416', '648']",campaignindia
+Tea,"['Boh', 'Malaysia, Singapore']","['417', '209']",campaignindia
+Bank,"['MUFG', 'Japan']","['418', '568']",campaignindia
+Restaurant Chain,"['MK suki', 'Thailand']","['419', '503']",campaignindia
+Sweets and Candy,"['Sugus', 'China, Southeast Asia']","['420', '279']",campaignindia
+Chocolate,"['Ghana', 'Korea']","['421', '415']",campaignindia
+Mobile Service Provider,"['AU', 'Japan']","['422', '311']",campaignindia
+Toothpaste,"['Macleans', 'Australia']","['423', '798']",campaignindia
+Toothpaste,"['Crest', 'China, Hong Kong']","['424', '455']",campaignindia
+Toothpaste,"['Close up', 'India, Southeast Asia']","['425', '777']",campaignindia
+Pet Food,"['Whiskas', 'Regional']","['426', '285']",campaignindia
+Milk Powder,"['Mead Johnson', 'China, Southeast Asia']","['427', '404']",campaignindia
+Car/Automobile,"['Maruti', 'India']","['428', '413']",campaignindia
+Bank,"['POSB', 'Singapore']","['429', '607']",campaignindia
+Bank,"['ANZ', 'Australia']","['430', '487']",campaignindia
+Milk Powder,"['Abbott', 'China, Singapore']","['431', '497']",campaignindia
+Chocolate,"['Van Houten', 'Regional']","['432', '466']",campaignindia
+Courier Company,"['T-cat', 'Taiwan']","['433', '519']",campaignindia
+Mobile Phone,"['Motorola', 'Regional']","['434', '293']",campaignindia
+Petrol/Gas Station,"['Indian Oil Corporation', 'India']","['435', '642']",campaignindia
+Menâs Fashion Retailer,"['Crocodile', 'Regional']","['436', '349']",campaignindia
+Restaurant Chain,"['Pizza Hut', 'Regional']","['437', '135']",campaignindia
+Fruit Juice,"['Real', 'Australia, India']","['438', '586']",campaignindia
+Social Networking Site,"['Xiaonei/Renren', 'China']","['439', 'New entry']",campaignindia
+Chewing/Bubble Gum,"['Dentyne', 'Malaysia, Thailand']","['440', '398']",campaignindia
+Hotel,"['Four Seasons', 'Regional']","['441', '673']",campaignindia
+Ice-cream,"['Peters', 'Australia']","['442', '450']",campaignindia
+Courier Company,"['TNT', 'Regional']","['443', '572']",campaignindia
+Beer,"['Budweiser', 'Regional']","['444', '521']",campaignindia
+Fruit Juice,"['Berri', 'Australia, Singapore']","['445', '523']",campaignindia
+Ice-cream,"['Ben & Jerryâ\x80\x99s', 'Singapore']","['446', '555']",campaignindia
+Bank,"['Commonwealth', 'Australia']","['447', '498']",campaignindia
+Automobile,"['Tata', 'India']","['448', '256']",campaignindia
+Instant Noodles,"['Doll', 'China, Hong Kong']","['449', '509']",campaignindia
+Petrol/Gas Station,"['Mobil', 'Australia, Hong Kong']","['450', '516']",campaignindia
+Mobile Service Provider,"['Taiwan Mobile', 'Taiwan']","['451', '307']",campaignindia
+Cosmetics,"['Amore Pacific', 'Korea']","['452', '319']",campaignindia
+Full-service Airlines,"['Jet Airways', 'India, Hong Kong']","['453', '408']",campaignindia
+Motorcycle,"['SYM', 'Taiwan']","['454', '451']",campaignindia
+Sauce/Condiment,"['Kikkoman', 'Australia, Singapore']","['455', '526']",campaignindia
+Milk,"['Kowloon Dairy', 'Hong Kong']","['456', '493']",campaignindia
+Supermarket,"['Walmart', 'China, India, Southeast Asia']","['457', '543']",campaignindia
+White Goods,"['Zipel', 'Korea']","['458', '470']",campaignindia
+Toothpaste,"['Oral B', 'Australia, Southeast Asia']","['459', '581']",campaignindia
+Computer,"['Compaq', 'Regional']","['460', '430']",campaignindia
+Ice-cream,"['Dreyerâ\x80\x99s', 'Hong Kong']","['461', '601']",campaignindia
+Budget Airlines,"['Firefly', 'Malaysia']","['462', '518']",campaignindia
+Motorcycle,"['Kymco', 'Taiwan']","['463', '459']",campaignindia
+Watch,"['Guess', 'Southeast Asia']","['464', '410']",campaignindia
+Sauce/Condiment,"['Golden Mountain', 'Thailand']","['465', 'New entry']",campaignindia
+Convenience Store/Supermarket,"['IGA', 'Australia']","['466', '659']",campaignindia
+Insurance,"['Cathay Life', 'Taiwan']","['467', 'New entry']",campaignindia
+Cosmetics,"['MAC', 'Regional']","['468', '385']",campaignindia
+Mineral Water,"['Perrier', 'Regional']","['469', '434']",campaignindia
+Courier Company,"['Korea Express', 'Korea']","['470', 'New entry']",campaignindia
+Snack Food,"['Calbee', 'China, Southeast Asia']","['471', '221']",campaignindia
+Social Networking Site,"['Cyworld', 'Korea']","['472', '449']",campaignindia
+Milk Powder,"['Wyeth', 'China, Southeast Asia']","['473', '392']",campaignindia
+Shampoo,"['Clinic', 'India']","['474', '802']",campaignindia
+Courier Company,"['Hanjin', 'Korea']","['475', 'New entry']",campaignindia
+Budget Airlines,"['Jeju Air', 'Korea']","['476', '423']",campaignindia
+Full-service Airlines,"['Air India', 'India']","['477', '580']",campaignindia
+Courier Company,"['Korea Post', 'Korea']","['478', 'New entry']",campaignindia
+Milk,"['HL', 'Malaysia, Singapore']","['479', '571']",campaignindia
+Fruit Juice,"['Hui Yuan', 'China']","['480', '347']",campaignindia
+Mobile Service Provider,"['Digi', 'Malaysia']","['481', '533']",campaignindia
+Instant Noodles,"['Shinramyun', 'Korea, China']","['482', '574']",campaignindia
+Coffee Shop,"['85Â°C', 'Taiwan']","['483', '456']",campaignindia
+Milk,"['Lin Fong Ying (LFY)', 'Taiwan']","['484', '584']",campaignindia
+Womenâs Shoes,"['Salvatore Ferragamo', 'Hong Kong, Japan']","['485', '553']",campaignindia
+Fragrance/Watch,"['Donna Karan (DKNY)', 'Regional']","['486', '443']",campaignindia
+Consumer Electronics,"['Godrej', 'India']","['487', '389']",campaignindia
+Menâs and Womenâs Fashion Retailer,"['Zara', 'Regional']","['488', '348']",campaignindia
+Milk,"['Pauls', 'Australia']","['489', '452']",campaignindia
+Motorcycle,"['Hero Honda', 'India']","['490', '365']",campaignindia
+Instant Noodles,"['Myojo', 'India']","['491', '589']",campaignindia
+Bank,"['Westpac', 'Australia']","['492', '549']",campaignindia
+Female Skincare Product,"['Vaseline', 'Regional']","['493', '550']",campaignindia
+Insurance,"['Nissay', 'Japan']","['494', 'New entry']",campaignindia
+Instant Noodles,"['Top Ramen', 'Korea']","['495', '545']",campaignindia
+Fast-Food,"['Hungry Jackâ\x80\x99s', 'Australia']","['496', '800']",campaignindia
+Female Skincare Product,"['Neutrogena', 'Regional']","['497', '414']",campaignindia
+Fast-Food,"['Fairwood', 'China, Hong Kong']","['498', '617']",campaignindia
+Sweets and Candy,"['Chupa Chups', 'Australia, Hong Kong']","['499', '622']",campaignindia
+Hotel,"['Peninsula', 'Regional']","['500', '556']",campaignindia
+Pharmacy/Drugstore,"['Matsumoto Kiyoshi', 'Japan']","['501', '330']",campaignindia
+Sporting Apparel,"['Li Ning', 'China, Hong Kong']","['502', '468']",campaignindia
+Savoury Snack Food,"['Twisties', 'Regional']","['503', '485']",campaignindia
+Milk/Milk Powder,"['Bear Brand', 'Thailand']","['504', '794']",campaignindia
+Social Networking Site,"['My space', 'Regional']","['505', '504']",campaignindia
+Milk Powder/Milk,"['Snow Brand', 'Hong Kong, Japan']","['506', '166']",campaignindia
+Sauce/Condiment,"['Kagome', 'Japan']","['507', '528']",campaignindia
+Watch,"['Tissot', 'Regional']","['508', '727']",campaignindia
+Credit Card,"['JCB', 'Japan']","['509', '510']",campaignindia
+Sauce/Condiment,"['Kimlan', 'Hong Kong, Taiwan']","['510', '538']",campaignindia
+Personal portable music player,"['Iriver', 'China, Korea']","['511', '494']",campaignindia
+Sauce/Condiment,"['Bull-Dog', 'Japan']","['512', '660']",campaignindia
+Watch,"['Longines', 'Regional']","['513', '546']",campaignindia
+Sauce/Condiment,"['Amoy', 'China, Hong Kong']","['514', '501']",campaignindia
+Bank,"['Krung Thai', 'Thailand']","['515', '639']",campaignindia
+Carbonated Soft Drink,"['Fanta', 'Regional']","['516', '448']",campaignindia
+Social Networking Site,"['Mixi', 'Japan']","['517', '358']",campaignindia
+Cigarette,"['Zhonghua (Cigarette)', 'China']","['518', '481']",campaignindia
+Milk Powder,"['Meiji (Milk Powder)', 'Hong Kong, Japan']","['519', 'New entry']",campaignindia
+Mineral Water,"['Volvic', 'Regional']","['520', '636']",campaignindia
+Insurance,"['China Life', 'China']","['521', '520']",campaignindia
+Insurance,"['ING', 'Hong Kong, Singapore']","['522', '502']",campaignindia
+Mobile Service Provider,"['TRUE', 'Thailand']","['523', '719']",campaignindia
+Consumer Electronics,"['Videocon', 'India']","['524', '386']",campaignindia
+Restaurant Chain,"['Gusto', 'Japan']","['525', '561']",campaignindia
+Sweets and Candy,"['Xu Fu Ji', 'China']","['526', '506']",campaignindia
+Detergent,"['Tide', 'Regional']","['527', '583']",campaignindia
+Insurance,"['Manulife', 'China, Singapore']","['528', '626']",campaignindia
+Mobile Service Provider,"['CSL', 'Hong Kong']","['529', '457']",campaignindia
+Instant Noodles,"['IndoMie', 'Regional']","['530', '903']",campaignindia
+Shower Gel/Soap,"['Safeguard', 'China']","['531', '629']",campaignindia
+Car/Automobile,"['Holden', 'Australia']","['532', '715']",campaignindia
+Mineral Water,"['Aquafina', 'China, Hong Kong, India']","['533', '661']",campaignindia
+Over-the-counter Pharmaceuticals,"['Panadol', 'Regional']","['534', '361']",campaignindia
+Mineral Water,"['Chilsung Cider', 'Korea']","['535', '578']",campaignindia
+Hotel,"['Shilla', 'Korea']","['536', '544']",campaignindia
+Menâs Shoes,"['Regal', 'Japan']","['537', '439']",campaignindia
+Car/Automobile,"['Mazda', 'Regional']","['538', '590']",campaignindia
+Sweets and Candy,"['Allenâ\x80\x99s', 'Australia']","['539', '577']",campaignindia
+Mobile Service Provider,"['FETnet', 'Taiwan']","['540', '469']",campaignindia
+Milk Powder,"['S26', 'China, Southeast Asia']","['541', '630']",campaignindia
+Fruit Juice,"['Fruit Tree', 'Malaysia, Singapore']","['542', '611']",campaignindia
+Detergent,"['Paos', 'Taiwan, Thailand']","['543', '595']",campaignindia
+Air Conditioner,"['York', 'China, Malaysia']","['544', '709']",campaignindia
+Insurance,"['China Pacific Insurance', 'China']","['545', '835']",campaignindia
+Luxury Fashion Retailer,"['HermÃ¨s', 'Regional']","['546', '433']",campaignindia
+Sauce/Condiment,"['Hai Tian', 'China']","['547', '895']",campaignindia
+Female Skincare Product,"['DHC', 'China, Japan, Korea']","['548', '371']",campaignindia
+Restaurant Chain,"['Crystal Jade', 'Hong Kong, Singapore']","['549', '594']",campaignindia
+Car/Automobile,"['Volkswagen', 'Regional']","['550', '612']",campaignindia
+Courier Company,"['Blue Dart', 'India']","['551', '670']",campaignindia
+Insurance,"['Nan Shan', 'Taiwan']","['552', '587']",campaignindia
+Diaper,"['Drypers', 'India']","['553', '683']",campaignindia
+Menâs/Womenâs Shoes,"['ASO', 'Taiwan']","['554', '343']",campaignindia
+Sweets and Candy,"['White Rabbit', 'Regional']","['555', '559']",campaignindia
+Bank,"['Sumitomo Misui (SMBC)', 'Japan']","['556', 'New entry']",campaignindia
+Hotel,"['Marriott', 'Regional']","['557', '453']",campaignindia
+Budget Airlines,"['SpiceJet Airlines', 'India, Malaysia']","['558', '507']",campaignindia
+Camera,"['Pentax', 'Regional']","['559', '863']",campaignindia
+Car/Automobile,"['Lexus', 'Regional']","['560', '833']",campaignindia
+Shower Gel/Soap,"['Pon Pon', 'Taiwan']","['561', '781']",campaignindia
+Bank,"['Public Bank', 'Malaysia']","['562', '837']",campaignindia
+Insurance,"['ICICI Prudential', 'India']","['563', 'New entry']",campaignindia
+Fragrance/Luxury Fashion Retailer,"['Yves Saint Laurent (YSL)', 'Regional']","['564', '500']",campaignindia
+Sauce/Condiment,"['Masterfood', 'Australia']","['565', '847']",campaignindia
+Courier Company,"['PosLaju', 'Malaysia']","['566', '646']",campaignindia
+Jewellery,"['Habib Jewels', 'Malaysia']","['567', '513']",campaignindia
+Mobile Service Provider,"['PCCW', 'Hong Kong']","['568', '663']",campaignindia
+Instant Noodles,"['Yum Yum', 'Thailand']","['569', '710']",campaignindia
+Carbonated Soft Drink,"['7-Up', 'Australia, China']","['570', '548']",campaignindia
+Convenience Store/Supermarket,"['Spencer', 'India']","['571', '748']",campaignindia
+Budget Airlines,"['China-SSS', 'China']","['572', 'New entry']",campaignindia
+Jewellery,"['Poh Kong', 'Malaysia']","['573', '536']",campaignindia
+Full-service Airlines,"['Dragonair', 'Hong Kong, China']","['574', '547']",campaignindia
+White Goods,"['Little Swan', 'China']","['575', '917']",campaignindia
+Milk,"['Dairy Farmers', 'Australia']","['576', '540']",campaignindia
+Sports Drink,"['Maidong', 'China']","['577', '724']",campaignindia
+Courier Company,"['Thai Post', 'Thailand']","['578', '635']",campaignindia
+Baby Food (excluding milk powder),"['Cerelac', 'Australia, India']","['579', '308']",campaignindia
+Detergent,"['Top', 'Japan, Malaysia, Singapore']","['580', '441']",campaignindia
+Sports Drink,"['H-TWO-O', 'Singapore']","['581', '718']",campaignindia
+Watch,"['Patek Philippe', 'Regional']","['582', 'New entry']",campaignindia
+Car/Automobile,"['Rolls Royce', 'Regional']","['583', '991']",campaignindia
+Bank,"['NAB', 'Australia']","['584', '828']",campaignindia
+Insurance,"['Thai Life Insurance', 'Thailand']","['585', 'New entry']",campaignindia
+Shampoo,"['Clear', 'China, India, Southeast Asia']","['586', '831']",campaignindia
+Chewing/Bubble Gum,"['Chiclet', 'Southeast Asia']","['587', '484']",campaignindia
+Social Networking Site,"['Kaixin001', 'China']","['588', '599']",campaignindia
+Toothpaste,"['Perioe', 'Korea']","['589', '703']",campaignindia
+Milk Powder,"['Enfa', 'Thailand']","['590', '557']",campaignindia
+Fragrance,"['Alfred Dunhill', 'Regional']","['591', '505']",campaignindia
+Restaurant Chain,"['TGI Fridayâ\x80\x99s', 'Regional']","['592', '915']",campaignindia
+Mineral Water,"['Wahaha', 'China']","['593', '632']",campaignindia
+Tyre,"['Ceat', 'India']","['594', '874']",campaignindia
+Jewellery,"['Tanishq', 'India']","['595', '700']",campaignindia
+Spirits,"['Hennessy', 'Regional']","['596', '551']",campaignindia
+Supermarket,"['Homeplus', 'Korea']","['597', '793']",campaignindia
+Milk,"['Bright Dairy', 'China']","['598', '407']",campaignindia
+Mobile Service Provider,"['China Telecom', 'China']","['599', '843']",campaignindia
+Coffee Shop,"['Angelinus', 'Korea']","['600', 'New entry']",campaignindia
+Personal portable music player,"['Creative', 'Australia, India, Southeast Asia']","['601', '444']",campaignindia
+Hotel,"['Holiday Inn', 'Regional']","['602', '592']",campaignindia
+Insurance,"['AAMI', 'Australia']","['603', '695']",campaignindia
+Cereal,"['Post', 'Regional']","['604', '657']",campaignindia
+Menâs Shoes,"['La New', 'Taiwan']","['605', '428']",campaignindia
+Shower Gel/Soap,"['Lifebuoy', 'Southeast Asia']","['606', '753']",campaignindia
+Tea,"['Yeo Hiap Seng (YEO)', 'Malaysia, Singapore']","['607', '491']",campaignindia
+Petrol/Gas Station,"['Bangchak', 'Thailand']","['608', '876']",campaignindia
+Menâs/Womenâs Shoes,"['Esquire', 'Korea']","['609', '542']",campaignindia
+Spirits,"['Moutai', 'China, Hong Kong']","['610', '662']",campaignindia
+Budget Airlines,"['IndiGo', 'Hong Kong, India, Korea']","['611', '797']",campaignindia
+Bank,"['Bank of Ayudhya', 'Thailand']","['612', 'New entry']",campaignindia
+Automobile/Car,"['Volvo', 'Regional']","['613', '962']",campaignindia
+Chocolate,"['Kit Kat', 'Regional']","['614', '579']",campaignindia
+Bank,"['Bank of Taiwan', 'Taiwan']","['615', '637']",campaignindia
+Petrol/Gas Station,"['S-oil', 'Korea']","['616', '696']",campaignindia
+Petrol/Gas Station,"['BPCL', 'India']","['617', '704']",campaignindia
+Instant Noodles,"['Cintan', 'Malaysia']","['618', '702']",campaignindia
+Ice-cream,"['Streets', 'Australia']","['619', '812']",campaignindia
+Mineral Water,"['Aura', 'Thailand']","['620', '562']",campaignindia
+Ready-to-drink Tea,"['Ito-en', 'Japan']","['621', 'New entry']",campaignindia
+Beer,"['Blue Girl', 'Hong Kong']","['622', '746']",campaignindia
+Cosmetics,"['Kose', 'Japan, Southeast Asia']","['623', '565']",campaignindia
+Mineral Water,"['Y.E.S Mineral Water', 'Taiwan']","['624', '524']",campaignindia
+Hotel,"['Ritz-Carlton', 'Hong Kong, Singapore, China']","['625', '638']",campaignindia
+Savoury Snack Food,"['Haldiram', 'India']","['626', '722']",campaignindia
+Sports Drink,"['Milo', 'Regional']","['627', '499']",campaignindia
+White Goods,"['General Electric (GE)', 'Regional']","['628', '731']",campaignindia
+Detergent,"['Beat', 'Regional']","['629', 'New entry']",campaignindia
+Supermarket,"['Tops', 'Thailand']","['630', '651']",campaignindia
+Bank,"['Woori Bank', 'Korea']","['631', '604']",campaignindia
+Chewing/Bubble Gum,"['Big Babool', 'India, Southeast Asia']","['632', '795']",campaignindia
+Menâs Shoes,"['Timberland', 'Regional']","['633', '769']",campaignindia
+Milk Powder,"['Nespray', 'China, Southeast Asia']","['634', '653']",campaignindia
+Female Skincare Product,"['Sulwhasoo', 'Hong Kong, Korea']","['635', '760']",campaignindia
+Restaurant Chain,"['Wangsteak', 'Taiwan']","['636', '997']",campaignindia
+Instant Noodles,"['Koka', 'India, Malaysia, Singapore']","['637', '691']",campaignindia
+Instant Noodles,"['Mamee', 'Malaysia, Singapore']","['638', '488']",campaignindia
+Supermarket,"['Matsusei', 'Taiwan']","['639', '701']",campaignindia
+Luxury Fashion Retailer/Fragrance,"['Lacoste', 'Regional']","['640', '926']",campaignindia
+Petrol/Gas Station,"['Idemitsu', 'Japan']","['641', '738']",campaignindia
+Menâs Shoes,"['Woodland', 'India']","['642', '525']",campaignindia
+Beer,"['San Miguel', 'Regional']","['643', '641']",campaignindia
+Fragrance,"['Elizabeth Arden', 'Regional']","['644', '682']",campaignindia
+Skincare Product,"['Clarins', 'Regional']","['645', '615']",campaignindia
+Coffee Shop,"['Black Canyon', 'Thailand']","['646', '684']",campaignindia
+Toothpaste,"['Sunstar', 'Japan']","['647', '582']",campaignindia
+Courier Company,"['EMS', 'China']","['648', '490']",campaignindia
+Female Skincare Product,"['Fair and Lovely', 'India, Malaysia, Singapore']","['649', '588']",campaignindia
+Motorcycle,"['Ducati', 'Regional']","['650', '814']",campaignindia
+Ice-cream,"['Dairy Queen', 'China, Southeast Asia']","['651', '948']",campaignindia
+Supermarket,"['E-Mart', 'Korea']","['652', '707']",campaignindia
+Coffee Shop,"['UBC Coffee', 'China']","['653', '602']",campaignindia
+Ready-to-drink Tea,"['Oksusu Tea', 'Korea']","['654', 'New entry']",campaignindia
+Sporting Apparel,"['Mizuno', 'Japan, Korea']","['655', '830']",campaignindia
+Sports Drink,"['Lucozade', 'China, Hong Kong']","['656', '783']",campaignindia
+Spirits,"['Wuliangye', 'China, Hong Kong']","['657', '776']",campaignindia
+Fruit Juice,"['Golden Circle', 'Australia, Singapore']","['658', '720']",campaignindia
+Menâs and Womenâs Fashion Retailer,"['Leviâ\x80\x99s', 'Regional']","['659', '527']",campaignindia
+Detergent,"['AXE (Detergent)', 'Regional']","['660', 'New entry']",campaignindia
+Sweets and Candy,"['Hacks', 'Southeast Asia']","['661', '475']",campaignindia
+Cigarette,"['Davidoff', 'Regional']","['662', '735']",campaignindia
+Cigarette,"['Krong Thip', 'Thailand']","['663', '616']",campaignindia
+Ice-cream,"['XIAO-MEI', 'Taiwan']","['664', '825']",campaignindia
+Diaper,"['Merries', 'Japan']","['665', '605']",campaignindia
+Ready-to-drink Tea,"['Cha Li Won', 'Taiwan']","['666', '836']",campaignindia
+Bank,"['E.SUN', 'Taiwan']","['667', '932']",campaignindia
+Social Networking Site,"['QQ', 'China, Hong Kong']","['668', '476']",campaignindia
+Mineral Water,"['Bonaqua', 'Hong Kong']","['669', '514']",campaignindia
+Shampoo,"['Clairol Herbal Essences', 'China, Southeast Asia']","['670', '620']",campaignindia
+Fast-Food,"['Dominoâ\x80\x99s', 'Regional']","['671', '736']",campaignindia
+Chocolate,"['Toblerone', 'Regional']","['672', '888']",campaignindia
+Cigarette,"['Wills', 'Australia, India']","['673', '645']",campaignindia
+White Goods,"['Bosch', 'Regional']","['674', '819']",campaignindia
+Insurance,"['Takaful', 'Malaysia']","['675', '706']",campaignindia
+Petrol/Gas Station,"['SPC', 'Singapore']","['676', '861']",campaignindia
+Savoury Snack Food,"['Jackâ\x80\x99n Jill', 'Hong Kong, Southeast Asia']","['677', '765']",campaignindia
+Consumer Electronics,"['Onida', 'India']","['678', '829']",campaignindia
+Cigarette,"['Salem', 'Regional']","['679', '564']",campaignindia
+Chocolate,"['Dairy Milk', 'Regional']","['680', '815']",campaignindia
+Watch,"['Timex', 'India, Southeast Asia, Japan']","['681', '927']",campaignindia
+Computer,"['Intel', 'Regional']","['682', '980']",campaignindia
+Menâs Fashion Retailer,"['Aoyama', 'Japan']","['683', '593']",campaignindia
+Shampoo,"['Ba Wang', 'China']","['684', '785']",campaignindia
+Milk,"['Dutchmilk', 'Thailand']","['685', '264']",campaignindia
+Fragrance,"['Anna Sui', 'Regional']","['686', '426']",campaignindia
+Bank,"['Mizuho', 'Japan']","['687', '688']",campaignindia
+Cosmetics,"['Max Factor', 'Regional']","['688', '698']",campaignindia
+Petrol/Gas Station,"['NPC', 'China, Taiwan']","['689', '881']",campaignindia
+Tyre,"['Continental', 'Regional']","['690', '850']",campaignindia
+Sporting Apparel,"['Fila', 'Korea']","['691', '1387']",campaignindia
+Milk,"['Pura', 'Australia']","['692', '945']",campaignindia
+Bank,"['Japan Post (JP)', 'Japan']","['693', '804']",campaignindia
+Jewellery,"['Swarovski', 'Regional']","['694', '624']",campaignindia
+Courier Company,"['Shen Tong', 'China']","['695', '897']",campaignindia
+Bank,"['Axis Bank', 'India']","['696', 'New entry']",campaignindia
+Coffee,"['Khao Shong', 'Thailand']","['697', 'New entry']",campaignindia
+Spirits,"['Absolut', 'Regional']","['698', '754']",campaignindia
+Supermarket,"['Big C', 'Thailand']","['699', '598']",campaignindia
+Supermarket,"['Metro', 'India']","['700', '697']",campaignindia
+Menâs and Womenâs Fashion Retailer,"['Topman/Topshop', 'Malaysia, Singapore']","['701', '925']",campaignindia
+Personal Care,"['Pears', 'Australia']","['702', 'New entry']",campaignindia
+Savoury Snack Food,"['Wantwant', 'Taiwan']","['703', '567']",campaignindia
+Tea/Cereal,"['Dongsuh', 'Korea']","['704', '755']",campaignindia
+Toothpaste,"['Zhonghua', 'China']","['705', 'New entry']",campaignindia
+Printer,"['Lexmark', 'Regional']","['706', '569']",campaignindia
+Fruit Juice,"['Peel Fresh', 'Malaysia']","['707', '740']",campaignindia
+Menâs Fashion Retailer,"['Arrow', 'Southeast Asia']","['708', '920']",campaignindia
+Jewellery,"['Luk Fook', 'China, Hong Kong']","['709', '757']",campaignindia
+Chewing/Bubble Gum,"['Boomer', 'India']","['710', '627']",campaignindia
+Spirits,"['Ballantineâ\x80\x99s', 'Regional']","['711', 'New entry']",campaignindia
+TV,"['TCL', 'China']","['712', 'New entry']",campaignindia
+Full-service Airlines,"['British Airways', 'Regional']","['713', '619']",campaignindia
+Automobile/Car,"['Porsche', 'Regional']","['714', '935']",campaignindia
+Insurance,"['Muang Thai Insurance', 'Thailand']","['715', '789']",campaignindia
+Beer,"['Sapporo', 'Japan']","['716', '656']",campaignindia
+Womenâs Shoes,"['Bonia', 'Malaysia, Singapore']","['717', '522']",campaignindia
+Sauce/Condiment,"['Life', 'Malaysia']","['718', 'New entry']",campaignindia
+Mineral Water,"['Ice Mountain', 'Singapore']","['719', '654']",campaignindia
+White Goods,"['Zanussi', 'Hong Kong, Malaysia']","['720', '730']",campaignindia
+Womenâs Shoes,"['Belle', 'China']","['721', '613']",campaignindia
+Milk Powder,"['Fernleaf', 'Malaysia']","['722', '796']",campaignindia
+Instant Noodles,"['Wei Lih', 'Taiwan']","['723', '852']",campaignindia
+Courier Company,"['DTDC', 'India']","['724', '734']",campaignindia
+Ready-to-drink Tea,"['17 Tea', 'Korea']","['725', 'New entry']",campaignindia
+Hotel,"['Grand Hyatt', 'China, Southeast Asia']","['726', '937']",campaignindia
+Sauce/Condiment,"['Miwon', 'Korea']","['727', '990']",campaignindia
+Shampoo,"['Elastine', 'Korea']","['728', '672']",campaignindia
+Beer,"['Chang Beer', 'Thailand']","['729', '690']",campaignindia
+Beer,"['Leo', 'Thailand']","['730', '853']",campaignindia
+Menâs and Womenâs Fashion Retailer,"['Giordano', 'Regional']","['731', '515']",campaignindia
+Cigarette,"['Kent', 'Regional']","['732', '609']",campaignindia
+Home Audio,"['Kenwood', 'Regional']","['733', '477']",campaignindia
+Womenâs Fashion Retailer,"['Mango (MNG)', 'China, Southeast Asia']","['734', '664']",campaignindia
+Beer,"['Yanjing', 'China']","['735', '891']",campaignindia
+Fragrance/Luxury Fashion Retailer,"['Dolce & Gabbana', 'Regional']","['736', '699']",campaignindia
+Restaurant Chain,"['Royal Host', 'Japan']","['737', '900']",campaignindia
+Chewing/Bubble Gum,"['Superbubble', 'Taiwan']","['738', '596']",campaignindia
+Detergent,"['Liby', 'China']","['739', '898']",campaignindia
+Instant Noodles,"['Maruchan', 'Japan']","['740', '686']",campaignindia
+Fragrance,"['AXE', 'Regional']","['741', '644']",campaignindia
+Baby Food (excluding milk powder),"['Nestum', 'India, Southeast Asia']","['742', '517']",campaignindia
+Hotel,"['Oriental', 'Singapore, Thailand']","['743', '790']",campaignindia
+Spirits,"['Martell', 'China, Southeast Asia']","['744', '832']",campaignindia
+Shoes,"['Elcanto', 'Korea']","['745', '879']",campaignindia
+Supermarket,"['Pxmart', 'Taiwan']","['746', '919']",campaignindia
+Mineral Water,"['Kinley', 'India']","['747', '649']",campaignindia
+Shower Gel/Soap,"['Cow Soap', 'Hong Kong, Japan']","['748', '901']",campaignindia
+Shower Gel/Soap,"['Protex', 'Thailand']","['749', '860']",campaignindia
+Shampoo,"['Ryoe', 'Korea']","['750', 'New entry']",campaignindia
+Credit Card/Bank,"['Taishin International Bank', 'Taiwan']","['751', '742']",campaignindia
+Jewellery,"['Lee Hwa', 'Singapore']","['752', '884']",campaignindia
+Supermarket,"['RT Mart', 'Taiwan']","['753', '845']",campaignindia
+Ice-cream,"['Bulla', 'Australia']","['754', '767']",campaignindia
+Automobile/Car,"['Renault Samsung Motors', 'Korea']","['755', '869']",campaignindia
+Sweets and Candy,"['Parle', 'India']","['756', '979']",campaignindia
+Mineral Water,"['Morewater', 'Taiwan']","['757', '708']",campaignindia
+Mineral Water,"['Minere', 'Thailand']","['758', '693']",campaignindia
+Hotel,"['Inter-Continental', 'Regional']","['759', 'New entry']",campaignindia
+Food,"['Shanghaojia', 'China']","['760', 'New entry']",campaignindia
+Sauce/Condiment,"['Chungjungwon', 'Korea']","['761', '974']",campaignindia
+Pharmacy/Drugstore,"['Boots', 'India, Thailand']","['762', '573']",campaignindia
+Luxury Fashion Retailer/Fragrance,"['Versace', 'Regional']","['763', '608']",campaignindia
+Courier Company,"['Yuan Tong Express', 'China']","['764', '906']",campaignindia
+Hotel,"['Dusit', 'Thailand']","['765', '882']",campaignindia
+Cigarette,"['Camel', 'Regional']","['766', '625']",campaignindia
+Menâs Shoes,"['Taywin', 'Thailand']","['767', '799']",campaignindia
+Shampoo,"['Danggimeori', 'Korea']","['768', '929']",campaignindia
+Motorcycle,"['TVS', 'India']","['769', 'New entry']",campaignindia
+Chewing/Bubble Gum,"['Hubba Bubba', 'Australia, India']","['770', '786']",campaignindia
+Coffee,"['Super Coffee Mix', 'Malaysia, Singapore']","['771', '870']",campaignindia
+Chocolate,"['77', 'Taiwan']","['772', '674']",campaignindia
+Sweets and Candy,"['I-MEI', 'Taiwan']","['773', '714']",campaignindia
+Watch,"['Rado', 'Regional']","['774', '779']",campaignindia
+Chewing/Bubble Gum,"['Bubble Yum', 'Regional']","['775', 'New entry']",campaignindia
+Food,"['Knorr', 'Regional']","['776', 'New entry']",campaignindia
+Tyre,"['Pirelli', 'Australia, India, Southeast Asia']","['777', '678']",campaignindia
+Ice-cream,"['Kingâ\x80\x99s Creameries', 'Singapore']","['778', 'New entry']",campaignindia
+Sporting Apparel,"['Asics', 'Japan']","['779', 'New entry']",campaignindia
+Courier Company,"['Hyundai Logiem', 'Korea']","['780', 'New entry']",campaignindia
+Full-service Airlines,"['Indian Airlines', 'India, Southeast Asia']","['781', '761']",campaignindia
+Beer,"['Guinness', 'Australia, China, Southeast Asia']","['782', '877']",campaignindia
+Cereal,"['Sanitarium', 'Australia']","['783', '784']",campaignindia
+Restaurant,"['Tung Lok', 'Singapore']","['784', 'New entry']",campaignindia
+Detergent,"['Rin', 'India']","['785', '848']",campaignindia
+Pharmacy/Drugstore,"['Priceline', 'Australia']","['786', '762']",campaignindia
+Pharmacy/Drugstore,"['Unity Pharmacy', 'Singapore']","['787', '772']",campaignindia
+Coffee Shop,"['CafÃ© Bene', 'Korea']","['788', 'New entry']",campaignindia
+Computer Software,"['Norton', 'Regional']","['789', '782']",campaignindia
+Home Audio,"['Victor', 'Regional']","['790', '597']",campaignindia
+Cigarette,"['SE 555', 'Regional']","['791', '711']",campaignindia
+Tea,"['Ochaen', 'Taiwan']","['792', '958']",campaignindia
+Social Networking Site,"['Friendster', 'Regional']","['793', '483']",campaignindia
+Restaurant Chain,"['Sizzler', 'Australia']","['794', '774']",campaignindia
+Milk,"['Megumilk', 'Japan']","['795', '756']",campaignindia
+Toothpaste,"['Salz', 'Thailand']","['796', 'New entry']",campaignindia
+Credit card,"['Diners Club', 'Regional']","['797', 'New entry']",campaignindia
+Sauce/Condiment,"['Wanjashan', 'China']","['798', '944']",campaignindia
+Hotel,"['ITC', 'India']","['799', 'New entry']",campaignindia
+Milk,"['Pasteur', 'Korea']","['800', '741']",campaignindia
+Sauce/Condiment,"['Fountain', 'Australia']","['801', 'New entry']",campaignindia
+Insurance,"['RAC', 'Southeast Asia']","['802', '803']",campaignindia
+Computer Software,"['Linux', 'China, Southeast Asia']","['803', '552']",campaignindia
+Pet Food,"['Friskies', 'Australia, Hong Kong']","['804', '623']",campaignindia
+Petrol/Gas Station,"['Cosmo Oil', 'Japan']","['805', '894']",campaignindia
+Ice-cream,"['Cold Stone', 'Regional']","['806', 'New entry']",campaignindia
+Food,"['Fujiya', 'Japan']","['807', 'New entry']",campaignindia
+Chewing/Bubble Gum,"['Trident', 'Regional']","['808', '939']",campaignindia
+Credit Card,"['BC Card', 'Korea']","['809', '603']",campaignindia
+Insurance,"['Sumitomo Life', 'Japan']","['810', '849']",campaignindia
+Cigarette,"['Benson & Hedges', 'Australia, India']","['811', '749']",campaignindia
+Snack Food,"['Smithâ\x80\x99s', 'Australia']","['812', '658']",campaignindia
+Hotel,"['Oberoi', 'Southeast Asia']","['813', '995']",campaignindia
+Social Networking Site,"['Hi5', 'Hong Kong, India, Southeast Asia']","['814', '432']",campaignindia
+Milk,"['KLIM', 'China']","['815', '907']",campaignindia
+Retailer,"['Target', 'Australia']","['816', '810']",campaignindia
+Male Skincare Product,"['Gillette', 'Regional']","['817', '889']",campaignindia
+Pharmacy/Drugstore,"['Amcal', 'Australia']","['818', '743']",campaignindia
+Consumer Electronics,"['Konka', 'China, Hong Kong']","['819', 'New entry']",campaignindia
+Womenâs Shoes,"['Soda', 'Regional']","['820', 'New entry']",campaignindia
+Home & Kitchen Appliances,"['IFB', 'India']","['821', 'New entry']",campaignindia
+Jewellery,"['Poh Heng', 'Singapore']","['822', 'New entry']",campaignindia
+Coffee/Coffee shop,"['Barista (Taiwan)', 'Taiwan']","['823', 'New entry']",campaignindia
+Air Conditioner,"['General', 'China']","['824', '530']",campaignindia
+Sauce/Condiment,"['Kimball', 'Malaysia']","['825', 'New entry']",campaignindia
+Hotel,"['Mandarin Oriental', 'Hong Kong, Southeast Asia']","['826', '768']",campaignindia
+Carbonated Soft Drink,"['Mirinda', 'Regional']","['827', 'New entry']",campaignindia
+Insurance Provider,"['Aflac', 'Regional']","['828', 'New entry']",campaignindia
+Washing Machine,"['Simpson', 'Australia']","['829', '679']",campaignindia
+Cigarette,"['Winfield', 'Australia']","['830', '966']",campaignindia
+Menâs Shoes/Menâs Fashion Retailer,"['Pierre Cardin', 'China, Southeast Asia']","['831', '473']",campaignindia
+Tea,"['Taj Mahal (Tea)', 'India']","['832', '780']",campaignindia
+Milk,"['Trappist', 'Hong Kong']","['833', 'New entry']",campaignindia
+Cigarette,"['Gold Flake', 'India']","['834', '823']",campaignindia
+Bank,"['Agricultural Bank of China', 'China']","['835', 'New entry']",campaignindia
+Supermarket,"['ito Yokado', 'Japan']","['836', '983']",campaignindia
+Hotel,"['Novotel', 'Regional']","['837', '681']",campaignindia
+Mobile Service Provider,"['China Mobile (HK)', 'Hong Kong']","['838', 'New entry']",campaignindia
+Cereal,"['KoKo Krunch (NestlÃ©)', 'Regional']","['839', 'New entry']",campaignindia
+Insurance,"['NRMA', 'Australia']","['840', '820']",campaignindia
+Instant Noodles,"['Fantastic', 'Australia']","['841', 'New entry']",campaignindia
+Airlines (Budget/Full service),"['Hainan Airlines', 'China']","['842', 'New entry']",campaignindia
+Sauce/Condiment,"['Healthy Boy', 'Thailand']","['843', '857']",campaignindia
+Milk,"['Aavin', 'India']","['844', '969']",campaignindia
+Coffee Shop,"['Coffee Club', 'Australia']","['845', '808']",campaignindia
+Menâs Fashion Retailer,"['Aoki', 'Japan']","['846', '801']",campaignindia
+Fashion,"['Jimmy Choo', 'Regional']","['847', 'New entry']",campaignindia
+Cigarette,"['Long Life', 'Taiwan']","['848', '665']",campaignindia
+Sweets and Candy,"['Natural Confectionery Co.', 'Australia']","['849', 'New entry']",campaignindia
+Restaurant Chain,"['S&P', 'Thailand']","['850', '910']",campaignindia
+Beer,"['Haywards', 'India']","['851', '999']",campaignindia
+Air Conditioner,"['Voltas', 'India, Australia']","['852', '988']",campaignindia
+Supermarket,"['Sheng Shiong', 'Singapore']","['853', 'New entry']",campaignindia
+Computer,"['Trigem', 'Korea']","['854', 'New entry']",campaignindia
+Detergent,"['Blue Moon', 'China']","['855', 'New entry']",campaignindia
+Supermarket,"['Aldi', 'Australia']","['856', '566']",campaignindia
+Spirits,"['Remy Martin', 'Regional']","['857', '687']",campaignindia
+Bank,"['Cathay United Bank', 'Taiwan']","['858', '813']",campaignindia
+Savoury Snack Food,"['Arnottâ\x80\x99s', 'Australia']","['859', 'New entry']",campaignindia
+Jewellery,"['Prouds', 'Australia']","['860', '943']",campaignindia
+Cereal,"['Uncle Toby', 'Australia']","['861', '560']",campaignindia
+Savoury Snack Food,"['Capico', 'Regional']","['862', 'New entry']",campaignindia
+Hotel,"['Imperial Hotel', 'Japan, Thailand']","['863', '856']",campaignindia
+Insurance Provider,"['Allianz', 'India']","['864', 'New entry']",campaignindia
+Shoes,"['Scholl', 'Malaysia, Singapore']","['865', '916']",campaignindia
+Sports Drink,"['Pro Sweat', 'Taiwan']","['866', 'New entry']",campaignindia
+Carbonated Soft Drink,"['Mitsuya Cider', 'Japan']","['867', 'New entry']",campaignindia
+Restaurant,"['Zhenkungfu', 'China']","['868', 'New entry']",campaignindia
+Menâs Fashion Retailer,"['Raymonds', 'India']","['869', '976']",campaignindia
+Detergent,"['Mr Muscle', 'Regional']","['870', '986']",campaignindia
+Consumer Electronics,"['BenQ', 'Taiwan']","['871', 'New entry']",campaignindia
+Home Audio,"['Denon', 'Regional']","['872', '880']",campaignindia
+Savoury Snack Food,"['Mister Potato', 'Southeast Asia']","['873', '994']",campaignindia
+Restaurant,"['Saravana Bhavan', 'India, Malaysia, Singapore']","['874', 'New entry']",campaignindia
+Sporting Apparel,"['New Balance', 'Regional']","['875', 'New entry']",campaignindia
+Coffee,"['Ali CafÃ©', 'Malaysia']","['876', 'New entry']",campaignindia
+Budget Airlines,"['Jin Air', 'Korea']","['877', '840']",campaignindia
+Shower Gel/Soap,"['Aekyung', 'Korea']","['878', '628']",campaignindia
+Menâs and Womenâs Fashion Retailer,"['Esprit', 'China, Southeast Asia']","['879', '634']",campaignindia
+Coffee,"['Choice', 'Thailand']","['880', 'New entry']",campaignindia
+Pharmacy/Drugstore,"['Chemist Warehouse', 'Australia']","['881', '890']",campaignindia
+Credit Card,"['KTC', 'Thailand']","['882', '938']",campaignindia
+Womenâs Shoes,"['Charles & Keith', 'Malaysia, Singapore']","['883', '677']",campaignindia
+Toothpaste,"['Jukyum', 'Korea']","['884', '758']",campaignindia
+Food,"['Crown', 'Regional']","['885', 'New entry']",campaignindia
+Womenâs Shoes,"['Nine West', 'Singapore, Hong Kong']","['886', 'New entry']",campaignindia
+Shower Gel/Soap,"['Happy Bath', 'Korea']","['887', 'New entry']",campaignindia
+Ice-cream,"['Cornetto', 'Regional']","['888', 'New entry']",campaignindia
+Cosmetics/Skincare Product,"['Sisley', 'Regional']","['889', 'New entry']",campaignindia
+Milk,"['Sanyuan', 'China, Taiwan']","['890', '899']",campaignindia
+Hotel,"['Grand Formosa Regent', 'Taiwan']","['891', 'New entry']",campaignindia
+Motorcycle,"['Hyosung', 'Korea']","['892', 'New entry']",campaignindia
+Menâs Fashion Retailer,"['Rivers', 'Australia']","['893', '865']",campaignindia
+Sporting Apparel,"['Kolon', 'Korea']","['894', 'New entry']",campaignindia
+Chewing/Bubble Gum/Sweets and Candy,"['Clorets', 'Southeast Asia']","['895', '751']",campaignindia
+Tea,"['Twinings', 'Regional']","['896', '447']",campaignindia
+Beer,"['OB', 'Korea']","['897', '817']",campaignindia
+Toothpaste,"['GUM', 'Hong Kong, China, Japan']","['898', 'New entry']",campaignindia
+Social Networking Site/Internet Search Engine,"['Nate', 'Korea']","['899', '652']",campaignindia
+Social Networking Site,"['Sina', 'China']","['900', '402']",campaignindia
+Insurance,"['Daiichi Life', 'Japan']","['901', '912']",campaignindia
+Shampoo,"['566', 'China']","['902', 'New entry']",campaignindia
+Digital Products,"['Aigo', 'China']","['903', 'New entry']",campaignindia
+Sweets and Candy,"['UHA Mikakuto', 'Japan']","['904', 'New entry']",campaignindia
+Sauce/Condiment,"['Ajinomoto', 'Japan, Korea, Southeast Asia']","['905', '747']",campaignindia
+Coffee,"['Tullyâ\x80\x99s', 'Japan, Korea, Singapore']","['906', '942']",campaignindia
+TV,"['Chi Mei', 'Taiwan']","['907', 'New entry']",campaignindia
+Beer,"['Tooheys', 'Australia']","['908', 'New entry']",campaignindia
+Motorcycle,"['Daelim', 'Korea']","['909', '816']",campaignindia
+Personal care,"['Imperial', 'Regional']","['910', 'New entry']",campaignindia
+Female Skincare Product,"['Hera', 'Korea']","['911', '924']",campaignindia
+Courier Company,"['Toll', 'Australia']","['912', 'New entry']",campaignindia
+Supermarket,"['GS', 'Korea']","['913', '600']",campaignindia
+Mineral Water,"['Himalaya', 'India']","['914', 'New entry']",campaignindia
+Female Skincare Product,"['Fancl', 'Hong Kong, Singapore']","['915', '824']",campaignindia
+Automobile/Car,"['Proton', 'Malaysia']","['916', 'New entry']",campaignindia
+Personal care,"['Safi', 'Regional']","['917', 'New entry']",campaignindia
+Instant Noodles,"['Wei-Wei', 'China']","['918', 'New entry']",campaignindia
+Spirits,"['Jack Daniel', 'Regional']","['919', '655']",campaignindia
+Pharmacy/Drugstore,"['Terry White', 'Australia']","['920', '750']",campaignindia
+Baby Food (excluding milk powder),"['Gerber', 'Regional']","['921', '445']",campaignindia
+Menâs and Womenâs Fashion Retailer,"['Uniqlo', 'China, Hong Kong, Japan']","['922', '621']",campaignindia
+Detergent,"['Swipe', 'Regional']","['923', 'New entry']",campaignindia
+Ice-cream,"['Bingrae', 'Korea']","['924', 'New entry']",campaignindia
+Instant Noodles,"['Mie Sedap', 'Southeast Asia']","['925', 'New entry']",campaignindia
+Beer,"['Victoria Bitter (VB)', 'Australia']","['926', '878']",campaignindia
+Savoury snack food,"['Koikeya', 'Japan']","['927', 'New entry']",campaignindia
+Baby Food (excluding milk powder),"['Wakodo', 'Japan, Korea']","['928', '666']",campaignindia
+Jewellery,"['Michael Hill', 'Australia']","['929', 'New entry']",campaignindia
+Menâs Shoes,"['Florsheim', 'Regional']","['930', 'New entry']",campaignindia
+Ice-cream,"['MÃ¶venpick', 'Regional']","['931', 'New entry']",campaignindia
+Chewing/Bubble Gum,"['Da Da', 'China, Hong Kong']","['932', '858']",campaignindia
+Dairy Products,"['Fresh Delight', 'Regional']","['933', 'New entry']",campaignindia
+Toothpaste,"['Dentiste', 'Regional']","['934', 'New entry']",campaignindia
+Ice-cream,"['Duroyal', 'Taiwan']","['935', '618']",campaignindia
+Chewing/Bubble Gum,"['Center Fresh', 'India']","['936', '647']",campaignindia
+Sports Drink,"['M-Sport', 'Thailand']","['937', 'New entry']",campaignindia
+Toothpaste,"['Dabur', 'India']","['938', 'New entry']",campaignindia
+Bank,"['SPD Bank', 'China']","['939', 'New entry']",campaignindia
+Supermarket,"['City Super', 'Hong Kong']","['940', 'New entry']",campaignindia
+Pet Food,"['PAL', 'Australia, Hong Kong']","['941', '864']",campaignindia
+Chocolate,"['Royceâ\x80\x99/Royce', 'Hong Kong, Singapore']","['942', 'New entry']",campaignindia
+Detergent,"['Morning Fresh', 'Australia']","['943', '905']",campaignindia
+Jewellery,"['Soo Kee (SKJ)', 'Singapore']","['944', '960']",campaignindia
+Financial Service,"['Suncorp', 'Australia']","['945', 'New entry']",campaignindia
+Sauce/Condiment,"['Ottogi', 'Korea']","['946', '904']",campaignindia
+Beer,"['Carlton', 'Australia']","['947', 'New entry']",campaignindia
+Restaurant Chain,"['Fuji (Restaurant chain)', 'Thailand']","['948', '955']",campaignindia
+Sports Drink,"['Revive isotonic', 'Malaysia']","['949', '766']",campaignindia
+Fruit Juice,"['Frooti', 'India']","['950', 'New entry']",campaignindia
+Ready-to-drink Tea,"['Heaven & Earth', 'Singapore']","['951', 'New entry']",campaignindia
+Bank,"['CBA', 'Australia']","['952', 'New entry']",campaignindia
+Male Skincare Product,"['Fair And Handsome', 'India']","['953', '961']",campaignindia
+Restaurant Chain,"['Saizeriya', 'Japan']","['954', 'New entry']",campaignindia
+Bank,"['Guangdong Development', 'China']","['955', 'New entry']",campaignindia
+Digital Products,"['Ricoh', 'Regional']","['956', 'New entry']",campaignindia
+Consumer Electronics,"['Miele', 'Regional']","['957', 'New entry']",campaignindia
+Sweets and Candy,"['Heart Beat', 'Australia']","['958', '998']",campaignindia
+Fruit Juice,"['Mei Ri C', 'Taiwan']","['959', '922']",campaignindia
+Pet Food,"['Cesar', 'Japan, Korea, Southeast Asia']","['960', '643']",campaignindia
+Pet Food,"['Royal', 'China, Taiwan']","['961', '873']",campaignindia
+Shampoo,"['Asience', 'Regional']","['962', 'New entry']",campaignindia
+Food,"['Otafuku', 'Japan']","['963', 'New entry']",campaignindia
+Ice-cream,"['Wu Yang', 'China']","['964', 'New entry']",campaignindia
+Fragrance/Menâs Fashion Retailer,"['Tommy Hilfiger', 'Regional']","['965', '721']",campaignindia
+Coffee Shop,"['CafÃ© Amazon', 'Thailand']","['966', 'New entry']",campaignindia
+Shampoo,"['Kerasys', 'Korea']","['967', 'New entry']",campaignindia
+Baby Product,"['Pigeon', 'Regional']","['968', 'New entry']",campaignindia
+Carbonated Soft Drink,"['Thums Up', 'India']","['969', '792']",campaignindia
+Restaurant Chain,"['Hogs Breath', 'Australia']","['970', 'New entry']",campaignindia
+Spirits,"['Kinmen Kao Liang', 'Taiwan']","['971', '867']",campaignindia
+Bank,"['Bank of Communications', 'China, Hong Kong']","['972', 'New entry']",campaignindia
+Shower Gel/Soap,"['Ginvera', 'Malaysia, Singapore']","['973', '911']",campaignindia
+Insurance,"['Shin Kong Life Insurance', 'Taiwan']","['974', '872']",campaignindia
+Courier Company,"['Nippon Express', 'Regional']","['975', 'New entry']",campaignindia
+Hotel,"['Centara', 'Thailand']","['976', 'New entry']",campaignindia
+Menâs and Womenâs Fashion Retailer,"['IT', 'China, Hong Kong']","['977', '729']",campaignindia
+Courier Company,"['Australia post', 'Australia']","['978', 'New entry']",campaignindia
+Ready-to-drink Tea,"['Gogo no Kocha', 'Japan']","['979', 'New entry']",campaignindia
+Fast-Food,"['Mister Donut', 'Japan']","['980', 'New entry']",campaignindia
+Convenience Store,"['99 Speedmart', 'Malaysia']","['981', 'New entry']",campaignindia
+Beer,"['Fosters', 'Australia']","['982', '921']",campaignindia
+Courier Company,"['The Professional Couriers', 'India']","['983', 'New entry']",campaignindia
+Beer,"['XXXX', 'Australia']","['984', 'New entry']",campaignindia
+Bank,"['Hana', 'Korea']","['985', 'New entry']",campaignindia
+Personal Care/Menâs Shoes,"['Park Avenue', 'India']","['986', 'New entry']",campaignindia
+DVD Player,"['Sansui', 'China, India, Japan']","['987', '902']",campaignindia
+Ice-cream,"['Magnum', 'Regional']","['988', 'New entry']",campaignindia
+Coffee,"['Tasterâ\x80\x99s Choice', 'Regional']","['989', 'New entry']",campaignindia
+Jewellery/Watch,"['Fossil', 'Singapore, Australia']","['990', 'New entry']",campaignindia
+Ice-cream,"['Arun', 'India']","['991', 'New entry']",campaignindia
+Insurance,"['Aviva', 'Regional']","['992', 'New entry']",campaignindia
+Cigarette,"['Double Happiness', 'China']","['993', 'New entry']",campaignindia
+Spirits,"['Bacardi', 'Regional']","['994', 'New entry']",campaignindia
+Chocolate,"['Leconte', 'China']","['995', '928']",campaignindia
+Dairy Products,"['Devondale', 'Australia']","['996', 'New entry']",campaignindia
+Supermarket,"['More', 'India']","['997', 'New entry']",campaignindia
+Beer,"['Corona', 'Regional']","['998', 'New entry']",campaignindia
+Fruit Juice,"['Harvey Fresh', 'Australia']","['999', 'New entry']",campaignindia
+Male Skincare Product,"['Gatsby', 'Regional']","['1000', '953']",campaignindia

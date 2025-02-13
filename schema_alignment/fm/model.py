@@ -21,15 +21,13 @@ def train():
     #TODO: Implementare il preprocessing dei dati drop colonne inutili
 
     # Modifica il tuo codice per usare il preprocessing
-    dataframes = extraction.extract_data('../../data/train')
+    dataframes = extraction.extract_data('../../data/schema_alignment/train')
 
     # Verifica che ci siano dataframe validi
     if not dataframes:
         print("Nessun dataframe valido trovato")
         return
 
-    #order dataframes by Name of the file
-    dataframes = sorted(dataframes, key=lambda x: x.columns[0])
 
     # Stampa info sui dataframe
     for i, df in enumerate(dataframes):

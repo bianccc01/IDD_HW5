@@ -217,7 +217,7 @@ class FlexMatcher:
 
         predicted_mapping = {}
         confidence_scores = {}  # Dizionario per tenere traccia dei punteggi di confidenza
-        confidence_threshold = 0.17
+        confidence_threshold = 0.12
         default_column = "unknown_column"
 
         for column in list(data):

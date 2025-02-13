@@ -38,11 +38,16 @@ def rename_dataframes():
         'company_representatives', 'company_investors'
     ]
 
-    dataframes = extraction.extract_data('../../data/test')
+    dataframes = extraction.extract_data('../../data/schema_alignment/test')
     renamed_dataframes = []
 
     for df in dataframes:
         predictions = model.test_prediction(df)
+        #if value for prediction is unknown_column make ugual to key and add key to schema_mediato
+        for key, value in predictions.items():
+            if value == 'unknown_column':
+                predictions[key] = key
+                schema_mediato.append(key)
         print(predictions, df['file_name'][0])
 
         # Rinomina le colonne (mantieni file_name intatto)

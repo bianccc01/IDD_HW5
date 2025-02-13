@@ -55,7 +55,7 @@ def test_schema_alignment():
     Extracts a test DataFrame, applies the schema alignment using LLM, and prints the result.
     """
     # Extract test data (adjust the path as needed)
-    dataframes = extraction.extract_data('../../data/test')
+    dataframes = extraction.extract_data('../../data/schema_alignment/test')
 
     if not dataframes:
         print("No valid DataFrame found for schema alignment.")
