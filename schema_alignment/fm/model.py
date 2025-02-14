@@ -8,7 +8,7 @@ import os
 
 
 def train_flexmatcher(schema_list, mapping_list):
-    fm = Flexmatcher.FlexMatcher(schema_list, mapping_list, sample_size=12000)
+    fm = Flexmatcher.FlexMatcher(schema_list, mapping_list, sample_size=5000)
     fm.train()
 
     return fm
@@ -136,16 +136,14 @@ def train():
     print("FlexMatcher training finished")
 
     #save the model
-    fm.save_model('flexmatcher.pkl')
-
-
+    fm.save_model('flexmatcher2.pkl')
 
 
 
 def test_prediction(dataframe):
 
     # load the model
-    with open('flexmatcher.pkl.model', 'rb') as f:
+    with open('flexmatcher2.pkl.model', 'rb') as f:
         fm = pkl.load(f)
 
     # remove file_name column

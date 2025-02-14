@@ -74,7 +74,7 @@ def rename_dataframes():
 def save_dataframes(dataframes):
     for df in dataframes:
         file_name = df['file_name'][0]
-        df.to_csv(f'../../data/created/fm/{file_name}.csv', index=False)
+        df.to_csv(f'../../data/schema_alignment/created/fm/{file_name}.csv', index=False)
 
 
 rename_dataframes()

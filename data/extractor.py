@@ -48,7 +48,6 @@ def extract_data(path):
 
             #change not found to np.nan
             df = df.replace('Not found', np.nan)
-            df = df.replace('nan', np.nan)
 
             #add file name to dataframe, replace - with _ in file name and remove extension
             df['file_name'] = d.replace('-', '_').split('.')[0]
