@@ -18,25 +18,7 @@ def train_flexmatcher(schema_list, mapping_list):
 
 def train():
 
-    #TODO: Implementare il preprocessing dei dati drop colonne inutili
-
-    # Modifica il tuo codice per usare il preprocessing
     dataframes = extraction.extract_data('../../data/schema_alignment/train')
-
-    # Verifica che ci siano dataframe validi
-    if not dataframes:
-        print("Nessun dataframe valido trovato")
-        return
-
-
-    # Stampa info sui dataframe
-    for i, df in enumerate(dataframes):
-        print(f"Dataframe {i}: {df.shape[0]} rows, {df.shape[1]} columns")
-        print(f"Columns: {df.columns.tolist()}")
-        print(f"Sample:\n{df.head(1)}\n")
-
-    null_summary = df.isnull().sum()
-    print(null_summary)
 
     disfold_mapping = {
         'link': 'company_website',

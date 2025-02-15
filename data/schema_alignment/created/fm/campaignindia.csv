@@ -1,1001 +1,1001 @@
 company_market_cap,company_employees,brand name,category,file_name
-Regional,"['1', '1']",Sony,Consumer electronics,campaignindia
-Regional,"['2', '2']",Samsung,Electronics/White goods,campaignindia
-Regional,"['3', '3']",Panasonic,Consumer electronics,campaignindia
-Regional,"['4', '4']",LG,Electronics/White goods,campaignindia
-Regional,"['5', '5']",Canon,Camera/Office equipment,campaignindia
-Regional,"['6', '9']",Apple,Mobile Phone,campaignindia
-Regional,"['7', '10']",Hewlett-Packard,Computer,campaignindia
-Regional,"['8', '6']",Google,Internet search engine,campaignindia
-Regional,"['9', '8']",NestlÃ©,Food and drink,campaignindia
-Regional,"['10', '13']",Nike,Sports retail,campaignindia
-Regional,"['11', '12']",McDonaldâs,Fast food,campaignindia
-Regional,"['12', '16']",adidas,Sports retail,campaignindia
-Regional,"['13', '11']",Coca-Cola,Soft drinks,campaignindia
-Regional,"['14', '17']",7-Eleven,Convenience store,campaignindia
-Regional,"['15', '14']",Starbucks,Coffee chain,campaignindia
-Regional,"['16', '18']",Colgate,Toothpaste,campaignindia
-Regional,"['17', '20']",Facebook,Social networking,campaignindia
-Regional,"['18', '7']",Yahoo,Internet search engine,campaignindia
-Regional,"['19', '15']",Honda,Car/Motorcycle,campaignindia
-Regional,"['20', '26']",Toshiba,Electronics/White goods,campaignindia
-Regional,"['21', '22']",Microsoft,Computer Software,campaignindia
-Regional,"['22', '29']",Maggi,Instant Noodles,campaignindia
-"Japan, Korea","['23', '21']",Lotte,Chewing/ Bubble gum,campaignindia
-"Greater China, Southeast Asia","['24', '24']",KFC,Fast-Food,campaignindia
-Regional,"['25', '30']",Nikon,Camera,campaignindia
-Regional,"['26', '25']",Hitachi,Consumer Electronics,campaignindia
-Regional,"['27', '23']",Sharp,Consumer Electronics,campaignindia
-Regional,"['28', '19']",Nokia,Mobile Phone,campaignindia
-Regional,"['29', '60']",Playstation,Gaming Console,campaignindia
-Regional,"['30', '28']",Chanel,Fragrance/Perfume/Luxury Fashion Retailer,campaignindia
-Regional,"['31', '36']",Dove,Shower Gel/Soap /Shampoo,campaignindia
-Regional,"['32', '35']",Pepsi,Carbonated Soft Drink,campaignindia
-Regional,"['33', '45']",NescafÃ©,Coffee,campaignindia
-Regional,"['34', '37']",Cadbury,Chocolate,campaignindia
-Regional,"['35', '32']",Mitsubishi,Consumer electronics,campaignindia
-Regional,"['36', '50']",Epson,Printer,campaignindia
-Greater China,"['37', '39']",Uni-president,Instant Noodles,campaignindia
-Regional,"['38', '33']",Yamaha,Motorcycle,campaignindia
-"Greater China, Southeast Asia","['39', '46']",Shell,Petrol/Gas Station,campaignindia
-Regional,"['40', '47']",DHL,Courier Company,campaignindia
-Regional,"['41', '43']",Toyota,Car/Automobile,campaignindia
-Regional,"['42', '42']",Rolex,Watch,campaignindia
-Regional,"['43', '27']",Meiji,Food,campaignindia
-"Greater China, Southeast Asia","['44', '55']",Darlie,Toothpaste,campaignindia
-Regional,"['45', '48']",Michelin,Tyre,campaignindia
-Regional,"['46', '31']",Nintendo,Gaming Console,campaignindia
-Regional,"['47', '52']",Lux,Shower Gel/Soap,campaignindia
-Regional,"['48', '61']",HÃ¤agen-Dazs,Ice-cream,campaignindia
-Regional,"['49', '54']",BMW,Car/Automobile,campaignindia
-Regional,"['50', '62']",Dell,Computer,campaignindia
-Regional,"['51', '53']",Bridgestone,Tyre,campaignindia
-Regional,"['52', '63']",VISA,Credit Card,campaignindia
-Regional,"['53', '57']",LâOrÃ©al,Cosmetics/Skincare Shampoo,campaignindia
-Regional,"['54', '77']",Pantene,Shampoo,campaignindia
-Regional,"['55', '34']",Shiseido,Cosmetics,campaignindia
-Regional,"['56', '41']",Pampers,Diaper,campaignindia
-Regional,"['57', '49']",Philips,Consumer Electronics,campaignindia
-Southeast Asia,"['58', '66']",Air Asia,Budget Airlines,campaignindia
-Regional,"['59', '70']",Mercedes-Benz,Car/Automobile,campaignindia
-Regional,"['60', '123']",Twitter,Social Networking Site,campaignindia
-"Greater China, Southeast Asia","['61', '44']",Watsons,Pharmacy/Drugstore,campaignindia
-Regional,"['62', '56']",Nivea,Skincare,campaignindia
-"Taiwan, Thailand","['63', '85']",FamilyMart,Convenience Store,campaignindia
-Regional,"['64', '81']",HSBC,Bank,campaignindia
-Regional,"['65', '78']",Citibank,Bank,campaignindia
-Regional,"['66', '67']",Christian Dior,Fragrance/Perfume/Cosmetics,campaignindia
-Regional,"['67', '82']",Nissin,Instant Noodles,campaignindia
-Regional,"['68', '65']",Huggies,Diaper,campaignindia
-"Greater China, Southeast Asia","['69', '58']",FedEx,Courier Company,campaignindia
-Regional,"['70', '76']",Acer,Computer,campaignindia
-Regional,"['71', '69']",Pocari Sweat,Sports Drink,campaignindia
-"Greater China, Southeast Asia","['72', '71']",Kao,Detergent,campaignindia
-Regional,"['73', '90']",Ferrero Rocher,Chocolate,campaignindia
-Regional,"['74', '88']",AIA,Insurance,campaignindia
-"Greater China, Southeast Asia","['75', '74']",Singapore,Full-service Airlines,campaignindia
-Regional,"['76', '40']",Lipton,Tea,campaignindia
-Regional,"['77', '59']",Marlboro,Cigarette,campaignindia
-Greater China,"['78', '114']",MasterKong,Instant Noodles,campaignindia
-Regional,"['79', '91']",MasterCard,Credit Card,campaignindia
-Regional,"['80', '68']",Gatorade,Sports Drink,campaignindia
-Regional,"['81', '64']",Gucci,Luxury Fashion Retailer,campaignindia
-Regional,"['82', '92']",Kelloggâs,Cereal,campaignindia
-Regional,"['83', '95']",Heineken,Beer,campaignindia
-"Japan, Singapore","['84', '94']",Daikin,Air Conditioner,campaignindia
-Regional,"['85', '98']",Head & Shoulders,Shampoo,campaignindia
-Regional,"['86', '104']",SK-II,Female Skincare Product,campaignindia
-Regional,"['87', '83']",Wrigleyâs Arrow,Chewing/Bubble Gum,campaignindia
-Regional,"['88', '75']",Sanyo,Consumer Electronics,campaignindia
-India,"['89', '73']",Amul,Milk powder/Milk/Ice-cream,campaignindia
-Regional,"['90', '100']",Hyundai,Car/Automobile,campaignindia
-Regional,"['91', '122']",LancomÃ©,Cosmetics/Fagrance/Female Skincare,campaignindia
-Regional,"['92', '109']",Seiko,Watch,campaignindia
-Regional,"['93', '121']",Wallâs,Ice-cream,campaignindia
-Regional,"['94', '111']",Casio,Watch,campaignindia
-Regional,"['95', '131']",Xbox,Gaming Console,campaignindia
-"Malaysia, Thailand","['96', '126']",Tesco,Supermarket,campaignindia
-Singapore,"['97', '89']",NTUC FairPrice,Supermarket,campaignindia
-Regional,"['98', '107']",Whirlpool,White Goods,campaignindia
-Regional,"['99', '106']",Olay,Female Skincare Product,campaignindia
-Regional,"['100', '532']",HTC,Mobile Phone,campaignindia
-Regional,"['101', '105']",Evian,Mineral Water,campaignindia
-"China, India","['102', '108']",Haier,Consumer Electronics,campaignindia
-Regional,"['103', '115']",Sunsilk,Shampoo,campaignindia
-Regional,"['104', '125']",Hilton,Hotel,campaignindia
-Regional,"['105', '93']",Cathay Pacific,Full-service Airlines,campaignindia
-Regional,"['106', '79']",Heinz,Baby Food (excluding milk powder),campaignindia
-Regional,"['107', '72']",Sony Ericsson,Mobile Phone,campaignindia
-"Southeast Asia, India","['108', '120']",100 Plus,Sports Drink,campaignindia
-"China, Japan","['109', '87']",Morinaga,Sweets and Candy,campaignindia
-"Southeast Asia, Taiwan","['110', '155']",Breeze,Detergent,campaignindia
-Regional,"['111', '124']",Caltex,Petrol/Gas Station,campaignindia
-Regional,"['112', '165']",Vodafone,Mobile Service Provider,campaignindia
-"China, Japan, Southeast Asia","['113', '153']",Esso,Petrol/Gas Station,campaignindia
-Regional,"['114', '86']",Johnson & Johnson,Personal Care,campaignindia
-Regional,"['115', '101']",Calvin Klein,Fragrance/Perfume/Luxury Fashion Retailer,campaignindia
-India,"['116', '140']",Kingfisher,Beer/Full-service Airlines,campaignindia
-Regional,"['117', '134']",Fujitsu,Computer,campaignindia
-"Australia, Southeast Asia","['118', '84']",Guardian,Pharmacy/Drugstore,campaignindia
-Regional,"['119', '102']",Suzuki,Motorcycle,campaignindia
-Regional,"['120', '173']",Baskin Robbins,Ice-cream,campaignindia
-Regional,"['121', '170']",Lenovo,Computer,campaignindia
-Regional,"['122', '132']",Omega,Watch,campaignindia
-Regional,"['123', '118']",Louis Vuitton (LV),Luxury Fashion Retailer,campaignindia
-"Hong Kong, Taiwan","['124', '146']",Wellcome,Supermarket,campaignindia
-Australia,"['125', '127']",Coles,Supermarket,campaignindia
-Regional,"['126', '117']",Armani,Menâs Fashion Retailer,campaignindia
-"China, Southeast Asia","['127', '194']",Lee Kum Kee,Sauce/Condiment,campaignindia
-Regional,"['128', '133']",Johnnie Walker,Spirits,campaignindia
-Regional,"['129', '188']",Reebok,Sporting Apparel,campaignindia
-Regional,"['130', '147']",Layâs,Snack Food,campaignindia
-"Malaysia, Singapore","['131', '129']",Marigold,Fruit Juice,campaignindia
-"China, Japan","['132', '185']",Circle K,Convenience Store,campaignindia
-Regional,"['133', '143']",Harley Davidson,Motorcycle,campaignindia
-Regional,"['134', '138']",Goodyear,Tyre,campaignindia
-"Malaysia, Singapore","['135', '97']",Quaker,Cereal,campaignindia
-Regional,"['136', '130']",Carlsberg,Beer,campaignindia
-Regional,"['137', '167']",Puma,Sporting Equipment/Apparel,campaignindia
-"Australia, Southeast Asia","['138', '137']",Jetstar,Budget Airlines,campaignindia
-Regional,"['139', '151']",Thai Airways,Full-service Airlines,campaignindia
-Regional,"['140', '199']",Asus,Computer,campaignindia
-Regional,"['141', '116']",JVC,Camcorder,campaignindia
-Regional,"['142', '161']",Prudential (UK),Insurance,campaignindia
-"Hong Kong, Japan, Korea","['143', '190']",Maxims,Coffee,campaignindia
-Regional,"['144', '181']",Lion,Toothpaste,campaignindia
-Regional,"['145', '446']",BlackBerry,Mobile Phone,campaignindia
-Regional,"['146', '174']",Olympus,Camera,campaignindia
-Regional,"['147', '176']",Extra,Chewing/Bubble Gum,campaignindia
-"China, Japan, Korea, Taiwan","['148', '227']",Suntory,Spirits/Beer,campaignindia
-"Australia, India, Southeast Asia","['149', '195']",Garnier,Skincare Product,campaignindia
-Regional,"['150', '148']",Rejoice,Shampoo,campaignindia
-Regional,"['151', '168']",Virgin,Full-service Airlines,campaignindia
-Regional,"['152', '184']",Doublemint,Chewing/Bubble Gum,campaignindia
-Regional,"['153', '152']",Palmolive,Shower Gel/Soap,campaignindia
-Regional,"['154', '150']",IBM,Computer,campaignindia
-"China, Japan, Southeast Asia","['155', '142']",Mamy Poko,Diaper,campaignindia
-"Australia, China","['156', '198']",Dettol,Shower Gel/Soap,campaignindia
-Regional,"['157', '145']",EstÃ©e Lauder,Cosmetics,campaignindia
-Regional,"['158', '113']",Clinique,Female Skincare Product/Cosmetics,campaignindia
-China,"['159', '206']",Mengniu,Milk,campaignindia
-Regional,"['160', '259']",Lindt,Chocolate,campaignindia
-Regional,"['161', '268']",Hersheyâs,Chocolate,campaignindia
-Regional,"['162', '169']",Cartier,Jewellery,campaignindia
-Regional,"['163', '164']",Malaysia Airlines,Full-service Airlines,campaignindia
-Regional,"['164', '204']",Tropicana,Fruit Juice,campaignindia
-China,"['165', '186']",Baidu,Internet Search Engine,campaignindia
-Regional,"['166', '228']",Pondâs,Female Skincare Product,campaignindia
-Regional,"['167', '159']",Dutch Lady,Milk,campaignindia
-"China, Hong Kong","['168', '254']",Bank of China,Bank,campaignindia
-"India, Singapore","['169', '157']",BATA,Shoes,campaignindia
-"China, Japan, Southeast Asia","['170', '141']",Carrefour,Supermarket,campaignindia
-"China, Singapore","['171', '158']",Tsingtao,Beer,campaignindia
-"Malaysia, Singapore","['172', '207']",Maybank,Bank,campaignindia
-"China, Japan, Korea","['173', '189']",Kirin,Beer,campaignindia
-Korea,"['174', '212']",Kookmin Bank (KB),Bank,campaignindia
-Regional,"['175', '149']",Dunlop,Tyre,campaignindia
-Regional,"['176', '192']",Red Bull,Sports Drink,campaignindia
-Regional,"['177', '200']",UPS,Courier Company,campaignindia
-Regional,"['178', '154']",Tiger Airways,Budget Airlines,campaignindia
-Singapore,"['179', '253']",Swensenâs,Ice-cream,campaignindia
-Regional,"['180', '110']",Pedigree,Pet Food,campaignindia
-Korea,"['181', '103']",Naver,Internet Search Engine,campaignindia
-"China, Taiwan","['182', '163']",Wei Chuan,Food and Beverage,campaignindia
-China,"['183', '203']",China Mobile,Mobile Service Provider,campaignindia
-India,"['184', '248']",Big Bazaar,Supermarket,campaignindia
-"China, Taiwan","['185', '201']",Dove (Chocolate),Chocolate,campaignindia
-"Hong Kong, Thailand","['186', '211']",Mama,Instant Noodles,campaignindia
-Taiwan,"['187', '215']",CPC (Taiwan),Petrol/Gas Station,campaignindia
-Regional,"['188', '591']",Bing,Internet Search Engine,campaignindia
-"Hong Kong, Southeast Asia","['189', '336']",Standard Chartered,Bank,campaignindia
-Regional,"['190', '234']",Siemens,Consumer Electronics,campaignindia
-Regional,"['191', '219']",ANA,Full-service Airlines,campaignindia
-Regional,"['192', '144']",Tiffany & Co.,Jewellery,campaignindia
-China,"['193', '265']",Minute Maid,Fruit Juice,campaignindia
-Regional,"['194', '222']",Burger King,Fast-Food,campaignindia
-Southeast Asia,"['195', '183']",Tiger Beer,Beer,campaignindia
-Singapore,"['196', '244']",Singtel,Mobile Service Provider,campaignindia
-Korea,"['197', '171']",Korean Air,Full-service Airlines,campaignindia
-Japan,"['198', '250']",NTT,Mobile Service Provider,campaignindia
-Regional,"['199', '210']",Qantas,Full-service Airlines,campaignindia
-"China, Korea","['200', '236']",Nongshim,Instant Noodles,campaignindia
-Regional,"['201', '177']",Ralph Lauren,Menâs Fashion Retailer/Fragrance,campaignindia
-Thailand,"['202', '230']",Siam Commercial Bank,Bank,campaignindia
-Korea,"['203', '197']",Asiana,Full-service Airlines,campaignindia
-"China, Hong Kong","['204', '231']",Park n shop,Supermarket,campaignindia
-Korea,"['205', '179']",Seoul Milk,Milk,campaignindia
-"China, Southeast Asia","['206', '208']",G2000,Menâs and Womenâs Fashion Retailer,campaignindia
-Korea,"['207', '225']",SK Telecom,Mobile Service Provider,campaignindia
-Regional,"['208', '139']",Dunhill,Cigarette,campaignindia
-Regional,"['209', '269']",Adobe,Computer Software,campaignindia
-Korea,"['210', '242']",Shinhan bank,Bank,campaignindia
-Korea,"['211', '275']",Lotteria,Fast-Food,campaignindia
-Japan,"['212', '251']",Kuroneko Yamato,Courier Company,campaignindia
-Singapore,"['213', '271']",DBS,Bank,campaignindia
-Regional,"['214', '162']",Pioneer,Consumer Electronics,campaignindia
-India,"['215', '182']",ICICI Bank,Bank,campaignindia
-India,"['216', '226']",State Bank of India (SBI),Bank,campaignindia
-Australia,"['217', '345']",Telstra,Mobile Service Provider,campaignindia
-Regional,"['218', '223']",Citizen,Watch,campaignindia
-"China, India, Southeast Asia","['219', '180']",Dumex,Milk Powder,campaignindia
-Regional,"['220', '119']",Avon,Cosmetics,campaignindia
-India,"['221', '301']",Airtel,Mobile Service Provider,campaignindia
-"China, Hong Kong","['222', '214']",Sinopec,Petrol/Gas Station,campaignindia
-Regional,"['223', '375']",Asahi,Beer,campaignindia
-Thailand,"['224', '261']",PTT,Petrol/Gas Station,campaignindia
-"Australia, Southeast Asia","['225', '217']",Coffee Bean,Coffee Shop,campaignindia
-"Japan, Hong Kong, Singapore","['226', '300']",Mos Burger,Fast-Food,campaignindia
-Regional,"['227', '175']",China Airlines,Full-service Airlines,campaignindia
-Regional,"['228', '263']",NEC,Computer,campaignindia
-Regional,"['229', '316']",Sunkist,Fruit Juice,campaignindia
-Korea,"['230', '294']",KTF,Mobile Service Provider,campaignindia
-Japan,"['231', '196']",Japan Airlines (JAL),Full-service Airlines,campaignindia
-Taiwan,"['232', '427']",China Trust,Bank,campaignindia
-Australia,"['233', '235']",Woolworths,Supermarket,campaignindia
-Regional,"['234', '283']",Sprite,Carbonated Soft Drink,campaignindia
-Regional,"['235', '202']",Shangri-La,Hotel,campaignindia
-"China, Hong Kong","['236', '216']",Yili,Milk,campaignindia
-Regional,"['237', '367']",Electrolux,White Goods,campaignindia
-"Malaysia, Singapore","['238', '246']",F&N,Carbonated Soft Drink,campaignindia
-Taiwan,"['239', '172']",Chunghwa Telecom (CHT),Mobile Service Provider,campaignindia
-China,"['240', '332']",ICBC Asia,Bank,campaignindia
-Regional,"['241', '321']",Tag Heuer,Watch,campaignindia
-China,"['242', '351']",China Merchants Bank,Credit Card/Bank,campaignindia
-"China, Southeast Asia","['243', '241']",The Body Shop,Shower Gel/Soap,campaignindia
-"India, Malaysia, Singapore","['244', '276']",Giant,Supermarket,campaignindia
-Malaysia,"['245', '233']",Old Town,Coffee Shop,campaignindia
-Korea,"['246', 'New entry']",Hankook,Tyre,campaignindia
-Taiwan,"['247', '270']",Taiwan Beer,Beer,campaignindia
-Regional,"['248', '218']",Bulgari,Fragrance/Jewellery,campaignindia
-Regional,"['249', '370']",Nissan,Car/Automobile,campaignindia
-Korea,"['250', '255']",Kumkang,Menâs Shoes,campaignindia
-Regional,"['251', '479']",Emirates,Full-service Airlines,campaignindia
-India,"['252', '290']",LIC,Insurance,campaignindia
-Thailand,"['253', '299']",Kasikorn Bank,Bank,campaignindia
-Singapore,"['254', '359']",Fisher & Paykel,White Goods,campaignindia
-Regional,"['255', '287']",Sensodyne,Toothpaste,campaignindia
-Regional,"['256', '224']",Yokohama,Tyre,campaignindia
-Regional,"['257', '344']",Brother,Printer,campaignindia
-"Australia, Southeast Asia","['258', '320']",British Petroleum (BP),Petrol/Gas Station,campaignindia
-Regional,"['259', '262']",Hyatt,Hotel,campaignindia
-Taiwan,"['260', '258']",Supau,Sports Drink,campaignindia
-China,"['261', '295']",CPC (China),Petrol/Gas Station,campaignindia
-"Australia, Singapore","['262', '465']",Moccona,Coffee,campaignindia
-"Australia, Hong Kong, Japan","['263', '281']",Powerade,Sports Drink,campaignindia
-India,"['264', '396']",Cafe Coffee Day,Coffee,campaignindia
-Thailand,"['265', '337']",Advance Info Service,Mobile Service Provider,campaignindia
-Regional,"['266', '99']",MSN,Social Networking site,campaignindia
-"Australia, China","['267', '395']",OMO,Detergent,campaignindia
-"Hong Kong, Thailand","['268', '324']",Singha,Beer,campaignindia
-"Australia, China, Southeast Asia","['269', '472']",Subway,Fast-Food,campaignindia
-India,"['270', '292']",Titan,Watch,campaignindia
-"China, Hong Kong","['271', '323']",Chow Tai Fook,Jewellery,campaignindia
-"China, Japan","['272', '331']",Lawson,Convenience Store,campaignindia
-"Korea, Singapore","['273', '260']",SK,Petrol/Gas Station,campaignindia
-Thailand,"['274', '315']",DTAC,Mobile Service Provider,campaignindia
-Hong Kong,"['275', 'New entry']",Ethnicans,Savoury Snack Food,campaignindia
-Regional,"['276', '380']",Godiva,Chocolate,campaignindia
-Hong Kong,"['277', '322']",Pacific Coffee,Coffee Shop,campaignindia
-Regional,"['278', '394']",Audi,Car/Automobile,campaignindia
-Regional,"['279', '191']",Amway,Toothpaste,campaignindia
-Hong Kong,"['280', '335']",CafÃ© De Coral,Fast-Food,campaignindia
-"Australia, India","['281', '399']",Surf,Detergent,campaignindia
-Korea,"['282', '713']",GS 25,Convenience Store,campaignindia
-Regional,"['283', '229']",Mild Seven,Cigarette,campaignindia
-Malaysia,"['284', '277']",Maxis,Mobile Service Provider,campaignindia
-Regional,"['285', '390']",Kawasaki,Motorcycle,campaignindia
-"India, Malaysia, Singapore","['286', '306']",Bru,Coffee,campaignindia
-"Hong Kong, Southeast Asia","['287', '309']",Fab,Detergent,campaignindia
-India,"['288', '289']",Lakme,Cosmetics,campaignindia
-Australia,"['289', '305']",Optus,Mobile Service Provider,campaignindia
-India,"['290', '341']",HDFC Bank,Bank,campaignindia
-Regional,"['291', '334']",Pringles,Snack Food,campaignindia
-"Australia, Singapore","['292', '297']",Westinghouse,White Goods,campaignindia
-Korea,"['293', '187']",Haitai,Food,campaignindia
-Thailand,"['294', '326']",Oishi,Tea,campaignindia
-Thailand,"['295', '298']",Bangkok Bank,Bank,campaignindia
-Thailand,"['296', '267']",Nok Air,Budget Airlines,campaignindia
-"China, Southeast Asia","['297', '274']",Attack,Detergent,campaignindia
-Korea,"['298', '313']",Samyang,Instant Noodles,campaignindia
-Regional,"['299', '243']",Clarks,Menâs Shoes,campaignindia
-"Hong Kong, Taiwan","['300', '291']",Vita,Beverage,campaignindia
-"Japan, Singapore","['301', '537']",Pokka,Beverage,campaignindia
-Singapore,"['302', '296']",Cheers,Convenience Store,campaignindia
-Southeast Asia,"['303', '282']",Petronas,Petrol/Gas Station,campaignindia
-India,"['304', '342']",Apollo,Pharmacy/Drugstore,campaignindia
-Regional,"['305', '205']",Mentos,Sweets and Candy,campaignindia
-"Hong Kong, China, Japan","['306', '220']",Jusco,Supermarket,campaignindia
-Korea,"['307', '193']",Namyang,Milk Powder/Milk,campaignindia
-Singapore,"['308', '329']",Kopitiam,Coffee Shop,campaignindia
-Korea,"['309', '156']",Daum,Internet Search Engine,campaignindia
-China,"['310', '353']",Ping An Insurance,Insurance,campaignindia
-Taiwan,"['311', '362']",Kuang-Chuan,Milk,campaignindia
-Taiwan,"['312', '429']",Tatung,Consumer Electronics,campaignindia
-China,"['313', '539']",Midea,White Goods,campaignindia
-"Malaysia, Singapore","['314', '178']",Magnolia,Milk,campaignindia
-Regional,"['315', '286']",Swatch,Watch,campaignindia
-Korea,"['316', '213']",Maeil,Milk,campaignindia
-Regional,"['317', '401']",Revlon,Cosmetics,campaignindia
-China,"['318', '478']",Nongfu Shan Quan,Mineral Water,campaignindia
-"Malaysia, Singapore","['319', '403']",Great Eastern,Insurance,campaignindia
-Hong Kong,"['320', '247']",Hang Seng Bank,Bank,campaignindia
-"Hong Kong, Thailand","['321', '360']",Wai Wai,Instant Noodles,campaignindia
-Regional,"['322', '245']",Maybelline,Cosmetics,campaignindia
-Singapore,"['323', '378']",StarHub,Mobile Service Provider,campaignindia
-Regional,"['324', '232']",Kodak,Camera,campaignindia
-"Korea, China","['325', '431']",Outback,Restaurant Chain,campaignindia
-"India, Malaysia","['326', '387']",Madras Rubber Factory,Tyre,campaignindia
-"Japan, China","['327', '237']",Glico,Snack Food,campaignindia
-"Hong Kong, Taiwan","['328', '355']",Mr. Brown,Coffee,campaignindia
-"Australia, Hong Kong","['329', '239']",Dairy Farm,Milk,campaignindia
-Regional,"['330', '391']",Fuji,Camera,campaignindia
-Regional,"['331', '397']",Vidal Sassoon,Shampoo,campaignindia
-Regional,"['332', '340']",Hugo Boss,Fragrance,campaignindia
-Regional,"['333', '350']",Chivas,Spirits,campaignindia
-"Australia, India","['334', '368']",Bisleri,Mineral Water,campaignindia
-"Hong Kong, Southeast Asia","['335', '471']",AXA,Insurance,campaignindia
-India,"['336', '304']",Taj,Hotel,campaignindia
-"Malaysia, Singapore","['337', '374']",United Overseas Bank,Bank,campaignindia
-Korea,"['338', '460']",Hite,Beer,campaignindia
-"China, India","['339', '424']",Ariel,Detergent,campaignindia
-"Malaysia, Singapore","['340', '412']",Dynamo,Detergent,campaignindia
-Regional,"['341', '249']",Biotherm,Skincare Product,campaignindia
-"Japan, Thailand","['342', '328']",Malee,Fruit Juice,campaignindia
-China,"['343', '364']",China Unicom,Mobile Service Provider,campaignindia
-Regional,"['344', '288']",Burberry,Luxury Fashion Retailer,campaignindia
-Taiwan,"['345', '369']",Cosmed,Pharmacy/Drugstore,campaignindia
-Regional,"['346', '266']",M&Mâs,Chocolate,campaignindia
-Hong Kong,"['347', '272']",Manningâs,Pharmacy/Drugstore,campaignindia
-Regional,"['348', '252']",Prada,Luxury Fashion Retailer,campaignindia
-Regional,"['349', '393']",Sheraton,Hotel,campaignindia
-Malaysia,"['350', '411']",CIMB Bank,Bank,campaignindia
-"China, Hong Kong","['351', '382']",China Southern Airlines,Full-service Airlines,campaignindia
-"Japan, China","['352', '440']",UCC,Coffee,campaignindia
-"Australia, China","['353', '377']",Airwaves,Chewing/Bubble Gum,campaignindia
-Korea,"['354', '325']",Kumho,Tyre,campaignindia
-Thailand,"['355', '376']",Sponsor,Sports Drink,campaignindia
-Korea,"['356', '541']",GS Caltex,Petrol/Gas Station,campaignindia
-Taiwan,"['357', '278']",Eva Air,Full-service Airlines,campaignindia
-India,"['358', '482']",Kissan,Sauce/Condiment,campaignindia
-Regional,"['359', '535']",Bose,Home Audio,campaignindia
-India,"['360', '317']",Kelvinator,White Goods,campaignindia
-"Malaysia, Singapore","['361', '405']",OCBC,Bank,campaignindia
-Regional,"['362', '420']",Ford,Car/Automobile,campaignindia
-Taiwan,"['363', '464']",Teco,White Goods,campaignindia
-China,"['364', '436']",Air China,Full-service Airlines,campaignindia
-"Hong Kong, Taiwan","['365', '511']",Fubon,Insurance,campaignindia
-Japan,"['366', '512']",Softbank,Mobile Service Provider,campaignindia
-Taiwan,"['367', '333']",Hey Song,Carbonated Soft Drink,campaignindia
-"Hong Kong, Southeast Asia","['368', '339']",Del Monte,Fruit Juice,campaignindia
-"China, Southeast Asia","['369', '381']",Maxwell House,Coffee,campaignindia
-Regional,"['370', '480']",Kia,Car/Automobile,campaignindia
-Korea,"['371', '771']",Cheil Jedang (CJ),Sauce/Condiment,campaignindia
-India,"['372', '534']",Barista Lavazza (India),Coffee Shop,campaignindia
-Japan,"['373', '400']",Sagawa,Courier Company,campaignindia
-Hong Kong,"['374', '809']",Tao Ti,Tea,campaignindia
-Japan,"['375', '379']",Shokubutsu,Shower Gel/Soap,campaignindia
-"Australia, India","['376', '406']",Pepsodent,Toothpaste,campaignindia
-"Malaysia, Singapore","['377', '338']",Cold Storage,Supermarket,campaignindia
-China,"['378', '327']",Mr. Juicy,Fruit Juice,campaignindia
-"Japan, Malaysia","['379', '357']",Aquarius,Sports Drink,campaignindia
-Japan,"['380', 'New entry']",Nippon Oil Corporation,Petrol/Gas Station,campaignindia
-Regional,"['381', '425']",American Express,Credit Card,campaignindia
-"Korea, China","['382', '438']",Orion,Snack Food,campaignindia
-Thailand,"['383', '356']",Tipco,Fruit Juice,campaignindia
-"India, Malaysia","['384', '492']",Reliance (RIL),Pharmacy/Drugstore,campaignindia
-Hong Kong,"['385', '352']",3,Mobile Service Provider,campaignindia
-Regional,"['386', '280']",BiorÃ©,Skincare Product,campaignindia
-"Australia, India","['387', '416']",Orkut,Social Networking Site,campaignindia
-Korea,"['388', '631']",Aekyung 2080,Toothpaste,campaignindia
-Singapore,"['389', '354']",Anlene,Milk Powder,campaignindia
-Japan,"['390', '495']",Aeon,Supermarket,campaignindia
-"Japan, China","['391', '422']",Bally,Menâs Shoes,campaignindia
-"Australia, Singapore","['392', '409']",Gloria Jeans,Coffee Shop,campaignindia
-China,"['393', '310']",Gree,White Goods,campaignindia
-India,"['394', '496']",Kwality,Ice-cream,campaignindia
-Malaysia,"['395', '418']",Celcom,Mobile Service Provider,campaignindia
-India,"['396', '273']",Mother Dairy,Milk,campaignindia
-China,"['397', '421']",China Eastern Airlines,Full-service Airlines,campaignindia
-China,"['398', '458']",China Construction Bank,Bank,campaignindia
-Korea,"['399', '435']",Cass,Beer,campaignindia
-China,"['400', '717']",SF Express,Courier Company,campaignindia
-"Japan, Taiwan","['401', '257']",Kanebo,Cosmetics,campaignindia
-"China, Hong Kong","['402', '372']",Chow Sang Sang,Jewellery,campaignindia
-Thailand,"['403', '238']",Foremost,Milk,campaignindia
-Malaysia,"['404', '419']",Spritzer,Mineral Water,campaignindia
-Regional,"['405', '610']",Ferrari,Car/Automobile,campaignindia
-Japan,"['406', '388']",Doutor,Coffee Shop,campaignindia
-Taiwan,"['407', '384']",Formosa Petrochemical,Petrol/Gas Station,campaignindia
-Regional,"['408', '417']",Hush Puppies,Menâs Shoes,campaignindia
-Regional,"['409', '240']",Boss,Fragrance/Menâs Fashion Retailer,campaignindia
-Korea,"['410', '529']",VIPS,Restaurant Chain,campaignindia
-India,"['411', '563']",Bajaj,Motorcycle,campaignindia
-Regional,"['412', '989']",Nestea,Tea,campaignindia
-Hong Kong,"['413', '462']",Schweppes,Mineral Water/Carbonated Soft Drink,campaignindia
-Singapore,"['414', '463']",M1,Mobile Service Provider,campaignindia
-"China, Southeast Asia","['415', '570']",Carrier,Air Conditioner,campaignindia
-"Southeast Asia, Japan","['416', '648']",Halls,Sweets and Candy,campaignindia
-"Malaysia, Singapore","['417', '209']",Boh,Tea,campaignindia
-Japan,"['418', '568']",MUFG,Bank,campaignindia
-Thailand,"['419', '503']",MK suki,Restaurant Chain,campaignindia
-"China, Southeast Asia","['420', '279']",Sugus,Sweets and Candy,campaignindia
-Korea,"['421', '415']",Ghana,Chocolate,campaignindia
-Japan,"['422', '311']",AU,Mobile Service Provider,campaignindia
-Australia,"['423', '798']",Macleans,Toothpaste,campaignindia
-"China, Hong Kong","['424', '455']",Crest,Toothpaste,campaignindia
-"India, Southeast Asia","['425', '777']",Close up,Toothpaste,campaignindia
-Regional,"['426', '285']",Whiskas,Pet Food,campaignindia
-"China, Southeast Asia","['427', '404']",Mead Johnson,Milk Powder,campaignindia
-India,"['428', '413']",Maruti,Car/Automobile,campaignindia
-Singapore,"['429', '607']",POSB,Bank,campaignindia
-Australia,"['430', '487']",ANZ,Bank,campaignindia
-"China, Singapore","['431', '497']",Abbott,Milk Powder,campaignindia
-Regional,"['432', '466']",Van Houten,Chocolate,campaignindia
-Taiwan,"['433', '519']",T-cat,Courier Company,campaignindia
-Regional,"['434', '293']",Motorola,Mobile Phone,campaignindia
-India,"['435', '642']",Indian Oil Corporation,Petrol/Gas Station,campaignindia
-Regional,"['436', '349']",Crocodile,Menâs Fashion Retailer,campaignindia
-Regional,"['437', '135']",Pizza Hut,Restaurant Chain,campaignindia
-"Australia, India","['438', '586']",Real,Fruit Juice,campaignindia
-China,"['439', 'New entry']",Xiaonei/Renren,Social Networking Site,campaignindia
-"Malaysia, Thailand","['440', '398']",Dentyne,Chewing/Bubble Gum,campaignindia
-Regional,"['441', '673']",Four Seasons,Hotel,campaignindia
-Australia,"['442', '450']",Peters,Ice-cream,campaignindia
-Regional,"['443', '572']",TNT,Courier Company,campaignindia
-Regional,"['444', '521']",Budweiser,Beer,campaignindia
-"Australia, Singapore","['445', '523']",Berri,Fruit Juice,campaignindia
-Singapore,"['446', '555']",Ben & Jerryâs,Ice-cream,campaignindia
-Australia,"['447', '498']",Commonwealth,Bank,campaignindia
-India,"['448', '256']",Tata,Automobile,campaignindia
-"China, Hong Kong","['449', '509']",Doll,Instant Noodles,campaignindia
-"Australia, Hong Kong","['450', '516']",Mobil,Petrol/Gas Station,campaignindia
-Taiwan,"['451', '307']",Taiwan Mobile,Mobile Service Provider,campaignindia
-Korea,"['452', '319']",Amore Pacific,Cosmetics,campaignindia
-"India, Hong Kong","['453', '408']",Jet Airways,Full-service Airlines,campaignindia
-Taiwan,"['454', '451']",SYM,Motorcycle,campaignindia
-"Australia, Singapore","['455', '526']",Kikkoman,Sauce/Condiment,campaignindia
-Hong Kong,"['456', '493']",Kowloon Dairy,Milk,campaignindia
-"China, India, Southeast Asia","['457', '543']",Walmart,Supermarket,campaignindia
-Korea,"['458', '470']",Zipel,White Goods,campaignindia
-"Australia, Southeast Asia","['459', '581']",Oral B,Toothpaste,campaignindia
-Regional,"['460', '430']",Compaq,Computer,campaignindia
-Hong Kong,"['461', '601']",Dreyerâs,Ice-cream,campaignindia
-Malaysia,"['462', '518']",Firefly,Budget Airlines,campaignindia
-Taiwan,"['463', '459']",Kymco,Motorcycle,campaignindia
-Southeast Asia,"['464', '410']",Guess,Watch,campaignindia
-Thailand,"['465', 'New entry']",Golden Mountain,Sauce/Condiment,campaignindia
-Australia,"['466', '659']",IGA,Convenience Store/Supermarket,campaignindia
-Taiwan,"['467', 'New entry']",Cathay Life,Insurance,campaignindia
-Regional,"['468', '385']",MAC,Cosmetics,campaignindia
-Regional,"['469', '434']",Perrier,Mineral Water,campaignindia
-Korea,"['470', 'New entry']",Korea Express,Courier Company,campaignindia
-"China, Southeast Asia","['471', '221']",Calbee,Snack Food,campaignindia
-Korea,"['472', '449']",Cyworld,Social Networking Site,campaignindia
-"China, Southeast Asia","['473', '392']",Wyeth,Milk Powder,campaignindia
-India,"['474', '802']",Clinic,Shampoo,campaignindia
-Korea,"['475', 'New entry']",Hanjin,Courier Company,campaignindia
-Korea,"['476', '423']",Jeju Air,Budget Airlines,campaignindia
-India,"['477', '580']",Air India,Full-service Airlines,campaignindia
-Korea,"['478', 'New entry']",Korea Post,Courier Company,campaignindia
-"Malaysia, Singapore","['479', '571']",HL,Milk,campaignindia
-China,"['480', '347']",Hui Yuan,Fruit Juice,campaignindia
-Malaysia,"['481', '533']",Digi,Mobile Service Provider,campaignindia
-"Korea, China","['482', '574']",Shinramyun,Instant Noodles,campaignindia
-Taiwan,"['483', '456']",85Â°C,Coffee Shop,campaignindia
-Taiwan,"['484', '584']",Lin Fong Ying (LFY),Milk,campaignindia
-"Hong Kong, Japan","['485', '553']",Salvatore Ferragamo,Womenâs Shoes,campaignindia
-Regional,"['486', '443']",Donna Karan (DKNY),Fragrance/Watch,campaignindia
-India,"['487', '389']",Godrej,Consumer Electronics,campaignindia
-Regional,"['488', '348']",Zara,Menâs and Womenâs Fashion Retailer,campaignindia
-Australia,"['489', '452']",Pauls,Milk,campaignindia
-India,"['490', '365']",Hero Honda,Motorcycle,campaignindia
-India,"['491', '589']",Myojo,Instant Noodles,campaignindia
-Australia,"['492', '549']",Westpac,Bank,campaignindia
-Regional,"['493', '550']",Vaseline,Female Skincare Product,campaignindia
-Japan,"['494', 'New entry']",Nissay,Insurance,campaignindia
-Korea,"['495', '545']",Top Ramen,Instant Noodles,campaignindia
-Australia,"['496', '800']",Hungry Jackâs,Fast-Food,campaignindia
-Regional,"['497', '414']",Neutrogena,Female Skincare Product,campaignindia
-"China, Hong Kong","['498', '617']",Fairwood,Fast-Food,campaignindia
-"Australia, Hong Kong","['499', '622']",Chupa Chups,Sweets and Candy,campaignindia
-Regional,"['500', '556']",Peninsula,Hotel,campaignindia
-Japan,"['501', '330']",Matsumoto Kiyoshi,Pharmacy/Drugstore,campaignindia
-"China, Hong Kong","['502', '468']",Li Ning,Sporting Apparel,campaignindia
-Regional,"['503', '485']",Twisties,Savoury Snack Food,campaignindia
-Thailand,"['504', '794']",Bear Brand,Milk/Milk Powder,campaignindia
-Regional,"['505', '504']",My space,Social Networking Site,campaignindia
-"Hong Kong, Japan","['506', '166']",Snow Brand,Milk Powder/Milk,campaignindia
-Japan,"['507', '528']",Kagome,Sauce/Condiment,campaignindia
-Regional,"['508', '727']",Tissot,Watch,campaignindia
-Japan,"['509', '510']",JCB,Credit Card,campaignindia
-"Hong Kong, Taiwan","['510', '538']",Kimlan,Sauce/Condiment,campaignindia
-"China, Korea","['511', '494']",Iriver,Personal portable music player,campaignindia
-Japan,"['512', '660']",Bull-Dog,Sauce/Condiment,campaignindia
-Regional,"['513', '546']",Longines,Watch,campaignindia
-"China, Hong Kong","['514', '501']",Amoy,Sauce/Condiment,campaignindia
-Thailand,"['515', '639']",Krung Thai,Bank,campaignindia
-Regional,"['516', '448']",Fanta,Carbonated Soft Drink,campaignindia
-Japan,"['517', '358']",Mixi,Social Networking Site,campaignindia
-China,"['518', '481']",Zhonghua (Cigarette),Cigarette,campaignindia
-"Hong Kong, Japan","['519', 'New entry']",Meiji (Milk Powder),Milk Powder,campaignindia
-Regional,"['520', '636']",Volvic,Mineral Water,campaignindia
-China,"['521', '520']",China Life,Insurance,campaignindia
-"Hong Kong, Singapore","['522', '502']",ING,Insurance,campaignindia
-Thailand,"['523', '719']",TRUE,Mobile Service Provider,campaignindia
-India,"['524', '386']",Videocon,Consumer Electronics,campaignindia
-Japan,"['525', '561']",Gusto,Restaurant Chain,campaignindia
-China,"['526', '506']",Xu Fu Ji,Sweets and Candy,campaignindia
-Regional,"['527', '583']",Tide,Detergent,campaignindia
-"China, Singapore","['528', '626']",Manulife,Insurance,campaignindia
-Hong Kong,"['529', '457']",CSL,Mobile Service Provider,campaignindia
-Regional,"['530', '903']",IndoMie,Instant Noodles,campaignindia
-China,"['531', '629']",Safeguard,Shower Gel/Soap,campaignindia
-Australia,"['532', '715']",Holden,Car/Automobile,campaignindia
-"China, Hong Kong, India","['533', '661']",Aquafina,Mineral Water,campaignindia
-Regional,"['534', '361']",Panadol,Over-the-counter Pharmaceuticals,campaignindia
-Korea,"['535', '578']",Chilsung Cider,Mineral Water,campaignindia
-Korea,"['536', '544']",Shilla,Hotel,campaignindia
-Japan,"['537', '439']",Regal,Menâs Shoes,campaignindia
-Regional,"['538', '590']",Mazda,Car/Automobile,campaignindia
-Australia,"['539', '577']",Allenâs,Sweets and Candy,campaignindia
-Taiwan,"['540', '469']",FETnet,Mobile Service Provider,campaignindia
-"China, Southeast Asia","['541', '630']",S26,Milk Powder,campaignindia
-"Malaysia, Singapore","['542', '611']",Fruit Tree,Fruit Juice,campaignindia
-"Taiwan, Thailand","['543', '595']",Paos,Detergent,campaignindia
-"China, Malaysia","['544', '709']",York,Air Conditioner,campaignindia
-China,"['545', '835']",China Pacific Insurance,Insurance,campaignindia
-Regional,"['546', '433']",HermÃ¨s,Luxury Fashion Retailer,campaignindia
-China,"['547', '895']",Hai Tian,Sauce/Condiment,campaignindia
-"China, Japan, Korea","['548', '371']",DHC,Female Skincare Product,campaignindia
-"Hong Kong, Singapore","['549', '594']",Crystal Jade,Restaurant Chain,campaignindia
-Regional,"['550', '612']",Volkswagen,Car/Automobile,campaignindia
-India,"['551', '670']",Blue Dart,Courier Company,campaignindia
-Taiwan,"['552', '587']",Nan Shan,Insurance,campaignindia
-India,"['553', '683']",Drypers,Diaper,campaignindia
-Taiwan,"['554', '343']",ASO,Menâs/Womenâs Shoes,campaignindia
-Regional,"['555', '559']",White Rabbit,Sweets and Candy,campaignindia
-Japan,"['556', 'New entry']",Sumitomo Misui (SMBC),Bank,campaignindia
-Regional,"['557', '453']",Marriott,Hotel,campaignindia
-"India, Malaysia","['558', '507']",SpiceJet Airlines,Budget Airlines,campaignindia
-Regional,"['559', '863']",Pentax,Camera,campaignindia
-Regional,"['560', '833']",Lexus,Car/Automobile,campaignindia
-Taiwan,"['561', '781']",Pon Pon,Shower Gel/Soap,campaignindia
-Malaysia,"['562', '837']",Public Bank,Bank,campaignindia
-India,"['563', 'New entry']",ICICI Prudential,Insurance,campaignindia
-Regional,"['564', '500']",Yves Saint Laurent (YSL),Fragrance/Luxury Fashion Retailer,campaignindia
-Australia,"['565', '847']",Masterfood,Sauce/Condiment,campaignindia
-Malaysia,"['566', '646']",PosLaju,Courier Company,campaignindia
-Malaysia,"['567', '513']",Habib Jewels,Jewellery,campaignindia
-Hong Kong,"['568', '663']",PCCW,Mobile Service Provider,campaignindia
-Thailand,"['569', '710']",Yum Yum,Instant Noodles,campaignindia
-"Australia, China","['570', '548']",7-Up,Carbonated Soft Drink,campaignindia
-India,"['571', '748']",Spencer,Convenience Store/Supermarket,campaignindia
-China,"['572', 'New entry']",China-SSS,Budget Airlines,campaignindia
-Malaysia,"['573', '536']",Poh Kong,Jewellery,campaignindia
-"Hong Kong, China","['574', '547']",Dragonair,Full-service Airlines,campaignindia
-China,"['575', '917']",Little Swan,White Goods,campaignindia
-Australia,"['576', '540']",Dairy Farmers,Milk,campaignindia
-China,"['577', '724']",Maidong,Sports Drink,campaignindia
-Thailand,"['578', '635']",Thai Post,Courier Company,campaignindia
-"Australia, India","['579', '308']",Cerelac,Baby Food (excluding milk powder),campaignindia
-"Japan, Malaysia, Singapore","['580', '441']",Top,Detergent,campaignindia
-Singapore,"['581', '718']",H-TWO-O,Sports Drink,campaignindia
-Regional,"['582', 'New entry']",Patek Philippe,Watch,campaignindia
-Regional,"['583', '991']",Rolls Royce,Car/Automobile,campaignindia
-Australia,"['584', '828']",NAB,Bank,campaignindia
-Thailand,"['585', 'New entry']",Thai Life Insurance,Insurance,campaignindia
-"China, India, Southeast Asia","['586', '831']",Clear,Shampoo,campaignindia
-Southeast Asia,"['587', '484']",Chiclet,Chewing/Bubble Gum,campaignindia
-China,"['588', '599']",Kaixin001,Social Networking Site,campaignindia
-Korea,"['589', '703']",Perioe,Toothpaste,campaignindia
-Thailand,"['590', '557']",Enfa,Milk Powder,campaignindia
-Regional,"['591', '505']",Alfred Dunhill,Fragrance,campaignindia
-Regional,"['592', '915']",TGI Fridayâs,Restaurant Chain,campaignindia
-China,"['593', '632']",Wahaha,Mineral Water,campaignindia
-India,"['594', '874']",Ceat,Tyre,campaignindia
-India,"['595', '700']",Tanishq,Jewellery,campaignindia
-Regional,"['596', '551']",Hennessy,Spirits,campaignindia
-Korea,"['597', '793']",Homeplus,Supermarket,campaignindia
-China,"['598', '407']",Bright Dairy,Milk,campaignindia
-China,"['599', '843']",China Telecom,Mobile Service Provider,campaignindia
-Korea,"['600', 'New entry']",Angelinus,Coffee Shop,campaignindia
-"Australia, India, Southeast Asia","['601', '444']",Creative,Personal portable music player,campaignindia
-Regional,"['602', '592']",Holiday Inn,Hotel,campaignindia
-Australia,"['603', '695']",AAMI,Insurance,campaignindia
-Regional,"['604', '657']",Post,Cereal,campaignindia
-Taiwan,"['605', '428']",La New,Menâs Shoes,campaignindia
-Southeast Asia,"['606', '753']",Lifebuoy,Shower Gel/Soap,campaignindia
-"Malaysia, Singapore","['607', '491']",Yeo Hiap Seng (YEO),Tea,campaignindia
-Thailand,"['608', '876']",Bangchak,Petrol/Gas Station,campaignindia
-Korea,"['609', '542']",Esquire,Menâs/Womenâs Shoes,campaignindia
-"China, Hong Kong","['610', '662']",Moutai,Spirits,campaignindia
-"Hong Kong, India, Korea","['611', '797']",IndiGo,Budget Airlines,campaignindia
-Thailand,"['612', 'New entry']",Bank of Ayudhya,Bank,campaignindia
-Regional,"['613', '962']",Volvo,Automobile/Car,campaignindia
-Regional,"['614', '579']",Kit Kat,Chocolate,campaignindia
-Taiwan,"['615', '637']",Bank of Taiwan,Bank,campaignindia
-Korea,"['616', '696']",S-oil,Petrol/Gas Station,campaignindia
-India,"['617', '704']",BPCL,Petrol/Gas Station,campaignindia
-Malaysia,"['618', '702']",Cintan,Instant Noodles,campaignindia
-Australia,"['619', '812']",Streets,Ice-cream,campaignindia
-Thailand,"['620', '562']",Aura,Mineral Water,campaignindia
-Japan,"['621', 'New entry']",Ito-en,Ready-to-drink Tea,campaignindia
-Hong Kong,"['622', '746']",Blue Girl,Beer,campaignindia
-"Japan, Southeast Asia","['623', '565']",Kose,Cosmetics,campaignindia
-Taiwan,"['624', '524']",Y.E.S Mineral Water,Mineral Water,campaignindia
-"Hong Kong, Singapore, China","['625', '638']",Ritz-Carlton,Hotel,campaignindia
-India,"['626', '722']",Haldiram,Savoury Snack Food,campaignindia
-Regional,"['627', '499']",Milo,Sports Drink,campaignindia
-Regional,"['628', '731']",General Electric (GE),White Goods,campaignindia
-Regional,"['629', 'New entry']",Beat,Detergent,campaignindia
-Thailand,"['630', '651']",Tops,Supermarket,campaignindia
-Korea,"['631', '604']",Woori Bank,Bank,campaignindia
-"India, Southeast Asia","['632', '795']",Big Babool,Chewing/Bubble Gum,campaignindia
-Regional,"['633', '769']",Timberland,Menâs Shoes,campaignindia
-"China, Southeast Asia","['634', '653']",Nespray,Milk Powder,campaignindia
-"Hong Kong, Korea","['635', '760']",Sulwhasoo,Female Skincare Product,campaignindia
-Taiwan,"['636', '997']",Wangsteak,Restaurant Chain,campaignindia
-"India, Malaysia, Singapore","['637', '691']",Koka,Instant Noodles,campaignindia
-"Malaysia, Singapore","['638', '488']",Mamee,Instant Noodles,campaignindia
-Taiwan,"['639', '701']",Matsusei,Supermarket,campaignindia
-Regional,"['640', '926']",Lacoste,Luxury Fashion Retailer/Fragrance,campaignindia
-Japan,"['641', '738']",Idemitsu,Petrol/Gas Station,campaignindia
-India,"['642', '525']",Woodland,Menâs Shoes,campaignindia
-Regional,"['643', '641']",San Miguel,Beer,campaignindia
-Regional,"['644', '682']",Elizabeth Arden,Fragrance,campaignindia
-Regional,"['645', '615']",Clarins,Skincare Product,campaignindia
-Thailand,"['646', '684']",Black Canyon,Coffee Shop,campaignindia
-Japan,"['647', '582']",Sunstar,Toothpaste,campaignindia
-China,"['648', '490']",EMS,Courier Company,campaignindia
-"India, Malaysia, Singapore","['649', '588']",Fair and Lovely,Female Skincare Product,campaignindia
-Regional,"['650', '814']",Ducati,Motorcycle,campaignindia
-"China, Southeast Asia","['651', '948']",Dairy Queen,Ice-cream,campaignindia
-Korea,"['652', '707']",E-Mart,Supermarket,campaignindia
-China,"['653', '602']",UBC Coffee,Coffee Shop,campaignindia
-Korea,"['654', 'New entry']",Oksusu Tea,Ready-to-drink Tea,campaignindia
-"Japan, Korea","['655', '830']",Mizuno,Sporting Apparel,campaignindia
-"China, Hong Kong","['656', '783']",Lucozade,Sports Drink,campaignindia
-"China, Hong Kong","['657', '776']",Wuliangye,Spirits,campaignindia
-"Australia, Singapore","['658', '720']",Golden Circle,Fruit Juice,campaignindia
-Regional,"['659', '527']",Leviâs,Menâs and Womenâs Fashion Retailer,campaignindia
-Regional,"['660', 'New entry']",AXE (Detergent),Detergent,campaignindia
-Southeast Asia,"['661', '475']",Hacks,Sweets and Candy,campaignindia
-Regional,"['662', '735']",Davidoff,Cigarette,campaignindia
-Thailand,"['663', '616']",Krong Thip,Cigarette,campaignindia
-Taiwan,"['664', '825']",XIAO-MEI,Ice-cream,campaignindia
-Japan,"['665', '605']",Merries,Diaper,campaignindia
-Taiwan,"['666', '836']",Cha Li Won,Ready-to-drink Tea,campaignindia
-Taiwan,"['667', '932']",E.SUN,Bank,campaignindia
-"China, Hong Kong","['668', '476']",QQ,Social Networking Site,campaignindia
-Hong Kong,"['669', '514']",Bonaqua,Mineral Water,campaignindia
-"China, Southeast Asia","['670', '620']",Clairol Herbal Essences,Shampoo,campaignindia
-Regional,"['671', '736']",Dominoâs,Fast-Food,campaignindia
-Regional,"['672', '888']",Toblerone,Chocolate,campaignindia
-"Australia, India","['673', '645']",Wills,Cigarette,campaignindia
-Regional,"['674', '819']",Bosch,White Goods,campaignindia
-Malaysia,"['675', '706']",Takaful,Insurance,campaignindia
-Singapore,"['676', '861']",SPC,Petrol/Gas Station,campaignindia
-"Hong Kong, Southeast Asia","['677', '765']",Jackân Jill,Savoury Snack Food,campaignindia
-India,"['678', '829']",Onida,Consumer Electronics,campaignindia
-Regional,"['679', '564']",Salem,Cigarette,campaignindia
-Regional,"['680', '815']",Dairy Milk,Chocolate,campaignindia
-"India, Southeast Asia, Japan","['681', '927']",Timex,Watch,campaignindia
-Regional,"['682', '980']",Intel,Computer,campaignindia
-Japan,"['683', '593']",Aoyama,Menâs Fashion Retailer,campaignindia
-China,"['684', '785']",Ba Wang,Shampoo,campaignindia
-Thailand,"['685', '264']",Dutchmilk,Milk,campaignindia
-Regional,"['686', '426']",Anna Sui,Fragrance,campaignindia
-Japan,"['687', '688']",Mizuho,Bank,campaignindia
-Regional,"['688', '698']",Max Factor,Cosmetics,campaignindia
-"China, Taiwan","['689', '881']",NPC,Petrol/Gas Station,campaignindia
-Regional,"['690', '850']",Continental,Tyre,campaignindia
-Korea,"['691', '1387']",Fila,Sporting Apparel,campaignindia
-Australia,"['692', '945']",Pura,Milk,campaignindia
-Japan,"['693', '804']",Japan Post (JP),Bank,campaignindia
-Regional,"['694', '624']",Swarovski,Jewellery,campaignindia
-China,"['695', '897']",Shen Tong,Courier Company,campaignindia
-India,"['696', 'New entry']",Axis Bank,Bank,campaignindia
-Thailand,"['697', 'New entry']",Khao Shong,Coffee,campaignindia
-Regional,"['698', '754']",Absolut,Spirits,campaignindia
-Thailand,"['699', '598']",Big C,Supermarket,campaignindia
-India,"['700', '697']",Metro,Supermarket,campaignindia
-"Malaysia, Singapore","['701', '925']",Topman/Topshop,Menâs and Womenâs Fashion Retailer,campaignindia
-Australia,"['702', 'New entry']",Pears,Personal Care,campaignindia
-Taiwan,"['703', '567']",Wantwant,Savoury Snack Food,campaignindia
-Korea,"['704', '755']",Dongsuh,Tea/Cereal,campaignindia
-China,"['705', 'New entry']",Zhonghua,Toothpaste,campaignindia
-Regional,"['706', '569']",Lexmark,Printer,campaignindia
-Malaysia,"['707', '740']",Peel Fresh,Fruit Juice,campaignindia
-Southeast Asia,"['708', '920']",Arrow,Menâs Fashion Retailer,campaignindia
-"China, Hong Kong","['709', '757']",Luk Fook,Jewellery,campaignindia
-India,"['710', '627']",Boomer,Chewing/Bubble Gum,campaignindia
-Regional,"['711', 'New entry']",Ballantineâs,Spirits,campaignindia
-China,"['712', 'New entry']",TCL,TV,campaignindia
-Regional,"['713', '619']",British Airways,Full-service Airlines,campaignindia
-Regional,"['714', '935']",Porsche,Automobile/Car,campaignindia
-Thailand,"['715', '789']",Muang Thai Insurance,Insurance,campaignindia
-Japan,"['716', '656']",Sapporo,Beer,campaignindia
-"Malaysia, Singapore","['717', '522']",Bonia,Womenâs Shoes,campaignindia
-Malaysia,"['718', 'New entry']",Life,Sauce/Condiment,campaignindia
-Singapore,"['719', '654']",Ice Mountain,Mineral Water,campaignindia
-"Hong Kong, Malaysia","['720', '730']",Zanussi,White Goods,campaignindia
-China,"['721', '613']",Belle,Womenâs Shoes,campaignindia
-Malaysia,"['722', '796']",Fernleaf,Milk Powder,campaignindia
-Taiwan,"['723', '852']",Wei Lih,Instant Noodles,campaignindia
-India,"['724', '734']",DTDC,Courier Company,campaignindia
-Korea,"['725', 'New entry']",17 Tea,Ready-to-drink Tea,campaignindia
-"China, Southeast Asia","['726', '937']",Grand Hyatt,Hotel,campaignindia
-Korea,"['727', '990']",Miwon,Sauce/Condiment,campaignindia
-Korea,"['728', '672']",Elastine,Shampoo,campaignindia
-Thailand,"['729', '690']",Chang Beer,Beer,campaignindia
-Thailand,"['730', '853']",Leo,Beer,campaignindia
-Regional,"['731', '515']",Giordano,Menâs and Womenâs Fashion Retailer,campaignindia
-Regional,"['732', '609']",Kent,Cigarette,campaignindia
-Regional,"['733', '477']",Kenwood,Home Audio,campaignindia
-"China, Southeast Asia","['734', '664']",Mango (MNG),Womenâs Fashion Retailer,campaignindia
-China,"['735', '891']",Yanjing,Beer,campaignindia
-Regional,"['736', '699']",Dolce & Gabbana,Fragrance/Luxury Fashion Retailer,campaignindia
-Japan,"['737', '900']",Royal Host,Restaurant Chain,campaignindia
-Taiwan,"['738', '596']",Superbubble,Chewing/Bubble Gum,campaignindia
-China,"['739', '898']",Liby,Detergent,campaignindia
-Japan,"['740', '686']",Maruchan,Instant Noodles,campaignindia
-Regional,"['741', '644']",AXE,Fragrance,campaignindia
-"India, Southeast Asia","['742', '517']",Nestum,Baby Food (excluding milk powder),campaignindia
-"Singapore, Thailand","['743', '790']",Oriental,Hotel,campaignindia
-"China, Southeast Asia","['744', '832']",Martell,Spirits,campaignindia
-Korea,"['745', '879']",Elcanto,Shoes,campaignindia
-Taiwan,"['746', '919']",Pxmart,Supermarket,campaignindia
-India,"['747', '649']",Kinley,Mineral Water,campaignindia
-"Hong Kong, Japan","['748', '901']",Cow Soap,Shower Gel/Soap,campaignindia
-Thailand,"['749', '860']",Protex,Shower Gel/Soap,campaignindia
-Korea,"['750', 'New entry']",Ryoe,Shampoo,campaignindia
-Taiwan,"['751', '742']",Taishin International Bank,Credit Card/Bank,campaignindia
-Singapore,"['752', '884']",Lee Hwa,Jewellery,campaignindia
-Taiwan,"['753', '845']",RT Mart,Supermarket,campaignindia
-Australia,"['754', '767']",Bulla,Ice-cream,campaignindia
-Korea,"['755', '869']",Renault Samsung Motors,Automobile/Car,campaignindia
-India,"['756', '979']",Parle,Sweets and Candy,campaignindia
-Taiwan,"['757', '708']",Morewater,Mineral Water,campaignindia
-Thailand,"['758', '693']",Minere,Mineral Water,campaignindia
-Regional,"['759', 'New entry']",Inter-Continental,Hotel,campaignindia
-China,"['760', 'New entry']",Shanghaojia,Food,campaignindia
-Korea,"['761', '974']",Chungjungwon,Sauce/Condiment,campaignindia
-"India, Thailand","['762', '573']",Boots,Pharmacy/Drugstore,campaignindia
-Regional,"['763', '608']",Versace,Luxury Fashion Retailer/Fragrance,campaignindia
-China,"['764', '906']",Yuan Tong Express,Courier Company,campaignindia
-Thailand,"['765', '882']",Dusit,Hotel,campaignindia
-Regional,"['766', '625']",Camel,Cigarette,campaignindia
-Thailand,"['767', '799']",Taywin,Menâs Shoes,campaignindia
-Korea,"['768', '929']",Danggimeori,Shampoo,campaignindia
-India,"['769', 'New entry']",TVS,Motorcycle,campaignindia
-"Australia, India","['770', '786']",Hubba Bubba,Chewing/Bubble Gum,campaignindia
-"Malaysia, Singapore","['771', '870']",Super Coffee Mix,Coffee,campaignindia
-Taiwan,"['772', '674']",77,Chocolate,campaignindia
-Taiwan,"['773', '714']",I-MEI,Sweets and Candy,campaignindia
-Regional,"['774', '779']",Rado,Watch,campaignindia
-Regional,"['775', 'New entry']",Bubble Yum,Chewing/Bubble Gum,campaignindia
-Regional,"['776', 'New entry']",Knorr,Food,campaignindia
-"Australia, India, Southeast Asia","['777', '678']",Pirelli,Tyre,campaignindia
-Singapore,"['778', 'New entry']",Kingâs Creameries,Ice-cream,campaignindia
-Japan,"['779', 'New entry']",Asics,Sporting Apparel,campaignindia
-Korea,"['780', 'New entry']",Hyundai Logiem,Courier Company,campaignindia
-"India, Southeast Asia","['781', '761']",Indian Airlines,Full-service Airlines,campaignindia
-"Australia, China, Southeast Asia","['782', '877']",Guinness,Beer,campaignindia
-Australia,"['783', '784']",Sanitarium,Cereal,campaignindia
-Singapore,"['784', 'New entry']",Tung Lok,Restaurant,campaignindia
-India,"['785', '848']",Rin,Detergent,campaignindia
-Australia,"['786', '762']",Priceline,Pharmacy/Drugstore,campaignindia
-Singapore,"['787', '772']",Unity Pharmacy,Pharmacy/Drugstore,campaignindia
-Korea,"['788', 'New entry']",CafÃ© Bene,Coffee Shop,campaignindia
-Regional,"['789', '782']",Norton,Computer Software,campaignindia
-Regional,"['790', '597']",Victor,Home Audio,campaignindia
-Regional,"['791', '711']",SE 555,Cigarette,campaignindia
-Taiwan,"['792', '958']",Ochaen,Tea,campaignindia
-Regional,"['793', '483']",Friendster,Social Networking Site,campaignindia
-Australia,"['794', '774']",Sizzler,Restaurant Chain,campaignindia
-Japan,"['795', '756']",Megumilk,Milk,campaignindia
-Thailand,"['796', 'New entry']",Salz,Toothpaste,campaignindia
-Regional,"['797', 'New entry']",Diners Club,Credit card,campaignindia
-China,"['798', '944']",Wanjashan,Sauce/Condiment,campaignindia
-India,"['799', 'New entry']",ITC,Hotel,campaignindia
-Korea,"['800', '741']",Pasteur,Milk,campaignindia
-Australia,"['801', 'New entry']",Fountain,Sauce/Condiment,campaignindia
-Southeast Asia,"['802', '803']",RAC,Insurance,campaignindia
-"China, Southeast Asia","['803', '552']",Linux,Computer Software,campaignindia
-"Australia, Hong Kong","['804', '623']",Friskies,Pet Food,campaignindia
-Japan,"['805', '894']",Cosmo Oil,Petrol/Gas Station,campaignindia
-Regional,"['806', 'New entry']",Cold Stone,Ice-cream,campaignindia
-Japan,"['807', 'New entry']",Fujiya,Food,campaignindia
-Regional,"['808', '939']",Trident,Chewing/Bubble Gum,campaignindia
-Korea,"['809', '603']",BC Card,Credit Card,campaignindia
-Japan,"['810', '849']",Sumitomo Life,Insurance,campaignindia
-"Australia, India","['811', '749']",Benson & Hedges,Cigarette,campaignindia
-Australia,"['812', '658']",Smithâs,Snack Food,campaignindia
-Southeast Asia,"['813', '995']",Oberoi,Hotel,campaignindia
-"Hong Kong, India, Southeast Asia","['814', '432']",Hi5,Social Networking Site,campaignindia
-China,"['815', '907']",KLIM,Milk,campaignindia
-Australia,"['816', '810']",Target,Retailer,campaignindia
-Regional,"['817', '889']",Gillette,Male Skincare Product,campaignindia
-Australia,"['818', '743']",Amcal,Pharmacy/Drugstore,campaignindia
-"China, Hong Kong","['819', 'New entry']",Konka,Consumer Electronics,campaignindia
-Regional,"['820', 'New entry']",Soda,Womenâs Shoes,campaignindia
-India,"['821', 'New entry']",IFB,Home & Kitchen Appliances,campaignindia
-Singapore,"['822', 'New entry']",Poh Heng,Jewellery,campaignindia
-Taiwan,"['823', 'New entry']",Barista (Taiwan),Coffee/Coffee shop,campaignindia
-China,"['824', '530']",General,Air Conditioner,campaignindia
-Malaysia,"['825', 'New entry']",Kimball,Sauce/Condiment,campaignindia
-"Hong Kong, Southeast Asia","['826', '768']",Mandarin Oriental,Hotel,campaignindia
-Regional,"['827', 'New entry']",Mirinda,Carbonated Soft Drink,campaignindia
-Regional,"['828', 'New entry']",Aflac,Insurance Provider,campaignindia
-Australia,"['829', '679']",Simpson,Washing Machine,campaignindia
-Australia,"['830', '966']",Winfield,Cigarette,campaignindia
-"China, Southeast Asia","['831', '473']",Pierre Cardin,Menâs Shoes/Menâs Fashion Retailer,campaignindia
-India,"['832', '780']",Taj Mahal (Tea),Tea,campaignindia
-Hong Kong,"['833', 'New entry']",Trappist,Milk,campaignindia
-India,"['834', '823']",Gold Flake,Cigarette,campaignindia
-China,"['835', 'New entry']",Agricultural Bank of China,Bank,campaignindia
-Japan,"['836', '983']",ito Yokado,Supermarket,campaignindia
-Regional,"['837', '681']",Novotel,Hotel,campaignindia
-Hong Kong,"['838', 'New entry']",China Mobile (HK),Mobile Service Provider,campaignindia
-Regional,"['839', 'New entry']",KoKo Krunch (NestlÃ©),Cereal,campaignindia
-Australia,"['840', '820']",NRMA,Insurance,campaignindia
-Australia,"['841', 'New entry']",Fantastic,Instant Noodles,campaignindia
-China,"['842', 'New entry']",Hainan Airlines,Airlines (Budget/Full service),campaignindia
-Thailand,"['843', '857']",Healthy Boy,Sauce/Condiment,campaignindia
-India,"['844', '969']",Aavin,Milk,campaignindia
-Australia,"['845', '808']",Coffee Club,Coffee Shop,campaignindia
-Japan,"['846', '801']",Aoki,Menâs Fashion Retailer,campaignindia
-Regional,"['847', 'New entry']",Jimmy Choo,Fashion,campaignindia
-Taiwan,"['848', '665']",Long Life,Cigarette,campaignindia
-Australia,"['849', 'New entry']",Natural Confectionery Co.,Sweets and Candy,campaignindia
-Thailand,"['850', '910']",S&P,Restaurant Chain,campaignindia
-India,"['851', '999']",Haywards,Beer,campaignindia
-"India, Australia","['852', '988']",Voltas,Air Conditioner,campaignindia
-Singapore,"['853', 'New entry']",Sheng Shiong,Supermarket,campaignindia
-Korea,"['854', 'New entry']",Trigem,Computer,campaignindia
-China,"['855', 'New entry']",Blue Moon,Detergent,campaignindia
-Australia,"['856', '566']",Aldi,Supermarket,campaignindia
-Regional,"['857', '687']",Remy Martin,Spirits,campaignindia
-Taiwan,"['858', '813']",Cathay United Bank,Bank,campaignindia
-Australia,"['859', 'New entry']",Arnottâs,Savoury Snack Food,campaignindia
-Australia,"['860', '943']",Prouds,Jewellery,campaignindia
-Australia,"['861', '560']",Uncle Toby,Cereal,campaignindia
-Regional,"['862', 'New entry']",Capico,Savoury Snack Food,campaignindia
-"Japan, Thailand","['863', '856']",Imperial Hotel,Hotel,campaignindia
-India,"['864', 'New entry']",Allianz,Insurance Provider,campaignindia
-"Malaysia, Singapore","['865', '916']",Scholl,Shoes,campaignindia
-Taiwan,"['866', 'New entry']",Pro Sweat,Sports Drink,campaignindia
-Japan,"['867', 'New entry']",Mitsuya Cider,Carbonated Soft Drink,campaignindia
-China,"['868', 'New entry']",Zhenkungfu,Restaurant,campaignindia
-India,"['869', '976']",Raymonds,Menâs Fashion Retailer,campaignindia
-Regional,"['870', '986']",Mr Muscle,Detergent,campaignindia
-Taiwan,"['871', 'New entry']",BenQ,Consumer Electronics,campaignindia
-Regional,"['872', '880']",Denon,Home Audio,campaignindia
-Southeast Asia,"['873', '994']",Mister Potato,Savoury Snack Food,campaignindia
-"India, Malaysia, Singapore","['874', 'New entry']",Saravana Bhavan,Restaurant,campaignindia
-Regional,"['875', 'New entry']",New Balance,Sporting Apparel,campaignindia
-Malaysia,"['876', 'New entry']",Ali CafÃ©,Coffee,campaignindia
-Korea,"['877', '840']",Jin Air,Budget Airlines,campaignindia
-Korea,"['878', '628']",Aekyung,Shower Gel/Soap,campaignindia
-"China, Southeast Asia","['879', '634']",Esprit,Menâs and Womenâs Fashion Retailer,campaignindia
-Thailand,"['880', 'New entry']",Choice,Coffee,campaignindia
-Australia,"['881', '890']",Chemist Warehouse,Pharmacy/Drugstore,campaignindia
-Thailand,"['882', '938']",KTC,Credit Card,campaignindia
-"Malaysia, Singapore","['883', '677']",Charles & Keith,Womenâs Shoes,campaignindia
-Korea,"['884', '758']",Jukyum,Toothpaste,campaignindia
-Regional,"['885', 'New entry']",Crown,Food,campaignindia
-"Singapore, Hong Kong","['886', 'New entry']",Nine West,Womenâs Shoes,campaignindia
-Korea,"['887', 'New entry']",Happy Bath,Shower Gel/Soap,campaignindia
-Regional,"['888', 'New entry']",Cornetto,Ice-cream,campaignindia
-Regional,"['889', 'New entry']",Sisley,Cosmetics/Skincare Product,campaignindia
-"China, Taiwan","['890', '899']",Sanyuan,Milk,campaignindia
-Taiwan,"['891', 'New entry']",Grand Formosa Regent,Hotel,campaignindia
-Korea,"['892', 'New entry']",Hyosung,Motorcycle,campaignindia
-Australia,"['893', '865']",Rivers,Menâs Fashion Retailer,campaignindia
-Korea,"['894', 'New entry']",Kolon,Sporting Apparel,campaignindia
-Southeast Asia,"['895', '751']",Clorets,Chewing/Bubble Gum/Sweets and Candy,campaignindia
-Regional,"['896', '447']",Twinings,Tea,campaignindia
-Korea,"['897', '817']",OB,Beer,campaignindia
-"Hong Kong, China, Japan","['898', 'New entry']",GUM,Toothpaste,campaignindia
-Korea,"['899', '652']",Nate,Social Networking Site/Internet Search Engine,campaignindia
-China,"['900', '402']",Sina,Social Networking Site,campaignindia
-Japan,"['901', '912']",Daiichi Life,Insurance,campaignindia
-China,"['902', 'New entry']",566,Shampoo,campaignindia
-China,"['903', 'New entry']",Aigo,Digital Products,campaignindia
-Japan,"['904', 'New entry']",UHA Mikakuto,Sweets and Candy,campaignindia
-"Japan, Korea, Southeast Asia","['905', '747']",Ajinomoto,Sauce/Condiment,campaignindia
-"Japan, Korea, Singapore","['906', '942']",Tullyâs,Coffee,campaignindia
-Taiwan,"['907', 'New entry']",Chi Mei,TV,campaignindia
-Australia,"['908', 'New entry']",Tooheys,Beer,campaignindia
-Korea,"['909', '816']",Daelim,Motorcycle,campaignindia
-Regional,"['910', 'New entry']",Imperial,Personal care,campaignindia
-Korea,"['911', '924']",Hera,Female Skincare Product,campaignindia
-Australia,"['912', 'New entry']",Toll,Courier Company,campaignindia
-Korea,"['913', '600']",GS,Supermarket,campaignindia
-India,"['914', 'New entry']",Himalaya,Mineral Water,campaignindia
-"Hong Kong, Singapore","['915', '824']",Fancl,Female Skincare Product,campaignindia
-Malaysia,"['916', 'New entry']",Proton,Automobile/Car,campaignindia
-Regional,"['917', 'New entry']",Safi,Personal care,campaignindia
-China,"['918', 'New entry']",Wei-Wei,Instant Noodles,campaignindia
-Regional,"['919', '655']",Jack Daniel,Spirits,campaignindia
-Australia,"['920', '750']",Terry White,Pharmacy/Drugstore,campaignindia
-Regional,"['921', '445']",Gerber,Baby Food (excluding milk powder),campaignindia
-"China, Hong Kong, Japan","['922', '621']",Uniqlo,Menâs and Womenâs Fashion Retailer,campaignindia
-Regional,"['923', 'New entry']",Swipe,Detergent,campaignindia
-Korea,"['924', 'New entry']",Bingrae,Ice-cream,campaignindia
-Southeast Asia,"['925', 'New entry']",Mie Sedap,Instant Noodles,campaignindia
-Australia,"['926', '878']",Victoria Bitter (VB),Beer,campaignindia
-Japan,"['927', 'New entry']",Koikeya,Savoury snack food,campaignindia
-"Japan, Korea","['928', '666']",Wakodo,Baby Food (excluding milk powder),campaignindia
-Australia,"['929', 'New entry']",Michael Hill,Jewellery,campaignindia
-Regional,"['930', 'New entry']",Florsheim,Menâs Shoes,campaignindia
-Regional,"['931', 'New entry']",MÃ¶venpick,Ice-cream,campaignindia
-"China, Hong Kong","['932', '858']",Da Da,Chewing/Bubble Gum,campaignindia
-Regional,"['933', 'New entry']",Fresh Delight,Dairy Products,campaignindia
-Regional,"['934', 'New entry']",Dentiste,Toothpaste,campaignindia
-Taiwan,"['935', '618']",Duroyal,Ice-cream,campaignindia
-India,"['936', '647']",Center Fresh,Chewing/Bubble Gum,campaignindia
-Thailand,"['937', 'New entry']",M-Sport,Sports Drink,campaignindia
-India,"['938', 'New entry']",Dabur,Toothpaste,campaignindia
-China,"['939', 'New entry']",SPD Bank,Bank,campaignindia
-Hong Kong,"['940', 'New entry']",City Super,Supermarket,campaignindia
-"Australia, Hong Kong","['941', '864']",PAL,Pet Food,campaignindia
-"Hong Kong, Singapore","['942', 'New entry']",Royceâ/Royce,Chocolate,campaignindia
-Australia,"['943', '905']",Morning Fresh,Detergent,campaignindia
-Singapore,"['944', '960']",Soo Kee (SKJ),Jewellery,campaignindia
-Australia,"['945', 'New entry']",Suncorp,Financial Service,campaignindia
-Korea,"['946', '904']",Ottogi,Sauce/Condiment,campaignindia
-Australia,"['947', 'New entry']",Carlton,Beer,campaignindia
-Thailand,"['948', '955']",Fuji (Restaurant chain),Restaurant Chain,campaignindia
-Malaysia,"['949', '766']",Revive isotonic,Sports Drink,campaignindia
-India,"['950', 'New entry']",Frooti,Fruit Juice,campaignindia
-Singapore,"['951', 'New entry']",Heaven & Earth,Ready-to-drink Tea,campaignindia
-Australia,"['952', 'New entry']",CBA,Bank,campaignindia
-India,"['953', '961']",Fair And Handsome,Male Skincare Product,campaignindia
-Japan,"['954', 'New entry']",Saizeriya,Restaurant Chain,campaignindia
-China,"['955', 'New entry']",Guangdong Development,Bank,campaignindia
-Regional,"['956', 'New entry']",Ricoh,Digital Products,campaignindia
-Regional,"['957', 'New entry']",Miele,Consumer Electronics,campaignindia
-Australia,"['958', '998']",Heart Beat,Sweets and Candy,campaignindia
-Taiwan,"['959', '922']",Mei Ri C,Fruit Juice,campaignindia
-"Japan, Korea, Southeast Asia","['960', '643']",Cesar,Pet Food,campaignindia
-"China, Taiwan","['961', '873']",Royal,Pet Food,campaignindia
-Regional,"['962', 'New entry']",Asience,Shampoo,campaignindia
-Japan,"['963', 'New entry']",Otafuku,Food,campaignindia
-China,"['964', 'New entry']",Wu Yang,Ice-cream,campaignindia
-Regional,"['965', '721']",Tommy Hilfiger,Fragrance/Menâs Fashion Retailer,campaignindia
-Thailand,"['966', 'New entry']",CafÃ© Amazon,Coffee Shop,campaignindia
-Korea,"['967', 'New entry']",Kerasys,Shampoo,campaignindia
-Regional,"['968', 'New entry']",Pigeon,Baby Product,campaignindia
-India,"['969', '792']",Thums Up,Carbonated Soft Drink,campaignindia
-Australia,"['970', 'New entry']",Hogs Breath,Restaurant Chain,campaignindia
-Taiwan,"['971', '867']",Kinmen Kao Liang,Spirits,campaignindia
-"China, Hong Kong","['972', 'New entry']",Bank of Communications,Bank,campaignindia
-"Malaysia, Singapore","['973', '911']",Ginvera,Shower Gel/Soap,campaignindia
-Taiwan,"['974', '872']",Shin Kong Life Insurance,Insurance,campaignindia
-Regional,"['975', 'New entry']",Nippon Express,Courier Company,campaignindia
-Thailand,"['976', 'New entry']",Centara,Hotel,campaignindia
-"China, Hong Kong","['977', '729']",IT,Menâs and Womenâs Fashion Retailer,campaignindia
-Australia,"['978', 'New entry']",Australia post,Courier Company,campaignindia
-Japan,"['979', 'New entry']",Gogo no Kocha,Ready-to-drink Tea,campaignindia
-Japan,"['980', 'New entry']",Mister Donut,Fast-Food,campaignindia
-Malaysia,"['981', 'New entry']",99 Speedmart,Convenience Store,campaignindia
-Australia,"['982', '921']",Fosters,Beer,campaignindia
-India,"['983', 'New entry']",The Professional Couriers,Courier Company,campaignindia
-Australia,"['984', 'New entry']",XXXX,Beer,campaignindia
-Korea,"['985', 'New entry']",Hana,Bank,campaignindia
-India,"['986', 'New entry']",Park Avenue,Personal Care/Menâs Shoes,campaignindia
-"China, India, Japan","['987', '902']",Sansui,DVD Player,campaignindia
-Regional,"['988', 'New entry']",Magnum,Ice-cream,campaignindia
-Regional,"['989', 'New entry']",Tasterâs Choice,Coffee,campaignindia
-"Singapore, Australia","['990', 'New entry']",Fossil,Jewellery/Watch,campaignindia
-India,"['991', 'New entry']",Arun,Ice-cream,campaignindia
-Regional,"['992', 'New entry']",Aviva,Insurance,campaignindia
-China,"['993', 'New entry']",Double Happiness,Cigarette,campaignindia
-Regional,"['994', 'New entry']",Bacardi,Spirits,campaignindia
-China,"['995', '928']",Leconte,Chocolate,campaignindia
-Australia,"['996', 'New entry']",Devondale,Dairy Products,campaignindia
-India,"['997', 'New entry']",More,Supermarket,campaignindia
-Regional,"['998', 'New entry']",Corona,Beer,campaignindia
-Australia,"['999', 'New entry']",Harvey Fresh,Fruit Juice,campaignindia
-Regional,"['1000', '953']",Gatsby,Male Skincare Product,campaignindia
+Regional,1|1,Sony,Consumer electronics,campaignindia
+Regional,2|2,Samsung,Electronics/White goods,campaignindia
+Regional,3|3,Panasonic,Consumer electronics,campaignindia
+Regional,4|4,LG,Electronics/White goods,campaignindia
+Regional,5|5,Canon,Camera/Office equipment,campaignindia
+Regional,6|9,Apple,Mobile Phone,campaignindia
+Regional,7|10,Hewlett-Packard,Computer,campaignindia
+Regional,8|6,Google,Internet search engine,campaignindia
+Regional,9|8,NestlÃ©,Food and drink,campaignindia
+Regional,10|13,Nike,Sports retail,campaignindia
+Regional,11|12,McDonaldâs,Fast food,campaignindia
+Regional,12|16,adidas,Sports retail,campaignindia
+Regional,13|11,Coca-Cola,Soft drinks,campaignindia
+Regional,14|17,7-Eleven,Convenience store,campaignindia
+Regional,15|14,Starbucks,Coffee chain,campaignindia
+Regional,16|18,Colgate,Toothpaste,campaignindia
+Regional,17|20,Facebook,Social networking,campaignindia
+Regional,18|7,Yahoo,Internet search engine,campaignindia
+Regional,19|15,Honda,Car/Motorcycle,campaignindia
+Regional,20|26,Toshiba,Electronics/White goods,campaignindia
+Regional,21|22,Microsoft,Computer Software,campaignindia
+Regional,22|29,Maggi,Instant Noodles,campaignindia
+"Japan, Korea",23|21,Lotte,Chewing/ Bubble gum,campaignindia
+"Greater China, Southeast Asia",24|24,KFC,Fast-Food,campaignindia
+Regional,25|30,Nikon,Camera,campaignindia
+Regional,26|25,Hitachi,Consumer Electronics,campaignindia
+Regional,27|23,Sharp,Consumer Electronics,campaignindia
+Regional,28|19,Nokia,Mobile Phone,campaignindia
+Regional,29|60,Playstation,Gaming Console,campaignindia
+Regional,30|28,Chanel,Fragrance/Perfume/Luxury Fashion Retailer,campaignindia
+Regional,31|36,Dove,Shower Gel/Soap /Shampoo,campaignindia
+Regional,32|35,Pepsi,Carbonated Soft Drink,campaignindia
+Regional,33|45,NescafÃ©,Coffee,campaignindia
+Regional,34|37,Cadbury,Chocolate,campaignindia
+Regional,35|32,Mitsubishi,Consumer electronics,campaignindia
+Regional,36|50,Epson,Printer,campaignindia
+Greater China,37|39,Uni-president,Instant Noodles,campaignindia
+Regional,38|33,Yamaha,Motorcycle,campaignindia
+"Greater China, Southeast Asia",39|46,Shell,Petrol/Gas Station,campaignindia
+Regional,40|47,DHL,Courier Company,campaignindia
+Regional,41|43,Toyota,Car/Automobile,campaignindia
+Regional,42|42,Rolex,Watch,campaignindia
+Regional,43|27,Meiji,Food,campaignindia
+"Greater China, Southeast Asia",44|55,Darlie,Toothpaste,campaignindia
+Regional,45|48,Michelin,Tyre,campaignindia
+Regional,46|31,Nintendo,Gaming Console,campaignindia
+Regional,47|52,Lux,Shower Gel/Soap,campaignindia
+Regional,48|61,HÃ¤agen-Dazs,Ice-cream,campaignindia
+Regional,49|54,BMW,Car/Automobile,campaignindia
+Regional,50|62,Dell,Computer,campaignindia
+Regional,51|53,Bridgestone,Tyre,campaignindia
+Regional,52|63,VISA,Credit Card,campaignindia
+Regional,53|57,LâOrÃ©al,Cosmetics/Skincare Shampoo,campaignindia
+Regional,54|77,Pantene,Shampoo,campaignindia
+Regional,55|34,Shiseido,Cosmetics,campaignindia
+Regional,56|41,Pampers,Diaper,campaignindia
+Regional,57|49,Philips,Consumer Electronics,campaignindia
+Southeast Asia,58|66,Air Asia,Budget Airlines,campaignindia
+Regional,59|70,Mercedes-Benz,Car/Automobile,campaignindia
+Regional,60|123,Twitter,Social Networking Site,campaignindia
+"Greater China, Southeast Asia",61|44,Watsons,Pharmacy/Drugstore,campaignindia
+Regional,62|56,Nivea,Skincare,campaignindia
+"Taiwan, Thailand",63|85,FamilyMart,Convenience Store,campaignindia
+Regional,64|81,HSBC,Bank,campaignindia
+Regional,65|78,Citibank,Bank,campaignindia
+Regional,66|67,Christian Dior,Fragrance/Perfume/Cosmetics,campaignindia
+Regional,67|82,Nissin,Instant Noodles,campaignindia
+Regional,68|65,Huggies,Diaper,campaignindia
+"Greater China, Southeast Asia",69|58,FedEx,Courier Company,campaignindia
+Regional,70|76,Acer,Computer,campaignindia
+Regional,71|69,Pocari Sweat,Sports Drink,campaignindia
+"Greater China, Southeast Asia",72|71,Kao,Detergent,campaignindia
+Regional,73|90,Ferrero Rocher,Chocolate,campaignindia
+Regional,74|88,AIA,Insurance,campaignindia
+"Greater China, Southeast Asia",75|74,Singapore,Full-service Airlines,campaignindia
+Regional,76|40,Lipton,Tea,campaignindia
+Regional,77|59,Marlboro,Cigarette,campaignindia
+Greater China,78|114,MasterKong,Instant Noodles,campaignindia
+Regional,79|91,MasterCard,Credit Card,campaignindia
+Regional,80|68,Gatorade,Sports Drink,campaignindia
+Regional,81|64,Gucci,Luxury Fashion Retailer,campaignindia
+Regional,82|92,Kelloggâs,Cereal,campaignindia
+Regional,83|95,Heineken,Beer,campaignindia
+"Japan, Singapore",84|94,Daikin,Air Conditioner,campaignindia
+Regional,85|98,Head & Shoulders,Shampoo,campaignindia
+Regional,86|104,SK-II,Female Skincare Product,campaignindia
+Regional,87|83,Wrigleyâs Arrow,Chewing/Bubble Gum,campaignindia
+Regional,88|75,Sanyo,Consumer Electronics,campaignindia
+India,89|73,Amul,Milk powder/Milk/Ice-cream,campaignindia
+Regional,90|100,Hyundai,Car/Automobile,campaignindia
+Regional,91|122,LancomÃ©,Cosmetics/Fagrance/Female Skincare,campaignindia
+Regional,92|109,Seiko,Watch,campaignindia
+Regional,93|121,Wallâs,Ice-cream,campaignindia
+Regional,94|111,Casio,Watch,campaignindia
+Regional,95|131,Xbox,Gaming Console,campaignindia
+"Malaysia, Thailand",96|126,Tesco,Supermarket,campaignindia
+Singapore,97|89,NTUC FairPrice,Supermarket,campaignindia
+Regional,98|107,Whirlpool,White Goods,campaignindia
+Regional,99|106,Olay,Female Skincare Product,campaignindia
+Regional,100|532,HTC,Mobile Phone,campaignindia
+Regional,101|105,Evian,Mineral Water,campaignindia
+"China, India",102|108,Haier,Consumer Electronics,campaignindia
+Regional,103|115,Sunsilk,Shampoo,campaignindia
+Regional,104|125,Hilton,Hotel,campaignindia
+Regional,105|93,Cathay Pacific,Full-service Airlines,campaignindia
+Regional,106|79,Heinz,Baby Food (excluding milk powder),campaignindia
+Regional,107|72,Sony Ericsson,Mobile Phone,campaignindia
+"Southeast Asia, India",108|120,100 Plus,Sports Drink,campaignindia
+"China, Japan",109|87,Morinaga,Sweets and Candy,campaignindia
+"Southeast Asia, Taiwan",110|155,Breeze,Detergent,campaignindia
+Regional,111|124,Caltex,Petrol/Gas Station,campaignindia
+Regional,112|165,Vodafone,Mobile Service Provider,campaignindia
+"China, Japan, Southeast Asia",113|153,Esso,Petrol/Gas Station,campaignindia
+Regional,114|86,Johnson & Johnson,Personal Care,campaignindia
+Regional,115|101,Calvin Klein,Fragrance/Perfume/Luxury Fashion Retailer,campaignindia
+India,116|140,Kingfisher,Beer/Full-service Airlines,campaignindia
+Regional,117|134,Fujitsu,Computer,campaignindia
+"Australia, Southeast Asia",118|84,Guardian,Pharmacy/Drugstore,campaignindia
+Regional,119|102,Suzuki,Motorcycle,campaignindia
+Regional,120|173,Baskin Robbins,Ice-cream,campaignindia
+Regional,121|170,Lenovo,Computer,campaignindia
+Regional,122|132,Omega,Watch,campaignindia
+Regional,123|118,Louis Vuitton (LV),Luxury Fashion Retailer,campaignindia
+"Hong Kong, Taiwan",124|146,Wellcome,Supermarket,campaignindia
+Australia,125|127,Coles,Supermarket,campaignindia
+Regional,126|117,Armani,Menâs Fashion Retailer,campaignindia
+"China, Southeast Asia",127|194,Lee Kum Kee,Sauce/Condiment,campaignindia
+Regional,128|133,Johnnie Walker,Spirits,campaignindia
+Regional,129|188,Reebok,Sporting Apparel,campaignindia
+Regional,130|147,Layâs,Snack Food,campaignindia
+"Malaysia, Singapore",131|129,Marigold,Fruit Juice,campaignindia
+"China, Japan",132|185,Circle K,Convenience Store,campaignindia
+Regional,133|143,Harley Davidson,Motorcycle,campaignindia
+Regional,134|138,Goodyear,Tyre,campaignindia
+"Malaysia, Singapore",135|97,Quaker,Cereal,campaignindia
+Regional,136|130,Carlsberg,Beer,campaignindia
+Regional,137|167,Puma,Sporting Equipment/Apparel,campaignindia
+"Australia, Southeast Asia",138|137,Jetstar,Budget Airlines,campaignindia
+Regional,139|151,Thai Airways,Full-service Airlines,campaignindia
+Regional,140|199,Asus,Computer,campaignindia
+Regional,141|116,JVC,Camcorder,campaignindia
+Regional,142|161,Prudential (UK),Insurance,campaignindia
+"Hong Kong, Japan, Korea",143|190,Maxims,Coffee,campaignindia
+Regional,144|181,Lion,Toothpaste,campaignindia
+Regional,145|446,BlackBerry,Mobile Phone,campaignindia
+Regional,146|174,Olympus,Camera,campaignindia
+Regional,147|176,Extra,Chewing/Bubble Gum,campaignindia
+"China, Japan, Korea, Taiwan",148|227,Suntory,Spirits/Beer,campaignindia
+"Australia, India, Southeast Asia",149|195,Garnier,Skincare Product,campaignindia
+Regional,150|148,Rejoice,Shampoo,campaignindia
+Regional,151|168,Virgin,Full-service Airlines,campaignindia
+Regional,152|184,Doublemint,Chewing/Bubble Gum,campaignindia
+Regional,153|152,Palmolive,Shower Gel/Soap,campaignindia
+Regional,154|150,IBM,Computer,campaignindia
+"China, Japan, Southeast Asia",155|142,Mamy Poko,Diaper,campaignindia
+"Australia, China",156|198,Dettol,Shower Gel/Soap,campaignindia
+Regional,157|145,EstÃ©e Lauder,Cosmetics,campaignindia
+Regional,158|113,Clinique,Female Skincare Product/Cosmetics,campaignindia
+China,159|206,Mengniu,Milk,campaignindia
+Regional,160|259,Lindt,Chocolate,campaignindia
+Regional,161|268,Hersheyâs,Chocolate,campaignindia
+Regional,162|169,Cartier,Jewellery,campaignindia
+Regional,163|164,Malaysia Airlines,Full-service Airlines,campaignindia
+Regional,164|204,Tropicana,Fruit Juice,campaignindia
+China,165|186,Baidu,Internet Search Engine,campaignindia
+Regional,166|228,Pondâs,Female Skincare Product,campaignindia
+Regional,167|159,Dutch Lady,Milk,campaignindia
+"China, Hong Kong",168|254,Bank of China,Bank,campaignindia
+"India, Singapore",169|157,BATA,Shoes,campaignindia
+"China, Japan, Southeast Asia",170|141,Carrefour,Supermarket,campaignindia
+"China, Singapore",171|158,Tsingtao,Beer,campaignindia
+"Malaysia, Singapore",172|207,Maybank,Bank,campaignindia
+"China, Japan, Korea",173|189,Kirin,Beer,campaignindia
+Korea,174|212,Kookmin Bank (KB),Bank,campaignindia
+Regional,175|149,Dunlop,Tyre,campaignindia
+Regional,176|192,Red Bull,Sports Drink,campaignindia
+Regional,177|200,UPS,Courier Company,campaignindia
+Regional,178|154,Tiger Airways,Budget Airlines,campaignindia
+Singapore,179|253,Swensenâs,Ice-cream,campaignindia
+Regional,180|110,Pedigree,Pet Food,campaignindia
+Korea,181|103,Naver,Internet Search Engine,campaignindia
+"China, Taiwan",182|163,Wei Chuan,Food and Beverage,campaignindia
+China,183|203,China Mobile,Mobile Service Provider,campaignindia
+India,184|248,Big Bazaar,Supermarket,campaignindia
+"China, Taiwan",185|201,Dove (Chocolate),Chocolate,campaignindia
+"Hong Kong, Thailand",186|211,Mama,Instant Noodles,campaignindia
+Taiwan,187|215,CPC (Taiwan),Petrol/Gas Station,campaignindia
+Regional,188|591,Bing,Internet Search Engine,campaignindia
+"Hong Kong, Southeast Asia",189|336,Standard Chartered,Bank,campaignindia
+Regional,190|234,Siemens,Consumer Electronics,campaignindia
+Regional,191|219,ANA,Full-service Airlines,campaignindia
+Regional,192|144,Tiffany & Co.,Jewellery,campaignindia
+China,193|265,Minute Maid,Fruit Juice,campaignindia
+Regional,194|222,Burger King,Fast-Food,campaignindia
+Southeast Asia,195|183,Tiger Beer,Beer,campaignindia
+Singapore,196|244,Singtel,Mobile Service Provider,campaignindia
+Korea,197|171,Korean Air,Full-service Airlines,campaignindia
+Japan,198|250,NTT,Mobile Service Provider,campaignindia
+Regional,199|210,Qantas,Full-service Airlines,campaignindia
+"China, Korea",200|236,Nongshim,Instant Noodles,campaignindia
+Regional,201|177,Ralph Lauren,Menâs Fashion Retailer/Fragrance,campaignindia
+Thailand,202|230,Siam Commercial Bank,Bank,campaignindia
+Korea,203|197,Asiana,Full-service Airlines,campaignindia
+"China, Hong Kong",204|231,Park n shop,Supermarket,campaignindia
+Korea,205|179,Seoul Milk,Milk,campaignindia
+"China, Southeast Asia",206|208,G2000,Menâs and Womenâs Fashion Retailer,campaignindia
+Korea,207|225,SK Telecom,Mobile Service Provider,campaignindia
+Regional,208|139,Dunhill,Cigarette,campaignindia
+Regional,209|269,Adobe,Computer Software,campaignindia
+Korea,210|242,Shinhan bank,Bank,campaignindia
+Korea,211|275,Lotteria,Fast-Food,campaignindia
+Japan,212|251,Kuroneko Yamato,Courier Company,campaignindia
+Singapore,213|271,DBS,Bank,campaignindia
+Regional,214|162,Pioneer,Consumer Electronics,campaignindia
+India,215|182,ICICI Bank,Bank,campaignindia
+India,216|226,State Bank of India (SBI),Bank,campaignindia
+Australia,217|345,Telstra,Mobile Service Provider,campaignindia
+Regional,218|223,Citizen,Watch,campaignindia
+"China, India, Southeast Asia",219|180,Dumex,Milk Powder,campaignindia
+Regional,220|119,Avon,Cosmetics,campaignindia
+India,221|301,Airtel,Mobile Service Provider,campaignindia
+"China, Hong Kong",222|214,Sinopec,Petrol/Gas Station,campaignindia
+Regional,223|375,Asahi,Beer,campaignindia
+Thailand,224|261,PTT,Petrol/Gas Station,campaignindia
+"Australia, Southeast Asia",225|217,Coffee Bean,Coffee Shop,campaignindia
+"Japan, Hong Kong, Singapore",226|300,Mos Burger,Fast-Food,campaignindia
+Regional,227|175,China Airlines,Full-service Airlines,campaignindia
+Regional,228|263,NEC,Computer,campaignindia
+Regional,229|316,Sunkist,Fruit Juice,campaignindia
+Korea,230|294,KTF,Mobile Service Provider,campaignindia
+Japan,231|196,Japan Airlines (JAL),Full-service Airlines,campaignindia
+Taiwan,232|427,China Trust,Bank,campaignindia
+Australia,233|235,Woolworths,Supermarket,campaignindia
+Regional,234|283,Sprite,Carbonated Soft Drink,campaignindia
+Regional,235|202,Shangri-La,Hotel,campaignindia
+"China, Hong Kong",236|216,Yili,Milk,campaignindia
+Regional,237|367,Electrolux,White Goods,campaignindia
+"Malaysia, Singapore",238|246,F&N,Carbonated Soft Drink,campaignindia
+Taiwan,239|172,Chunghwa Telecom (CHT),Mobile Service Provider,campaignindia
+China,240|332,ICBC Asia,Bank,campaignindia
+Regional,241|321,Tag Heuer,Watch,campaignindia
+China,242|351,China Merchants Bank,Credit Card/Bank,campaignindia
+"China, Southeast Asia",243|241,The Body Shop,Shower Gel/Soap,campaignindia
+"India, Malaysia, Singapore",244|276,Giant,Supermarket,campaignindia
+Malaysia,245|233,Old Town,Coffee Shop,campaignindia
+Korea,246|New entry,Hankook,Tyre,campaignindia
+Taiwan,247|270,Taiwan Beer,Beer,campaignindia
+Regional,248|218,Bulgari,Fragrance/Jewellery,campaignindia
+Regional,249|370,Nissan,Car/Automobile,campaignindia
+Korea,250|255,Kumkang,Menâs Shoes,campaignindia
+Regional,251|479,Emirates,Full-service Airlines,campaignindia
+India,252|290,LIC,Insurance,campaignindia
+Thailand,253|299,Kasikorn Bank,Bank,campaignindia
+Singapore,254|359,Fisher & Paykel,White Goods,campaignindia
+Regional,255|287,Sensodyne,Toothpaste,campaignindia
+Regional,256|224,Yokohama,Tyre,campaignindia
+Regional,257|344,Brother,Printer,campaignindia
+"Australia, Southeast Asia",258|320,British Petroleum (BP),Petrol/Gas Station,campaignindia
+Regional,259|262,Hyatt,Hotel,campaignindia
+Taiwan,260|258,Supau,Sports Drink,campaignindia
+China,261|295,CPC (China),Petrol/Gas Station,campaignindia
+"Australia, Singapore",262|465,Moccona,Coffee,campaignindia
+"Australia, Hong Kong, Japan",263|281,Powerade,Sports Drink,campaignindia
+India,264|396,Cafe Coffee Day,Coffee,campaignindia
+Thailand,265|337,Advance Info Service,Mobile Service Provider,campaignindia
+Regional,266|99,MSN,Social Networking site,campaignindia
+"Australia, China",267|395,OMO,Detergent,campaignindia
+"Hong Kong, Thailand",268|324,Singha,Beer,campaignindia
+"Australia, China, Southeast Asia",269|472,Subway,Fast-Food,campaignindia
+India,270|292,Titan,Watch,campaignindia
+"China, Hong Kong",271|323,Chow Tai Fook,Jewellery,campaignindia
+"China, Japan",272|331,Lawson,Convenience Store,campaignindia
+"Korea, Singapore",273|260,SK,Petrol/Gas Station,campaignindia
+Thailand,274|315,DTAC,Mobile Service Provider,campaignindia
+Hong Kong,275|New entry,Ethnicans,Savoury Snack Food,campaignindia
+Regional,276|380,Godiva,Chocolate,campaignindia
+Hong Kong,277|322,Pacific Coffee,Coffee Shop,campaignindia
+Regional,278|394,Audi,Car/Automobile,campaignindia
+Regional,279|191,Amway,Toothpaste,campaignindia
+Hong Kong,280|335,CafÃ© De Coral,Fast-Food,campaignindia
+"Australia, India",281|399,Surf,Detergent,campaignindia
+Korea,282|713,GS 25,Convenience Store,campaignindia
+Regional,283|229,Mild Seven,Cigarette,campaignindia
+Malaysia,284|277,Maxis,Mobile Service Provider,campaignindia
+Regional,285|390,Kawasaki,Motorcycle,campaignindia
+"India, Malaysia, Singapore",286|306,Bru,Coffee,campaignindia
+"Hong Kong, Southeast Asia",287|309,Fab,Detergent,campaignindia
+India,288|289,Lakme,Cosmetics,campaignindia
+Australia,289|305,Optus,Mobile Service Provider,campaignindia
+India,290|341,HDFC Bank,Bank,campaignindia
+Regional,291|334,Pringles,Snack Food,campaignindia
+"Australia, Singapore",292|297,Westinghouse,White Goods,campaignindia
+Korea,293|187,Haitai,Food,campaignindia
+Thailand,294|326,Oishi,Tea,campaignindia
+Thailand,295|298,Bangkok Bank,Bank,campaignindia
+Thailand,296|267,Nok Air,Budget Airlines,campaignindia
+"China, Southeast Asia",297|274,Attack,Detergent,campaignindia
+Korea,298|313,Samyang,Instant Noodles,campaignindia
+Regional,299|243,Clarks,Menâs Shoes,campaignindia
+"Hong Kong, Taiwan",300|291,Vita,Beverage,campaignindia
+"Japan, Singapore",301|537,Pokka,Beverage,campaignindia
+Singapore,302|296,Cheers,Convenience Store,campaignindia
+Southeast Asia,303|282,Petronas,Petrol/Gas Station,campaignindia
+India,304|342,Apollo,Pharmacy/Drugstore,campaignindia
+Regional,305|205,Mentos,Sweets and Candy,campaignindia
+"Hong Kong, China, Japan",306|220,Jusco,Supermarket,campaignindia
+Korea,307|193,Namyang,Milk Powder/Milk,campaignindia
+Singapore,308|329,Kopitiam,Coffee Shop,campaignindia
+Korea,309|156,Daum,Internet Search Engine,campaignindia
+China,310|353,Ping An Insurance,Insurance,campaignindia
+Taiwan,311|362,Kuang-Chuan,Milk,campaignindia
+Taiwan,312|429,Tatung,Consumer Electronics,campaignindia
+China,313|539,Midea,White Goods,campaignindia
+"Malaysia, Singapore",314|178,Magnolia,Milk,campaignindia
+Regional,315|286,Swatch,Watch,campaignindia
+Korea,316|213,Maeil,Milk,campaignindia
+Regional,317|401,Revlon,Cosmetics,campaignindia
+China,318|478,Nongfu Shan Quan,Mineral Water,campaignindia
+"Malaysia, Singapore",319|403,Great Eastern,Insurance,campaignindia
+Hong Kong,320|247,Hang Seng Bank,Bank,campaignindia
+"Hong Kong, Thailand",321|360,Wai Wai,Instant Noodles,campaignindia
+Regional,322|245,Maybelline,Cosmetics,campaignindia
+Singapore,323|378,StarHub,Mobile Service Provider,campaignindia
+Regional,324|232,Kodak,Camera,campaignindia
+"Korea, China",325|431,Outback,Restaurant Chain,campaignindia
+"India, Malaysia",326|387,Madras Rubber Factory,Tyre,campaignindia
+"Japan, China",327|237,Glico,Snack Food,campaignindia
+"Hong Kong, Taiwan",328|355,Mr. Brown,Coffee,campaignindia
+"Australia, Hong Kong",329|239,Dairy Farm,Milk,campaignindia
+Regional,330|391,Fuji,Camera,campaignindia
+Regional,331|397,Vidal Sassoon,Shampoo,campaignindia
+Regional,332|340,Hugo Boss,Fragrance,campaignindia
+Regional,333|350,Chivas,Spirits,campaignindia
+"Australia, India",334|368,Bisleri,Mineral Water,campaignindia
+"Hong Kong, Southeast Asia",335|471,AXA,Insurance,campaignindia
+India,336|304,Taj,Hotel,campaignindia
+"Malaysia, Singapore",337|374,United Overseas Bank,Bank,campaignindia
+Korea,338|460,Hite,Beer,campaignindia
+"China, India",339|424,Ariel,Detergent,campaignindia
+"Malaysia, Singapore",340|412,Dynamo,Detergent,campaignindia
+Regional,341|249,Biotherm,Skincare Product,campaignindia
+"Japan, Thailand",342|328,Malee,Fruit Juice,campaignindia
+China,343|364,China Unicom,Mobile Service Provider,campaignindia
+Regional,344|288,Burberry,Luxury Fashion Retailer,campaignindia
+Taiwan,345|369,Cosmed,Pharmacy/Drugstore,campaignindia
+Regional,346|266,M&Mâs,Chocolate,campaignindia
+Hong Kong,347|272,Manningâs,Pharmacy/Drugstore,campaignindia
+Regional,348|252,Prada,Luxury Fashion Retailer,campaignindia
+Regional,349|393,Sheraton,Hotel,campaignindia
+Malaysia,350|411,CIMB Bank,Bank,campaignindia
+"China, Hong Kong",351|382,China Southern Airlines,Full-service Airlines,campaignindia
+"Japan, China",352|440,UCC,Coffee,campaignindia
+"Australia, China",353|377,Airwaves,Chewing/Bubble Gum,campaignindia
+Korea,354|325,Kumho,Tyre,campaignindia
+Thailand,355|376,Sponsor,Sports Drink,campaignindia
+Korea,356|541,GS Caltex,Petrol/Gas Station,campaignindia
+Taiwan,357|278,Eva Air,Full-service Airlines,campaignindia
+India,358|482,Kissan,Sauce/Condiment,campaignindia
+Regional,359|535,Bose,Home Audio,campaignindia
+India,360|317,Kelvinator,White Goods,campaignindia
+"Malaysia, Singapore",361|405,OCBC,Bank,campaignindia
+Regional,362|420,Ford,Car/Automobile,campaignindia
+Taiwan,363|464,Teco,White Goods,campaignindia
+China,364|436,Air China,Full-service Airlines,campaignindia
+"Hong Kong, Taiwan",365|511,Fubon,Insurance,campaignindia
+Japan,366|512,Softbank,Mobile Service Provider,campaignindia
+Taiwan,367|333,Hey Song,Carbonated Soft Drink,campaignindia
+"Hong Kong, Southeast Asia",368|339,Del Monte,Fruit Juice,campaignindia
+"China, Southeast Asia",369|381,Maxwell House,Coffee,campaignindia
+Regional,370|480,Kia,Car/Automobile,campaignindia
+Korea,371|771,Cheil Jedang (CJ),Sauce/Condiment,campaignindia
+India,372|534,Barista Lavazza (India),Coffee Shop,campaignindia
+Japan,373|400,Sagawa,Courier Company,campaignindia
+Hong Kong,374|809,Tao Ti,Tea,campaignindia
+Japan,375|379,Shokubutsu,Shower Gel/Soap,campaignindia
+"Australia, India",376|406,Pepsodent,Toothpaste,campaignindia
+"Malaysia, Singapore",377|338,Cold Storage,Supermarket,campaignindia
+China,378|327,Mr. Juicy,Fruit Juice,campaignindia
+"Japan, Malaysia",379|357,Aquarius,Sports Drink,campaignindia
+Japan,380|New entry,Nippon Oil Corporation,Petrol/Gas Station,campaignindia
+Regional,381|425,American Express,Credit Card,campaignindia
+"Korea, China",382|438,Orion,Snack Food,campaignindia
+Thailand,383|356,Tipco,Fruit Juice,campaignindia
+"India, Malaysia",384|492,Reliance (RIL),Pharmacy/Drugstore,campaignindia
+Hong Kong,385|352,3,Mobile Service Provider,campaignindia
+Regional,386|280,BiorÃ©,Skincare Product,campaignindia
+"Australia, India",387|416,Orkut,Social Networking Site,campaignindia
+Korea,388|631,Aekyung 2080,Toothpaste,campaignindia
+Singapore,389|354,Anlene,Milk Powder,campaignindia
+Japan,390|495,Aeon,Supermarket,campaignindia
+"Japan, China",391|422,Bally,Menâs Shoes,campaignindia
+"Australia, Singapore",392|409,Gloria Jeans,Coffee Shop,campaignindia
+China,393|310,Gree,White Goods,campaignindia
+India,394|496,Kwality,Ice-cream,campaignindia
+Malaysia,395|418,Celcom,Mobile Service Provider,campaignindia
+India,396|273,Mother Dairy,Milk,campaignindia
+China,397|421,China Eastern Airlines,Full-service Airlines,campaignindia
+China,398|458,China Construction Bank,Bank,campaignindia
+Korea,399|435,Cass,Beer,campaignindia
+China,400|717,SF Express,Courier Company,campaignindia
+"Japan, Taiwan",401|257,Kanebo,Cosmetics,campaignindia
+"China, Hong Kong",402|372,Chow Sang Sang,Jewellery,campaignindia
+Thailand,403|238,Foremost,Milk,campaignindia
+Malaysia,404|419,Spritzer,Mineral Water,campaignindia
+Regional,405|610,Ferrari,Car/Automobile,campaignindia
+Japan,406|388,Doutor,Coffee Shop,campaignindia
+Taiwan,407|384,Formosa Petrochemical,Petrol/Gas Station,campaignindia
+Regional,408|417,Hush Puppies,Menâs Shoes,campaignindia
+Regional,409|240,Boss,Fragrance/Menâs Fashion Retailer,campaignindia
+Korea,410|529,VIPS,Restaurant Chain,campaignindia
+India,411|563,Bajaj,Motorcycle,campaignindia
+Regional,412|989,Nestea,Tea,campaignindia
+Hong Kong,413|462,Schweppes,Mineral Water/Carbonated Soft Drink,campaignindia
+Singapore,414|463,M1,Mobile Service Provider,campaignindia
+"China, Southeast Asia",415|570,Carrier,Air Conditioner,campaignindia
+"Southeast Asia, Japan",416|648,Halls,Sweets and Candy,campaignindia
+"Malaysia, Singapore",417|209,Boh,Tea,campaignindia
+Japan,418|568,MUFG,Bank,campaignindia
+Thailand,419|503,MK suki,Restaurant Chain,campaignindia
+"China, Southeast Asia",420|279,Sugus,Sweets and Candy,campaignindia
+Korea,421|415,Ghana,Chocolate,campaignindia
+Japan,422|311,AU,Mobile Service Provider,campaignindia
+Australia,423|798,Macleans,Toothpaste,campaignindia
+"China, Hong Kong",424|455,Crest,Toothpaste,campaignindia
+"India, Southeast Asia",425|777,Close up,Toothpaste,campaignindia
+Regional,426|285,Whiskas,Pet Food,campaignindia
+"China, Southeast Asia",427|404,Mead Johnson,Milk Powder,campaignindia
+India,428|413,Maruti,Car/Automobile,campaignindia
+Singapore,429|607,POSB,Bank,campaignindia
+Australia,430|487,ANZ,Bank,campaignindia
+"China, Singapore",431|497,Abbott,Milk Powder,campaignindia
+Regional,432|466,Van Houten,Chocolate,campaignindia
+Taiwan,433|519,T-cat,Courier Company,campaignindia
+Regional,434|293,Motorola,Mobile Phone,campaignindia
+India,435|642,Indian Oil Corporation,Petrol/Gas Station,campaignindia
+Regional,436|349,Crocodile,Menâs Fashion Retailer,campaignindia
+Regional,437|135,Pizza Hut,Restaurant Chain,campaignindia
+"Australia, India",438|586,Real,Fruit Juice,campaignindia
+China,439|New entry,Xiaonei/Renren,Social Networking Site,campaignindia
+"Malaysia, Thailand",440|398,Dentyne,Chewing/Bubble Gum,campaignindia
+Regional,441|673,Four Seasons,Hotel,campaignindia
+Australia,442|450,Peters,Ice-cream,campaignindia
+Regional,443|572,TNT,Courier Company,campaignindia
+Regional,444|521,Budweiser,Beer,campaignindia
+"Australia, Singapore",445|523,Berri,Fruit Juice,campaignindia
+Singapore,446|555,Ben & Jerryâs,Ice-cream,campaignindia
+Australia,447|498,Commonwealth,Bank,campaignindia
+India,448|256,Tata,Automobile,campaignindia
+"China, Hong Kong",449|509,Doll,Instant Noodles,campaignindia
+"Australia, Hong Kong",450|516,Mobil,Petrol/Gas Station,campaignindia
+Taiwan,451|307,Taiwan Mobile,Mobile Service Provider,campaignindia
+Korea,452|319,Amore Pacific,Cosmetics,campaignindia
+"India, Hong Kong",453|408,Jet Airways,Full-service Airlines,campaignindia
+Taiwan,454|451,SYM,Motorcycle,campaignindia
+"Australia, Singapore",455|526,Kikkoman,Sauce/Condiment,campaignindia
+Hong Kong,456|493,Kowloon Dairy,Milk,campaignindia
+"China, India, Southeast Asia",457|543,Walmart,Supermarket,campaignindia
+Korea,458|470,Zipel,White Goods,campaignindia
+"Australia, Southeast Asia",459|581,Oral B,Toothpaste,campaignindia
+Regional,460|430,Compaq,Computer,campaignindia
+Hong Kong,461|601,Dreyerâs,Ice-cream,campaignindia
+Malaysia,462|518,Firefly,Budget Airlines,campaignindia
+Taiwan,463|459,Kymco,Motorcycle,campaignindia
+Southeast Asia,464|410,Guess,Watch,campaignindia
+Thailand,465|New entry,Golden Mountain,Sauce/Condiment,campaignindia
+Australia,466|659,IGA,Convenience Store/Supermarket,campaignindia
+Taiwan,467|New entry,Cathay Life,Insurance,campaignindia
+Regional,468|385,MAC,Cosmetics,campaignindia
+Regional,469|434,Perrier,Mineral Water,campaignindia
+Korea,470|New entry,Korea Express,Courier Company,campaignindia
+"China, Southeast Asia",471|221,Calbee,Snack Food,campaignindia
+Korea,472|449,Cyworld,Social Networking Site,campaignindia
+"China, Southeast Asia",473|392,Wyeth,Milk Powder,campaignindia
+India,474|802,Clinic,Shampoo,campaignindia
+Korea,475|New entry,Hanjin,Courier Company,campaignindia
+Korea,476|423,Jeju Air,Budget Airlines,campaignindia
+India,477|580,Air India,Full-service Airlines,campaignindia
+Korea,478|New entry,Korea Post,Courier Company,campaignindia
+"Malaysia, Singapore",479|571,HL,Milk,campaignindia
+China,480|347,Hui Yuan,Fruit Juice,campaignindia
+Malaysia,481|533,Digi,Mobile Service Provider,campaignindia
+"Korea, China",482|574,Shinramyun,Instant Noodles,campaignindia
+Taiwan,483|456,85Â°C,Coffee Shop,campaignindia
+Taiwan,484|584,Lin Fong Ying (LFY),Milk,campaignindia
+"Hong Kong, Japan",485|553,Salvatore Ferragamo,Womenâs Shoes,campaignindia
+Regional,486|443,Donna Karan (DKNY),Fragrance/Watch,campaignindia
+India,487|389,Godrej,Consumer Electronics,campaignindia
+Regional,488|348,Zara,Menâs and Womenâs Fashion Retailer,campaignindia
+Australia,489|452,Pauls,Milk,campaignindia
+India,490|365,Hero Honda,Motorcycle,campaignindia
+India,491|589,Myojo,Instant Noodles,campaignindia
+Australia,492|549,Westpac,Bank,campaignindia
+Regional,493|550,Vaseline,Female Skincare Product,campaignindia
+Japan,494|New entry,Nissay,Insurance,campaignindia
+Korea,495|545,Top Ramen,Instant Noodles,campaignindia
+Australia,496|800,Hungry Jackâs,Fast-Food,campaignindia
+Regional,497|414,Neutrogena,Female Skincare Product,campaignindia
+"China, Hong Kong",498|617,Fairwood,Fast-Food,campaignindia
+"Australia, Hong Kong",499|622,Chupa Chups,Sweets and Candy,campaignindia
+Regional,500|556,Peninsula,Hotel,campaignindia
+Japan,501|330,Matsumoto Kiyoshi,Pharmacy/Drugstore,campaignindia
+"China, Hong Kong",502|468,Li Ning,Sporting Apparel,campaignindia
+Regional,503|485,Twisties,Savoury Snack Food,campaignindia
+Thailand,504|794,Bear Brand,Milk/Milk Powder,campaignindia
+Regional,505|504,My space,Social Networking Site,campaignindia
+"Hong Kong, Japan",506|166,Snow Brand,Milk Powder/Milk,campaignindia
+Japan,507|528,Kagome,Sauce/Condiment,campaignindia
+Regional,508|727,Tissot,Watch,campaignindia
+Japan,509|510,JCB,Credit Card,campaignindia
+"Hong Kong, Taiwan",510|538,Kimlan,Sauce/Condiment,campaignindia
+"China, Korea",511|494,Iriver,Personal portable music player,campaignindia
+Japan,512|660,Bull-Dog,Sauce/Condiment,campaignindia
+Regional,513|546,Longines,Watch,campaignindia
+"China, Hong Kong",514|501,Amoy,Sauce/Condiment,campaignindia
+Thailand,515|639,Krung Thai,Bank,campaignindia
+Regional,516|448,Fanta,Carbonated Soft Drink,campaignindia
+Japan,517|358,Mixi,Social Networking Site,campaignindia
+China,518|481,Zhonghua (Cigarette),Cigarette,campaignindia
+"Hong Kong, Japan",519|New entry,Meiji (Milk Powder),Milk Powder,campaignindia
+Regional,520|636,Volvic,Mineral Water,campaignindia
+China,521|520,China Life,Insurance,campaignindia
+"Hong Kong, Singapore",522|502,ING,Insurance,campaignindia
+Thailand,523|719,TRUE,Mobile Service Provider,campaignindia
+India,524|386,Videocon,Consumer Electronics,campaignindia
+Japan,525|561,Gusto,Restaurant Chain,campaignindia
+China,526|506,Xu Fu Ji,Sweets and Candy,campaignindia
+Regional,527|583,Tide,Detergent,campaignindia
+"China, Singapore",528|626,Manulife,Insurance,campaignindia
+Hong Kong,529|457,CSL,Mobile Service Provider,campaignindia
+Regional,530|903,IndoMie,Instant Noodles,campaignindia
+China,531|629,Safeguard,Shower Gel/Soap,campaignindia
+Australia,532|715,Holden,Car/Automobile,campaignindia
+"China, Hong Kong, India",533|661,Aquafina,Mineral Water,campaignindia
+Regional,534|361,Panadol,Over-the-counter Pharmaceuticals,campaignindia
+Korea,535|578,Chilsung Cider,Mineral Water,campaignindia
+Korea,536|544,Shilla,Hotel,campaignindia
+Japan,537|439,Regal,Menâs Shoes,campaignindia
+Regional,538|590,Mazda,Car/Automobile,campaignindia
+Australia,539|577,Allenâs,Sweets and Candy,campaignindia
+Taiwan,540|469,FETnet,Mobile Service Provider,campaignindia
+"China, Southeast Asia",541|630,S26,Milk Powder,campaignindia
+"Malaysia, Singapore",542|611,Fruit Tree,Fruit Juice,campaignindia
+"Taiwan, Thailand",543|595,Paos,Detergent,campaignindia
+"China, Malaysia",544|709,York,Air Conditioner,campaignindia
+China,545|835,China Pacific Insurance,Insurance,campaignindia
+Regional,546|433,HermÃ¨s,Luxury Fashion Retailer,campaignindia
+China,547|895,Hai Tian,Sauce/Condiment,campaignindia
+"China, Japan, Korea",548|371,DHC,Female Skincare Product,campaignindia
+"Hong Kong, Singapore",549|594,Crystal Jade,Restaurant Chain,campaignindia
+Regional,550|612,Volkswagen,Car/Automobile,campaignindia
+India,551|670,Blue Dart,Courier Company,campaignindia
+Taiwan,552|587,Nan Shan,Insurance,campaignindia
+India,553|683,Drypers,Diaper,campaignindia
+Taiwan,554|343,ASO,Menâs/Womenâs Shoes,campaignindia
+Regional,555|559,White Rabbit,Sweets and Candy,campaignindia
+Japan,556|New entry,Sumitomo Misui (SMBC),Bank,campaignindia
+Regional,557|453,Marriott,Hotel,campaignindia
+"India, Malaysia",558|507,SpiceJet Airlines,Budget Airlines,campaignindia
+Regional,559|863,Pentax,Camera,campaignindia
+Regional,560|833,Lexus,Car/Automobile,campaignindia
+Taiwan,561|781,Pon Pon,Shower Gel/Soap,campaignindia
+Malaysia,562|837,Public Bank,Bank,campaignindia
+India,563|New entry,ICICI Prudential,Insurance,campaignindia
+Regional,564|500,Yves Saint Laurent (YSL),Fragrance/Luxury Fashion Retailer,campaignindia
+Australia,565|847,Masterfood,Sauce/Condiment,campaignindia
+Malaysia,566|646,PosLaju,Courier Company,campaignindia
+Malaysia,567|513,Habib Jewels,Jewellery,campaignindia
+Hong Kong,568|663,PCCW,Mobile Service Provider,campaignindia
+Thailand,569|710,Yum Yum,Instant Noodles,campaignindia
+"Australia, China",570|548,7-Up,Carbonated Soft Drink,campaignindia
+India,571|748,Spencer,Convenience Store/Supermarket,campaignindia
+China,572|New entry,China-SSS,Budget Airlines,campaignindia
+Malaysia,573|536,Poh Kong,Jewellery,campaignindia
+"Hong Kong, China",574|547,Dragonair,Full-service Airlines,campaignindia
+China,575|917,Little Swan,White Goods,campaignindia
+Australia,576|540,Dairy Farmers,Milk,campaignindia
+China,577|724,Maidong,Sports Drink,campaignindia
+Thailand,578|635,Thai Post,Courier Company,campaignindia
+"Australia, India",579|308,Cerelac,Baby Food (excluding milk powder),campaignindia
+"Japan, Malaysia, Singapore",580|441,Top,Detergent,campaignindia
+Singapore,581|718,H-TWO-O,Sports Drink,campaignindia
+Regional,582|New entry,Patek Philippe,Watch,campaignindia
+Regional,583|991,Rolls Royce,Car/Automobile,campaignindia
+Australia,584|828,NAB,Bank,campaignindia
+Thailand,585|New entry,Thai Life Insurance,Insurance,campaignindia
+"China, India, Southeast Asia",586|831,Clear,Shampoo,campaignindia
+Southeast Asia,587|484,Chiclet,Chewing/Bubble Gum,campaignindia
+China,588|599,Kaixin001,Social Networking Site,campaignindia
+Korea,589|703,Perioe,Toothpaste,campaignindia
+Thailand,590|557,Enfa,Milk Powder,campaignindia
+Regional,591|505,Alfred Dunhill,Fragrance,campaignindia
+Regional,592|915,TGI Fridayâs,Restaurant Chain,campaignindia
+China,593|632,Wahaha,Mineral Water,campaignindia
+India,594|874,Ceat,Tyre,campaignindia
+India,595|700,Tanishq,Jewellery,campaignindia
+Regional,596|551,Hennessy,Spirits,campaignindia
+Korea,597|793,Homeplus,Supermarket,campaignindia
+China,598|407,Bright Dairy,Milk,campaignindia
+China,599|843,China Telecom,Mobile Service Provider,campaignindia
+Korea,600|New entry,Angelinus,Coffee Shop,campaignindia
+"Australia, India, Southeast Asia",601|444,Creative,Personal portable music player,campaignindia
+Regional,602|592,Holiday Inn,Hotel,campaignindia
+Australia,603|695,AAMI,Insurance,campaignindia
+Regional,604|657,Post,Cereal,campaignindia
+Taiwan,605|428,La New,Menâs Shoes,campaignindia
+Southeast Asia,606|753,Lifebuoy,Shower Gel/Soap,campaignindia
+"Malaysia, Singapore",607|491,Yeo Hiap Seng (YEO),Tea,campaignindia
+Thailand,608|876,Bangchak,Petrol/Gas Station,campaignindia
+Korea,609|542,Esquire,Menâs/Womenâs Shoes,campaignindia
+"China, Hong Kong",610|662,Moutai,Spirits,campaignindia
+"Hong Kong, India, Korea",611|797,IndiGo,Budget Airlines,campaignindia
+Thailand,612|New entry,Bank of Ayudhya,Bank,campaignindia
+Regional,613|962,Volvo,Automobile/Car,campaignindia
+Regional,614|579,Kit Kat,Chocolate,campaignindia
+Taiwan,615|637,Bank of Taiwan,Bank,campaignindia
+Korea,616|696,S-oil,Petrol/Gas Station,campaignindia
+India,617|704,BPCL,Petrol/Gas Station,campaignindia
+Malaysia,618|702,Cintan,Instant Noodles,campaignindia
+Australia,619|812,Streets,Ice-cream,campaignindia
+Thailand,620|562,Aura,Mineral Water,campaignindia
+Japan,621|New entry,Ito-en,Ready-to-drink Tea,campaignindia
+Hong Kong,622|746,Blue Girl,Beer,campaignindia
+"Japan, Southeast Asia",623|565,Kose,Cosmetics,campaignindia
+Taiwan,624|524,Y.E.S Mineral Water,Mineral Water,campaignindia
+"Hong Kong, Singapore, China",625|638,Ritz-Carlton,Hotel,campaignindia
+India,626|722,Haldiram,Savoury Snack Food,campaignindia
+Regional,627|499,Milo,Sports Drink,campaignindia
+Regional,628|731,General Electric (GE),White Goods,campaignindia
+Regional,629|New entry,Beat,Detergent,campaignindia
+Thailand,630|651,Tops,Supermarket,campaignindia
+Korea,631|604,Woori Bank,Bank,campaignindia
+"India, Southeast Asia",632|795,Big Babool,Chewing/Bubble Gum,campaignindia
+Regional,633|769,Timberland,Menâs Shoes,campaignindia
+"China, Southeast Asia",634|653,Nespray,Milk Powder,campaignindia
+"Hong Kong, Korea",635|760,Sulwhasoo,Female Skincare Product,campaignindia
+Taiwan,636|997,Wangsteak,Restaurant Chain,campaignindia
+"India, Malaysia, Singapore",637|691,Koka,Instant Noodles,campaignindia
+"Malaysia, Singapore",638|488,Mamee,Instant Noodles,campaignindia
+Taiwan,639|701,Matsusei,Supermarket,campaignindia
+Regional,640|926,Lacoste,Luxury Fashion Retailer/Fragrance,campaignindia
+Japan,641|738,Idemitsu,Petrol/Gas Station,campaignindia
+India,642|525,Woodland,Menâs Shoes,campaignindia
+Regional,643|641,San Miguel,Beer,campaignindia
+Regional,644|682,Elizabeth Arden,Fragrance,campaignindia
+Regional,645|615,Clarins,Skincare Product,campaignindia
+Thailand,646|684,Black Canyon,Coffee Shop,campaignindia
+Japan,647|582,Sunstar,Toothpaste,campaignindia
+China,648|490,EMS,Courier Company,campaignindia
+"India, Malaysia, Singapore",649|588,Fair and Lovely,Female Skincare Product,campaignindia
+Regional,650|814,Ducati,Motorcycle,campaignindia
+"China, Southeast Asia",651|948,Dairy Queen,Ice-cream,campaignindia
+Korea,652|707,E-Mart,Supermarket,campaignindia
+China,653|602,UBC Coffee,Coffee Shop,campaignindia
+Korea,654|New entry,Oksusu Tea,Ready-to-drink Tea,campaignindia
+"Japan, Korea",655|830,Mizuno,Sporting Apparel,campaignindia
+"China, Hong Kong",656|783,Lucozade,Sports Drink,campaignindia
+"China, Hong Kong",657|776,Wuliangye,Spirits,campaignindia
+"Australia, Singapore",658|720,Golden Circle,Fruit Juice,campaignindia
+Regional,659|527,Leviâs,Menâs and Womenâs Fashion Retailer,campaignindia
+Regional,660|New entry,AXE (Detergent),Detergent,campaignindia
+Southeast Asia,661|475,Hacks,Sweets and Candy,campaignindia
+Regional,662|735,Davidoff,Cigarette,campaignindia
+Thailand,663|616,Krong Thip,Cigarette,campaignindia
+Taiwan,664|825,XIAO-MEI,Ice-cream,campaignindia
+Japan,665|605,Merries,Diaper,campaignindia
+Taiwan,666|836,Cha Li Won,Ready-to-drink Tea,campaignindia
+Taiwan,667|932,E.SUN,Bank,campaignindia
+"China, Hong Kong",668|476,QQ,Social Networking Site,campaignindia
+Hong Kong,669|514,Bonaqua,Mineral Water,campaignindia
+"China, Southeast Asia",670|620,Clairol Herbal Essences,Shampoo,campaignindia
+Regional,671|736,Dominoâs,Fast-Food,campaignindia
+Regional,672|888,Toblerone,Chocolate,campaignindia
+"Australia, India",673|645,Wills,Cigarette,campaignindia
+Regional,674|819,Bosch,White Goods,campaignindia
+Malaysia,675|706,Takaful,Insurance,campaignindia
+Singapore,676|861,SPC,Petrol/Gas Station,campaignindia
+"Hong Kong, Southeast Asia",677|765,Jackân Jill,Savoury Snack Food,campaignindia
+India,678|829,Onida,Consumer Electronics,campaignindia
+Regional,679|564,Salem,Cigarette,campaignindia
+Regional,680|815,Dairy Milk,Chocolate,campaignindia
+"India, Southeast Asia, Japan",681|927,Timex,Watch,campaignindia
+Regional,682|980,Intel,Computer,campaignindia
+Japan,683|593,Aoyama,Menâs Fashion Retailer,campaignindia
+China,684|785,Ba Wang,Shampoo,campaignindia
+Thailand,685|264,Dutchmilk,Milk,campaignindia
+Regional,686|426,Anna Sui,Fragrance,campaignindia
+Japan,687|688,Mizuho,Bank,campaignindia
+Regional,688|698,Max Factor,Cosmetics,campaignindia
+"China, Taiwan",689|881,NPC,Petrol/Gas Station,campaignindia
+Regional,690|850,Continental,Tyre,campaignindia
+Korea,691|1387,Fila,Sporting Apparel,campaignindia
+Australia,692|945,Pura,Milk,campaignindia
+Japan,693|804,Japan Post (JP),Bank,campaignindia
+Regional,694|624,Swarovski,Jewellery,campaignindia
+China,695|897,Shen Tong,Courier Company,campaignindia
+India,696|New entry,Axis Bank,Bank,campaignindia
+Thailand,697|New entry,Khao Shong,Coffee,campaignindia
+Regional,698|754,Absolut,Spirits,campaignindia
+Thailand,699|598,Big C,Supermarket,campaignindia
+India,700|697,Metro,Supermarket,campaignindia
+"Malaysia, Singapore",701|925,Topman/Topshop,Menâs and Womenâs Fashion Retailer,campaignindia
+Australia,702|New entry,Pears,Personal Care,campaignindia
+Taiwan,703|567,Wantwant,Savoury Snack Food,campaignindia
+Korea,704|755,Dongsuh,Tea/Cereal,campaignindia
+China,705|New entry,Zhonghua,Toothpaste,campaignindia
+Regional,706|569,Lexmark,Printer,campaignindia
+Malaysia,707|740,Peel Fresh,Fruit Juice,campaignindia
+Southeast Asia,708|920,Arrow,Menâs Fashion Retailer,campaignindia
+"China, Hong Kong",709|757,Luk Fook,Jewellery,campaignindia
+India,710|627,Boomer,Chewing/Bubble Gum,campaignindia
+Regional,711|New entry,Ballantineâs,Spirits,campaignindia
+China,712|New entry,TCL,TV,campaignindia
+Regional,713|619,British Airways,Full-service Airlines,campaignindia
+Regional,714|935,Porsche,Automobile/Car,campaignindia
+Thailand,715|789,Muang Thai Insurance,Insurance,campaignindia
+Japan,716|656,Sapporo,Beer,campaignindia
+"Malaysia, Singapore",717|522,Bonia,Womenâs Shoes,campaignindia
+Malaysia,718|New entry,Life,Sauce/Condiment,campaignindia
+Singapore,719|654,Ice Mountain,Mineral Water,campaignindia
+"Hong Kong, Malaysia",720|730,Zanussi,White Goods,campaignindia
+China,721|613,Belle,Womenâs Shoes,campaignindia
+Malaysia,722|796,Fernleaf,Milk Powder,campaignindia
+Taiwan,723|852,Wei Lih,Instant Noodles,campaignindia
+India,724|734,DTDC,Courier Company,campaignindia
+Korea,725|New entry,17 Tea,Ready-to-drink Tea,campaignindia
+"China, Southeast Asia",726|937,Grand Hyatt,Hotel,campaignindia
+Korea,727|990,Miwon,Sauce/Condiment,campaignindia
+Korea,728|672,Elastine,Shampoo,campaignindia
+Thailand,729|690,Chang Beer,Beer,campaignindia
+Thailand,730|853,Leo,Beer,campaignindia
+Regional,731|515,Giordano,Menâs and Womenâs Fashion Retailer,campaignindia
+Regional,732|609,Kent,Cigarette,campaignindia
+Regional,733|477,Kenwood,Home Audio,campaignindia
+"China, Southeast Asia",734|664,Mango (MNG),Womenâs Fashion Retailer,campaignindia
+China,735|891,Yanjing,Beer,campaignindia
+Regional,736|699,Dolce & Gabbana,Fragrance/Luxury Fashion Retailer,campaignindia
+Japan,737|900,Royal Host,Restaurant Chain,campaignindia
+Taiwan,738|596,Superbubble,Chewing/Bubble Gum,campaignindia
+China,739|898,Liby,Detergent,campaignindia
+Japan,740|686,Maruchan,Instant Noodles,campaignindia
+Regional,741|644,AXE,Fragrance,campaignindia
+"India, Southeast Asia",742|517,Nestum,Baby Food (excluding milk powder),campaignindia
+"Singapore, Thailand",743|790,Oriental,Hotel,campaignindia
+"China, Southeast Asia",744|832,Martell,Spirits,campaignindia
+Korea,745|879,Elcanto,Shoes,campaignindia
+Taiwan,746|919,Pxmart,Supermarket,campaignindia
+India,747|649,Kinley,Mineral Water,campaignindia
+"Hong Kong, Japan",748|901,Cow Soap,Shower Gel/Soap,campaignindia
+Thailand,749|860,Protex,Shower Gel/Soap,campaignindia
+Korea,750|New entry,Ryoe,Shampoo,campaignindia
+Taiwan,751|742,Taishin International Bank,Credit Card/Bank,campaignindia
+Singapore,752|884,Lee Hwa,Jewellery,campaignindia
+Taiwan,753|845,RT Mart,Supermarket,campaignindia
+Australia,754|767,Bulla,Ice-cream,campaignindia
+Korea,755|869,Renault Samsung Motors,Automobile/Car,campaignindia
+India,756|979,Parle,Sweets and Candy,campaignindia
+Taiwan,757|708,Morewater,Mineral Water,campaignindia
+Thailand,758|693,Minere,Mineral Water,campaignindia
+Regional,759|New entry,Inter-Continental,Hotel,campaignindia
+China,760|New entry,Shanghaojia,Food,campaignindia
+Korea,761|974,Chungjungwon,Sauce/Condiment,campaignindia
+"India, Thailand",762|573,Boots,Pharmacy/Drugstore,campaignindia
+Regional,763|608,Versace,Luxury Fashion Retailer/Fragrance,campaignindia
+China,764|906,Yuan Tong Express,Courier Company,campaignindia
+Thailand,765|882,Dusit,Hotel,campaignindia
+Regional,766|625,Camel,Cigarette,campaignindia
+Thailand,767|799,Taywin,Menâs Shoes,campaignindia
+Korea,768|929,Danggimeori,Shampoo,campaignindia
+India,769|New entry,TVS,Motorcycle,campaignindia
+"Australia, India",770|786,Hubba Bubba,Chewing/Bubble Gum,campaignindia
+"Malaysia, Singapore",771|870,Super Coffee Mix,Coffee,campaignindia
+Taiwan,772|674,77,Chocolate,campaignindia
+Taiwan,773|714,I-MEI,Sweets and Candy,campaignindia
+Regional,774|779,Rado,Watch,campaignindia
+Regional,775|New entry,Bubble Yum,Chewing/Bubble Gum,campaignindia
+Regional,776|New entry,Knorr,Food,campaignindia
+"Australia, India, Southeast Asia",777|678,Pirelli,Tyre,campaignindia
+Singapore,778|New entry,Kingâs Creameries,Ice-cream,campaignindia
+Japan,779|New entry,Asics,Sporting Apparel,campaignindia
+Korea,780|New entry,Hyundai Logiem,Courier Company,campaignindia
+"India, Southeast Asia",781|761,Indian Airlines,Full-service Airlines,campaignindia
+"Australia, China, Southeast Asia",782|877,Guinness,Beer,campaignindia
+Australia,783|784,Sanitarium,Cereal,campaignindia
+Singapore,784|New entry,Tung Lok,Restaurant,campaignindia
+India,785|848,Rin,Detergent,campaignindia
+Australia,786|762,Priceline,Pharmacy/Drugstore,campaignindia
+Singapore,787|772,Unity Pharmacy,Pharmacy/Drugstore,campaignindia
+Korea,788|New entry,CafÃ© Bene,Coffee Shop,campaignindia
+Regional,789|782,Norton,Computer Software,campaignindia
+Regional,790|597,Victor,Home Audio,campaignindia
+Regional,791|711,SE 555,Cigarette,campaignindia
+Taiwan,792|958,Ochaen,Tea,campaignindia
+Regional,793|483,Friendster,Social Networking Site,campaignindia
+Australia,794|774,Sizzler,Restaurant Chain,campaignindia
+Japan,795|756,Megumilk,Milk,campaignindia
+Thailand,796|New entry,Salz,Toothpaste,campaignindia
+Regional,797|New entry,Diners Club,Credit card,campaignindia
+China,798|944,Wanjashan,Sauce/Condiment,campaignindia
+India,799|New entry,ITC,Hotel,campaignindia
+Korea,800|741,Pasteur,Milk,campaignindia
+Australia,801|New entry,Fountain,Sauce/Condiment,campaignindia
+Southeast Asia,802|803,RAC,Insurance,campaignindia
+"China, Southeast Asia",803|552,Linux,Computer Software,campaignindia
+"Australia, Hong Kong",804|623,Friskies,Pet Food,campaignindia
+Japan,805|894,Cosmo Oil,Petrol/Gas Station,campaignindia
+Regional,806|New entry,Cold Stone,Ice-cream,campaignindia
+Japan,807|New entry,Fujiya,Food,campaignindia
+Regional,808|939,Trident,Chewing/Bubble Gum,campaignindia
+Korea,809|603,BC Card,Credit Card,campaignindia
+Japan,810|849,Sumitomo Life,Insurance,campaignindia
+"Australia, India",811|749,Benson & Hedges,Cigarette,campaignindia
+Australia,812|658,Smithâs,Snack Food,campaignindia
+Southeast Asia,813|995,Oberoi,Hotel,campaignindia
+"Hong Kong, India, Southeast Asia",814|432,Hi5,Social Networking Site,campaignindia
+China,815|907,KLIM,Milk,campaignindia
+Australia,816|810,Target,Retailer,campaignindia
+Regional,817|889,Gillette,Male Skincare Product,campaignindia
+Australia,818|743,Amcal,Pharmacy/Drugstore,campaignindia
+"China, Hong Kong",819|New entry,Konka,Consumer Electronics,campaignindia
+Regional,820|New entry,Soda,Womenâs Shoes,campaignindia
+India,821|New entry,IFB,Home & Kitchen Appliances,campaignindia
+Singapore,822|New entry,Poh Heng,Jewellery,campaignindia
+Taiwan,823|New entry,Barista (Taiwan),Coffee/Coffee shop,campaignindia
+China,824|530,General,Air Conditioner,campaignindia
+Malaysia,825|New entry,Kimball,Sauce/Condiment,campaignindia
+"Hong Kong, Southeast Asia",826|768,Mandarin Oriental,Hotel,campaignindia
+Regional,827|New entry,Mirinda,Carbonated Soft Drink,campaignindia
+Regional,828|New entry,Aflac,Insurance Provider,campaignindia
+Australia,829|679,Simpson,Washing Machine,campaignindia
+Australia,830|966,Winfield,Cigarette,campaignindia
+"China, Southeast Asia",831|473,Pierre Cardin,Menâs Shoes/Menâs Fashion Retailer,campaignindia
+India,832|780,Taj Mahal (Tea),Tea,campaignindia
+Hong Kong,833|New entry,Trappist,Milk,campaignindia
+India,834|823,Gold Flake,Cigarette,campaignindia
+China,835|New entry,Agricultural Bank of China,Bank,campaignindia
+Japan,836|983,ito Yokado,Supermarket,campaignindia
+Regional,837|681,Novotel,Hotel,campaignindia
+Hong Kong,838|New entry,China Mobile (HK),Mobile Service Provider,campaignindia
+Regional,839|New entry,KoKo Krunch (NestlÃ©),Cereal,campaignindia
+Australia,840|820,NRMA,Insurance,campaignindia
+Australia,841|New entry,Fantastic,Instant Noodles,campaignindia
+China,842|New entry,Hainan Airlines,Airlines (Budget/Full service),campaignindia
+Thailand,843|857,Healthy Boy,Sauce/Condiment,campaignindia
+India,844|969,Aavin,Milk,campaignindia
+Australia,845|808,Coffee Club,Coffee Shop,campaignindia
+Japan,846|801,Aoki,Menâs Fashion Retailer,campaignindia
+Regional,847|New entry,Jimmy Choo,Fashion,campaignindia
+Taiwan,848|665,Long Life,Cigarette,campaignindia
+Australia,849|New entry,Natural Confectionery Co.,Sweets and Candy,campaignindia
+Thailand,850|910,S&P,Restaurant Chain,campaignindia
+India,851|999,Haywards,Beer,campaignindia
+"India, Australia",852|988,Voltas,Air Conditioner,campaignindia
+Singapore,853|New entry,Sheng Shiong,Supermarket,campaignindia
+Korea,854|New entry,Trigem,Computer,campaignindia
+China,855|New entry,Blue Moon,Detergent,campaignindia
+Australia,856|566,Aldi,Supermarket,campaignindia
+Regional,857|687,Remy Martin,Spirits,campaignindia
+Taiwan,858|813,Cathay United Bank,Bank,campaignindia
+Australia,859|New entry,Arnottâs,Savoury Snack Food,campaignindia
+Australia,860|943,Prouds,Jewellery,campaignindia
+Australia,861|560,Uncle Toby,Cereal,campaignindia
+Regional,862|New entry,Capico,Savoury Snack Food,campaignindia
+"Japan, Thailand",863|856,Imperial Hotel,Hotel,campaignindia
+India,864|New entry,Allianz,Insurance Provider,campaignindia
+"Malaysia, Singapore",865|916,Scholl,Shoes,campaignindia
+Taiwan,866|New entry,Pro Sweat,Sports Drink,campaignindia
+Japan,867|New entry,Mitsuya Cider,Carbonated Soft Drink,campaignindia
+China,868|New entry,Zhenkungfu,Restaurant,campaignindia
+India,869|976,Raymonds,Menâs Fashion Retailer,campaignindia
+Regional,870|986,Mr Muscle,Detergent,campaignindia
+Taiwan,871|New entry,BenQ,Consumer Electronics,campaignindia
+Regional,872|880,Denon,Home Audio,campaignindia
+Southeast Asia,873|994,Mister Potato,Savoury Snack Food,campaignindia
+"India, Malaysia, Singapore",874|New entry,Saravana Bhavan,Restaurant,campaignindia
+Regional,875|New entry,New Balance,Sporting Apparel,campaignindia
+Malaysia,876|New entry,Ali CafÃ©,Coffee,campaignindia
+Korea,877|840,Jin Air,Budget Airlines,campaignindia
+Korea,878|628,Aekyung,Shower Gel/Soap,campaignindia
+"China, Southeast Asia",879|634,Esprit,Menâs and Womenâs Fashion Retailer,campaignindia
+Thailand,880|New entry,Choice,Coffee,campaignindia
+Australia,881|890,Chemist Warehouse,Pharmacy/Drugstore,campaignindia
+Thailand,882|938,KTC,Credit Card,campaignindia
+"Malaysia, Singapore",883|677,Charles & Keith,Womenâs Shoes,campaignindia
+Korea,884|758,Jukyum,Toothpaste,campaignindia
+Regional,885|New entry,Crown,Food,campaignindia
+"Singapore, Hong Kong",886|New entry,Nine West,Womenâs Shoes,campaignindia
+Korea,887|New entry,Happy Bath,Shower Gel/Soap,campaignindia
+Regional,888|New entry,Cornetto,Ice-cream,campaignindia
+Regional,889|New entry,Sisley,Cosmetics/Skincare Product,campaignindia
+"China, Taiwan",890|899,Sanyuan,Milk,campaignindia
+Taiwan,891|New entry,Grand Formosa Regent,Hotel,campaignindia
+Korea,892|New entry,Hyosung,Motorcycle,campaignindia
+Australia,893|865,Rivers,Menâs Fashion Retailer,campaignindia
+Korea,894|New entry,Kolon,Sporting Apparel,campaignindia
+Southeast Asia,895|751,Clorets,Chewing/Bubble Gum/Sweets and Candy,campaignindia
+Regional,896|447,Twinings,Tea,campaignindia
+Korea,897|817,OB,Beer,campaignindia
+"Hong Kong, China, Japan",898|New entry,GUM,Toothpaste,campaignindia
+Korea,899|652,Nate,Social Networking Site/Internet Search Engine,campaignindia
+China,900|402,Sina,Social Networking Site,campaignindia
+Japan,901|912,Daiichi Life,Insurance,campaignindia
+China,902|New entry,566,Shampoo,campaignindia
+China,903|New entry,Aigo,Digital Products,campaignindia
+Japan,904|New entry,UHA Mikakuto,Sweets and Candy,campaignindia
+"Japan, Korea, Southeast Asia",905|747,Ajinomoto,Sauce/Condiment,campaignindia
+"Japan, Korea, Singapore",906|942,Tullyâs,Coffee,campaignindia
+Taiwan,907|New entry,Chi Mei,TV,campaignindia
+Australia,908|New entry,Tooheys,Beer,campaignindia
+Korea,909|816,Daelim,Motorcycle,campaignindia
+Regional,910|New entry,Imperial,Personal care,campaignindia
+Korea,911|924,Hera,Female Skincare Product,campaignindia
+Australia,912|New entry,Toll,Courier Company,campaignindia
+Korea,913|600,GS,Supermarket,campaignindia
+India,914|New entry,Himalaya,Mineral Water,campaignindia
+"Hong Kong, Singapore",915|824,Fancl,Female Skincare Product,campaignindia
+Malaysia,916|New entry,Proton,Automobile/Car,campaignindia
+Regional,917|New entry,Safi,Personal care,campaignindia
+China,918|New entry,Wei-Wei,Instant Noodles,campaignindia
+Regional,919|655,Jack Daniel,Spirits,campaignindia
+Australia,920|750,Terry White,Pharmacy/Drugstore,campaignindia
+Regional,921|445,Gerber,Baby Food (excluding milk powder),campaignindia
+"China, Hong Kong, Japan",922|621,Uniqlo,Menâs and Womenâs Fashion Retailer,campaignindia
+Regional,923|New entry,Swipe,Detergent,campaignindia
+Korea,924|New entry,Bingrae,Ice-cream,campaignindia
+Southeast Asia,925|New entry,Mie Sedap,Instant Noodles,campaignindia
+Australia,926|878,Victoria Bitter (VB),Beer,campaignindia
+Japan,927|New entry,Koikeya,Savoury snack food,campaignindia
+"Japan, Korea",928|666,Wakodo,Baby Food (excluding milk powder),campaignindia
+Australia,929|New entry,Michael Hill,Jewellery,campaignindia
+Regional,930|New entry,Florsheim,Menâs Shoes,campaignindia
+Regional,931|New entry,MÃ¶venpick,Ice-cream,campaignindia
+"China, Hong Kong",932|858,Da Da,Chewing/Bubble Gum,campaignindia
+Regional,933|New entry,Fresh Delight,Dairy Products,campaignindia
+Regional,934|New entry,Dentiste,Toothpaste,campaignindia
+Taiwan,935|618,Duroyal,Ice-cream,campaignindia
+India,936|647,Center Fresh,Chewing/Bubble Gum,campaignindia
+Thailand,937|New entry,M-Sport,Sports Drink,campaignindia
+India,938|New entry,Dabur,Toothpaste,campaignindia
+China,939|New entry,SPD Bank,Bank,campaignindia
+Hong Kong,940|New entry,City Super,Supermarket,campaignindia
+"Australia, Hong Kong",941|864,PAL,Pet Food,campaignindia
+"Hong Kong, Singapore",942|New entry,Royceâ/Royce,Chocolate,campaignindia
+Australia,943|905,Morning Fresh,Detergent,campaignindia
+Singapore,944|960,Soo Kee (SKJ),Jewellery,campaignindia
+Australia,945|New entry,Suncorp,Financial Service,campaignindia
+Korea,946|904,Ottogi,Sauce/Condiment,campaignindia
+Australia,947|New entry,Carlton,Beer,campaignindia
+Thailand,948|955,Fuji (Restaurant chain),Restaurant Chain,campaignindia
+Malaysia,949|766,Revive isotonic,Sports Drink,campaignindia
+India,950|New entry,Frooti,Fruit Juice,campaignindia
+Singapore,951|New entry,Heaven & Earth,Ready-to-drink Tea,campaignindia
+Australia,952|New entry,CBA,Bank,campaignindia
+India,953|961,Fair And Handsome,Male Skincare Product,campaignindia
+Japan,954|New entry,Saizeriya,Restaurant Chain,campaignindia
+China,955|New entry,Guangdong Development,Bank,campaignindia
+Regional,956|New entry,Ricoh,Digital Products,campaignindia
+Regional,957|New entry,Miele,Consumer Electronics,campaignindia
+Australia,958|998,Heart Beat,Sweets and Candy,campaignindia
+Taiwan,959|922,Mei Ri C,Fruit Juice,campaignindia
+"Japan, Korea, Southeast Asia",960|643,Cesar,Pet Food,campaignindia
+"China, Taiwan",961|873,Royal,Pet Food,campaignindia
+Regional,962|New entry,Asience,Shampoo,campaignindia
+Japan,963|New entry,Otafuku,Food,campaignindia
+China,964|New entry,Wu Yang,Ice-cream,campaignindia
+Regional,965|721,Tommy Hilfiger,Fragrance/Menâs Fashion Retailer,campaignindia
+Thailand,966|New entry,CafÃ© Amazon,Coffee Shop,campaignindia
+Korea,967|New entry,Kerasys,Shampoo,campaignindia
+Regional,968|New entry,Pigeon,Baby Product,campaignindia
+India,969|792,Thums Up,Carbonated Soft Drink,campaignindia
+Australia,970|New entry,Hogs Breath,Restaurant Chain,campaignindia
+Taiwan,971|867,Kinmen Kao Liang,Spirits,campaignindia
+"China, Hong Kong",972|New entry,Bank of Communications,Bank,campaignindia
+"Malaysia, Singapore",973|911,Ginvera,Shower Gel/Soap,campaignindia
+Taiwan,974|872,Shin Kong Life Insurance,Insurance,campaignindia
+Regional,975|New entry,Nippon Express,Courier Company,campaignindia
+Thailand,976|New entry,Centara,Hotel,campaignindia
+"China, Hong Kong",977|729,IT,Menâs and Womenâs Fashion Retailer,campaignindia
+Australia,978|New entry,Australia post,Courier Company,campaignindia
+Japan,979|New entry,Gogo no Kocha,Ready-to-drink Tea,campaignindia
+Japan,980|New entry,Mister Donut,Fast-Food,campaignindia
+Malaysia,981|New entry,99 Speedmart,Convenience Store,campaignindia
+Australia,982|921,Fosters,Beer,campaignindia
+India,983|New entry,The Professional Couriers,Courier Company,campaignindia
+Australia,984|New entry,XXXX,Beer,campaignindia
+Korea,985|New entry,Hana,Bank,campaignindia
+India,986|New entry,Park Avenue,Personal Care/Menâs Shoes,campaignindia
+"China, India, Japan",987|902,Sansui,DVD Player,campaignindia
+Regional,988|New entry,Magnum,Ice-cream,campaignindia
+Regional,989|New entry,Tasterâs Choice,Coffee,campaignindia
+"Singapore, Australia",990|New entry,Fossil,Jewellery/Watch,campaignindia
+India,991|New entry,Arun,Ice-cream,campaignindia
+Regional,992|New entry,Aviva,Insurance,campaignindia
+China,993|New entry,Double Happiness,Cigarette,campaignindia
+Regional,994|New entry,Bacardi,Spirits,campaignindia
+China,995|928,Leconte,Chocolate,campaignindia
+Australia,996|New entry,Devondale,Dairy Products,campaignindia
+India,997|New entry,More,Supermarket,campaignindia
+Regional,998|New entry,Corona,Beer,campaignindia
+Australia,999|New entry,Harvey Fresh,Fruit Juice,campaignindia
+Regional,1000|953,Gatsby,Male Skincare Product,campaignindia

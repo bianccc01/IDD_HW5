@@ -7,8 +7,8 @@ import model
 def combine_duplicate_columns(df):
     """
     Se per un dato nome di colonna compaiono più colonne,
-    le combina in una singola colonna, dove per ogni riga il valore è una lista
-    contenente i valori provenienti da ciascuna colonna duplicata.
+    le combina in una singola colonna, dove per ogni riga il valore è una stringa
+    contenente i valori provenienti da ciascuna colonna duplicata, separati da una pipe (|).
     Se la colonna compare una sola volta, il valore rimane invariato.
     Per la colonna 'company_name', prende solo il primo valore che incontra.
     """
@@ -17,13 +17,20 @@ def combine_duplicate_columns(df):
         sub_df = df.loc[:, df.columns == col]
         if sub_df.shape[1] > 1:
             if col == "company_name":
-                new_data[col] = sub_df.apply(lambda row: row.dropna().iloc[0] if not row.dropna().empty else None, axis=1)
+                new_data[col] = sub_df.apply(
+                    lambda row: row.dropna().iloc[0] if not row.dropna().empty else None,
+                    axis=1
+                )
             else:
-                new_data[col] = sub_df.apply(lambda row: row.tolist(), axis=1)
+                new_data[col] = sub_df.apply(
+                    lambda row: "|".join([str(val) for val in row.dropna()]) if not row.dropna().empty else None,
+                    axis=1
+                )
         else:
             new_data[col] = sub_df.iloc[:, 0]
     new_df = pd.DataFrame(new_data)
     return new_df
+
 
 
 
