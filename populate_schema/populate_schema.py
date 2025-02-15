@@ -8,7 +8,6 @@ def merge_csv(method):
     path = f'../data/schema_alignment/created/{method}'
     dataframes = extraction.extract_data(path)
 
-
     # concat dataframes
     merged_df = pd.concat(dataframes, ignore_index=True)
 

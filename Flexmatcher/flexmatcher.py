@@ -199,54 +199,106 @@ class FlexMatcher:
 
             # setting up the logistic regression
             stacker = linear_model.LogisticRegression(fit_intercept=True,
-                                                      class_weight='balanced', max_iter=1000)
+                                                      class_weight='balanced', max_iter=1500)
             stacker.fit(regression_data.iloc[:, 2:],
                         regression_data['is_class'])
             coeff_list.append(stacker.coef_.reshape(1, -1))
         self.weights = np.concatenate(tuple(coeff_list))
 
-    def make_prediction(self, data):
-        """Map the schema of a given dataframe to the column of mediated schema.
+    def make_prediction(self, data, adaptive_threshold=None, return_confidence=False):
+        """Predict the mapping of columns in the input data to the mediated
+        schema."""
 
-        The procedure runs each classifier and then uses the weights (learned
-        by the meta-trainer) to combine the prediction of each classifier.
-        """
+        # Pre-elaborazione: sostituisce i NaN e limita il numero di righe se necessario
         data = data.fillna('NA').copy(deep=True)
-        if data.shape[0] > 500:
-            data = data.sample(500)
 
         predicted_mapping = {}
-        confidence_scores = {}  # Dizionario per tenere traccia dei punteggi di confidenza
-        confidence_threshold = 0.12
+        confidence_details = {}
         default_column = "unknown_column"
+        confidence_threshold = adaptive_threshold if adaptive_threshold is not None else 0.17
 
-        for column in list(data):
-            column_dat = data[[column]]
+        for column in data.columns:
+            # Prepara i dati per i classificatori:
+            # - column_dat contiene i valori della colonna rinominata in 'value'
+            # - column_name contiene il nome della colonna ripetuto per tutte le righe
+            column_dat = data[[column]].copy()
             column_dat.columns = ['value']
-            column_name = pd.DataFrame({'value': [column] * column_dat.shape[0]})
+            column_name = pd.DataFrame({'value': [column] * len(column_dat)})
+
+            # Inizializza la matrice dei punteggi per ogni riga e per ogni colonna target
             scores = np.zeros((len(column_dat), len(self.columns)))
 
+            # Aggrega le predizioni da ciascun classificatore
             for clf_ind, clf_inst in enumerate(self.classifier_list):
+                # Scegli il tipo di input in base al tipo di classificatore
                 if self.classifier_type[clf_ind] == 'value':
                     raw_prediction = clf_inst.predict(column_dat)
                 elif self.classifier_type[clf_ind] == 'column':
                     raw_prediction = clf_inst.predict(column_name)
+                else:
+                    continue  # Salta il classificatore se il tipo non è riconosciuto
 
+                # Normalizzazione: se la somma lungo l'asse delle classi non è 1, la forziamo
+                row_sums = raw_prediction.sum(axis=1, keepdims=True)
+                row_sums[row_sums == 0] = 1  # evita divisioni per 0
+                raw_prediction = raw_prediction / row_sums
+
+                # Applica il peso specifico per ogni classe
                 for class_ind in range(len(self.columns)):
                     raw_prediction[:, class_ind] *= self.weights[class_ind, clf_ind]
 
+                # Somma le predizioni ponderate
                 scores += raw_prediction
 
+            # Calcola i punteggi aggregati medi per ciascuna classe
             flat_scores = scores.sum(axis=0) / len(column_dat)
-            max_ind = flat_scores.argmax()
-            confidence = flat_scores[max_ind] / flat_scores.sum()
+            total_score = flat_scores.sum()
 
-            if confidence < confidence_threshold:
+            # Se il totale è zero, non è possibile determinare una confidenza
+            if total_score == 0:
+                predicted_mapping[column] = default_column
+                if return_confidence:
+                    confidence_details[column] = {
+                        'confidence_ratio': 0,
+                        'margin': 0,
+                        'normalized_margin': 0,
+                        'combined_confidence': 0
+                    }
+                continue
+
+            # Ordina i punteggi per identificare il top-1 e il top-2
+            sorted_indices = np.argsort(flat_scores)[::-1]
+            top1_index = sorted_indices[0]
+            top1_score = flat_scores[top1_index]
+            top2_score = flat_scores[sorted_indices[1]] if len(flat_scores) > 1 else 0.0
+
+            # Calcola le metriche di confidenza:
+            confidence_ratio = top1_score / total_score
+            margin = top1_score - top2_score
+            normalized_margin = margin / total_score
+
+            # Combina le metriche: i pesi possono essere regolati in base agli esperimenti
+            combined_confidence = 0.7 * confidence_ratio + 0.3 * normalized_margin
+
+            # Se la confidenza combinata è inferiore alla soglia, assegna il valore di default
+            if combined_confidence < confidence_threshold:
                 predicted_mapping[column] = default_column
             else:
-                predicted_mapping[column] = self.columns[max_ind]
+                predicted_mapping[column] = self.columns[top1_index]
 
-        return predicted_mapping
+            # Se richiesto, salva i dettagli della confidenza per la colonna
+            if return_confidence:
+                confidence_details[column] = {
+                    'confidence_ratio': confidence_ratio,
+                    'margin': margin,
+                    'normalized_margin': normalized_margin,
+                    'combined_confidence': combined_confidence
+                }
+
+        if return_confidence:
+            return predicted_mapping, confidence_details
+        else:
+            return predicted_mapping
 
     def save_model(self, name):
         """Serializes the FlexMatcher object into a model file using python's

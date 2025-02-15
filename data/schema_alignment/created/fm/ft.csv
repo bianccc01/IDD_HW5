@@ -1,4 +1,4 @@
-company_name,company_industry,company_country,company_employees,company_website,file_name
+company_name,company_industry,company_country,company_employees,link,file_name
 Great Deals E-Commerce Corp.,Ecommerce,Philippines,"['88.77', '385']",https://www.greatdealscorp.com/,ft
 PCL Inc.,Pharmaceuticals,South Korea,"['45.48', '63']",http://www.pclchip.com/,ft
 Spolive,Games industry,South Korea,"['9.49', '47']",https://www.spolive.com/,ft
