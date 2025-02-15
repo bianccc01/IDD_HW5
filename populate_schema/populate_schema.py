@@ -14,7 +14,7 @@ def merge_csv(method):
     # Salva il risultato
     merged_df.to_csv(os.path.join(f'{path}/merged', "merged_data.csv"), index=False)
 
-    print("Merge compleated and saved in: ", os.path.join(f'{path}/merged', "merged_data.csv"))
+    print("Merge completed and saved in: ", os.path.join(f'{path}/merged', "merged_data.csv"))
 
 
 merge_csv('fm')

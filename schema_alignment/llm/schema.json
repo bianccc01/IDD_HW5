@@ -1,0 +1,130 @@
+[
+  {
+    'mapped_schema': {
+      'name': 'company_name',
+      'world_rank': None,
+      'annual_revenue_in_usd': 'company_revenue',
+      'annual_net_income_in_usd': None,
+      'annual_results_for_year_ending': None,
+      'total_assets_in_usd': None,
+      'total_liabilities_in_usd': None,
+      'total_equity_in_usd': None,
+      'headquarters_region_city': None,
+      'headquarters_country': None,
+      'headquarters_sub_region': None,
+      'headquarters_continent': None,
+      'company_business': 'company_type',
+      'number_of_employees': None,
+      'ceo': 'company_representatives',
+      'founders': None,
+      'company_website': None
+    }
+  },
+  {
+    'mapped_schema': {
+      'name': 'company_name',
+      'industry': 'company_type',
+      'headquarter': 'company_headquarters',
+      'ownership': 'company_legal_form',
+      'foundation year': 'company_founded'
+    }
+  },
+  {
+    'mapped_schema': {
+      'name': 'company_name',
+      'rank': None,
+      'market_cap': 'company_valuation',
+      'country': None,
+      'share_price': None,
+      'change_1_day': None,
+      'change_1_year': None,
+      'categories': 'company_type'
+    }
+  },
+  {
+    'mapped_schema': {
+      'name': 'company_name',
+      'headquarters': 'company_headquarters',
+      'number_of_employees': 'company_number',
+      'address': 'company_address',
+      'industry': 'company_type',
+      'website': 'company_website',
+      'market_cap': 'company_valuation',
+      'telephone': 'company_contact',
+      'revenue': 'company_revenue'
+    }
+  },
+  {
+    'mapped_schema': {
+      'link': 'company_address',
+      'name': 'company_name',
+      'country': 'company_headquarters',
+      'industry': 'company_type',
+      'revenue': 'company_revenue',
+      'employees': 'company_number',
+      'founded': 'company_founded'
+    }
+  },
+  {
+    'mapped_schema': {
+      'index': None,
+      'url': None,
+      'name': 'company_name',
+      'trade name': None,
+      'address name': 'company_address',
+      'postalcode': None,
+      'city': None,
+      'state': None,
+      'country': None,
+      'location type': None
+    }
+  },
+  {
+    'mapped_schema': {
+      'name': 'company_name',
+      'industry': 'company_type',
+      'sector': 'company_nace_code',
+      'headquarters': 'company_headquarters',
+      'founded': 'company_founded',
+      'notes': 'company_partners'
+    }
+  },
+  {
+    'mapped_schema': {
+      'name': 'company_name',
+      'country': 'company_headquarters',
+      'sales': 'company_revenue',
+      'profit': 'company_valuation',
+      'assets': 'company_capital',
+      'market value': 'company_valuation'
+    }
+  },
+  {
+    'mapped_schema': {
+      'rank': 'company_rank',
+      'brand name': 'company_name',
+      'category': 'company_type',
+      'main market': 'company_market',
+      '2010 rank': 'company_previous_rank'
+    }
+  },
+  {
+    'mapped_schema': {
+      'name': 'company_name',
+      'website': None,
+      'locations': 'company_headquarters',
+      'size': None,
+      'industry': 'company_type',
+      'founded': 'company_founded'
+    }
+  },
+  {
+    'mapped_schema': {
+      'company': 'company_name',
+      'facebook': 'company_facebook',
+      'twitter': 'company_twitter',
+      'instagram': 'company_instagram',
+      'pinterest': 'company_pinterest'
+    }
+  }
+]

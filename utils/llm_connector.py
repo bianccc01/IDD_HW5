@@ -4,7 +4,7 @@ import os
 import requests
 import dotenv
 
-from schema_alignment.llm.utils.llm_adapter import ResponseAdapter
+from utils.llm_adapter import ResponseAdapter
 
 
 def query_llm(system_prompt, user_prompt):
