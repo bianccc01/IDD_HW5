@@ -35,9 +35,12 @@ def extract_data(path):
                 if df[col].dtype == np.int64 or df[col].dtype == np.float64:
                     df[col] = df[col].astype(str)
 
-            #if a value is a list, convert it to a string
+            #if a value is a list or array, convert it to a pipe separated string
             for col in df.columns:
-                df[col] = df[col].apply(lambda x: str(x) if isinstance(x, list) else x)
+                df[col] = df[col].apply(lambda x: '|'.join(x) if isinstance(x, list) or isinstance(x, np.ndarray) else x)
+
+            #convert all , to .
+            df = df.map(lambda x: x.replace(',', '.') if isinstance(x, str) else x)
 
             #lowercase all columns
             df.columns = df.columns.str.lower()

@@ -32,8 +32,6 @@ def combine_duplicate_columns(df):
     return new_df
 
 
-
-
 def rename_dataframes():
     # Definisco lo schema mediato come lista per mantenere l'ordine desiderato
     schema_mediato = [
