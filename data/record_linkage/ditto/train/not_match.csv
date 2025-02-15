@@ -1,0 +1,10 @@
+company_name,company_country,company_market_cap,company_employees,company_website,company_headquarters,file_name,company_industry,company_legal_form,company_address,company_status
+Apple Hospitality Reit,USA,"['933 Million USD', '18 Million USD', 'For Year ending Dec-2021', '4,790 Million USD', '1,643 Million USD', '3,147 Million USD']","['4,035', 'Virginia', '63', nan, nan]",https://applehospitalityreit.com,"['Real Estate', 'Consumer Services', 'Hotels', 'Property Investments']",valueToday_dataset,,,,
+Apple,USA,"['394,330 Million USD', '99,803 Million USD', 'Sep-2022', '352,760 Million USD', '302,080 Million USD', '50,672 Million USD']","['1', 'California', '154,000', 'Tim Cook', ""['Steve Jobs', 'Steve Wozniak', 'Ronald Wayne']""]",https://www.apple.com/,"['Technology', 'Mobiles & Accessories', 'Electronics', 'Consumer Electronics', 'Computers Hardware', 'Software and IT', 'Music', 'Tablets', 'Technology Hardware and Instruments', 'Retail', 'Artificial Intelligence', 'Laptops', 'Software Products']",valueToday_dataset,,,,
+Amazon,USA,"['$960.28 B', '$94.13', '-1.43%', '-45.23%']",5,,,companiesMarketCap_dataset,"['E-Commerce', 'Internet', 'Tech', 'Retail']",,,
+AMAZON ITALIA LOGISTICA SRL,"['ITALY', 'ITALY']",,"['3903', nan]",https://www.info-clipper.com/en/company/italy/amazon-italia-logistica-srl.itd74gd6a.html,,wissel_aziende_info_clipper,,,VIALE MONTE GRAPPA 3/5,"['MILANO', 'Headquarter']"
+Coffee Shop,,"['Black Canyon', 'Thailand']","['646', '684']",,,campaignindia,,,,
+Delta Air Lines,USA,"['29,899 Million USD', '280 Million USD', 'Dec-2021', '72,459 Million USD', '68,572 Million USD', '3,887 Million USD']","['794', 'Georgia', '83,000', 'Ed Bastian', 'Collett E. Woolman']",https://www.delta.com/,"['Industries', 'Airlines', 'Aviation', 'Transportation']",valueToday_dataset,,,,
+Delta Electronics Inc,Taiwan,"['$24.6B', '$11.3B']","68,000",,,output_globaldata,Technology and Communications,,"No. 186, Ruey Kuang Road, Neihu District, Taipei, 114501",
+IBM,United States,"['$67.25 B', '$5.52 B', '$133.28 B', '$124.33 B']",,,,MalPatSaj_forbes,,,,
+Coffee Shop,,"['Barista Lavazza (India)', 'India']","['372', '534']",,,campaignindia,,,,
