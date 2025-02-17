@@ -1,0 +1,8 @@
+COL company_name VAL Apple Hospitality Reit 	 COL company_name VAL Apple 	 0
+COL company_name VAL International Business Machines Corp 	 COL company_name VAL Ibm 	 1
+COL company_name VAL Amazon.com 	 COL company_name VAL Amazon 	 1
+COL company_name VAL Amazon 	 COL company_name VAL AMAZON ITALIA LOGISTICA SRL 	 0
+COL company_name VAL Delta Electronics Inc 	 COL company_name VAL IBM 	 0
+COL company_name VAL Coffee Shop 	 COL company_name VAL Delta Air Lines 	 0
+COL company_name VAL Apple 	 COL company_name VAL APPLE INC. 	 1
+COL company_name VAL Delta Electronics 	 COL company_name VAL Delta Electronics Inc 	 1

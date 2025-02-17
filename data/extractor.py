@@ -1,10 +1,8 @@
 # extract file in /data folder and save dataframes in /dataframes folder
 
 import os
-
 import pandas as pd
 import numpy as np
-
 
 def extract_data(path):
     """
@@ -35,24 +33,24 @@ def extract_data(path):
                 if df[col].dtype == np.int64 or df[col].dtype == np.float64:
                     df[col] = df[col].astype(str)
 
-            #if a value is a list or array, convert it to a pipe separated string
+            # if a value is a list or array, convert it to a pipe separated string
             for col in df.columns:
                 df[col] = df[col].apply(lambda x: '|'.join(x) if isinstance(x, list) or isinstance(x, np.ndarray) else x)
 
-            #convert all , to .
-            df = df.map(lambda x: x.replace(',', '.') if isinstance(x, str) else x)
+            # convert all , to .
+            df = df.applymap(lambda x: x.replace(',', '.') if isinstance(x, str) else x)
 
-            #lowercase all columns
+            # lowercase all columns
             df.columns = df.columns.str.lower()
 
-            #remove column id
+            # remove column id
             if 'id' in df.columns:
                 df = df.drop(columns=['id'])
 
-            #change not found to np.nan
+            # change not found to np.nan
             df = df.replace('Not found', np.nan)
 
-            #add file name to dataframe, replace - with _ in file name and remove extension
+            # add file name to dataframe, replace - with _ in file name and remove extension
             df['file_name'] = d.replace('-', '_').split('.')[0]
 
             dataframes.append(df)
@@ -61,8 +59,7 @@ def extract_data(path):
             print(f"Error processing file {d}: {e}")
     print(f"Total dataframes processed successfully: {len(dataframes)}")
 
-    #order dataframes by Number of rows
+    # order dataframes by number of rows
     dataframes = sorted(dataframes, key=lambda x: x.shape[0], reverse=True)
     return dataframes
-
 

@@ -1,18 +1,28 @@
 import pandas as pd
+import numpy as np
 import random
+
+def clean_value(x):
+    if pd.isna(x):
+        return "Unknown"
+    if isinstance(x, (list, pd.Series, np.ndarray)):
+        return '|'.join(map(str, x))
+    if isinstance(x, str):
+        if x.startswith('[') and x.endswith(']'):
+            x = x[1:-1]
+    return str(x)
 
 
 def format_record(row):
     """
     Converte una riga del DataFrame in una stringa nel formato:
-    [COL] <nome_colonna> [VAL] <valore>
+      COL <nome_colonna> VAL <valore>
     per tutte le colonne presenti.
     """
     parts = []
     for col, value in row.items():
-        parts.append(f"[COL] {col} [VAL] {value}")
+        parts.append(f"COL {col} VAL {value}")
     return " ".join(parts)
-
 
 def create_ditto_train_file(match_csv, non_match_csv, output_file):
     """
@@ -26,11 +36,24 @@ def create_ditto_train_file(match_csv, non_match_csv, output_file):
     df_match = pd.read_csv(match_csv)
     df_non_match = pd.read_csv(non_match_csv)
 
-    #remove file_name column
+    # Applica la pulizia dei dati a tutte le colonne
+    for col in df_match.columns:
+        df_match[col] = df_match[col].apply(clean_value)
+    for col in df_non_match.columns:
+        df_non_match[col] = df_non_match[col].apply(clean_value)
+
+    # Rimuove la colonna file_name se presente
     if 'file_name' in df_match.columns:
         df_match = df_match.drop(columns=['file_name'])
     if 'file_name' in df_non_match.columns:
         df_non_match = df_non_match.drop(columns=['file_name'])
+
+    df_match = df_match.fillna("Unknown")
+    df_non_match = df_non_match.fillna("Unknown")
+
+    #take only company_name column
+    df_match = df_match[['company_name']]
+    df_non_match = df_non_match[['company_name']]
 
     train_lines = []
 
@@ -39,7 +62,7 @@ def create_ditto_train_file(match_csv, non_match_csv, output_file):
         if i + 1 < len(df_match):
             record1 = format_record(df_match.iloc[i])
             record2 = format_record(df_match.iloc[i + 1])
-            line = f"1\t{record1}\t{record2}"
+            line = f"{record1} \t {record2} \t 1"
             train_lines.append(line)
 
     # Processa le coppie non-matching (etichetta 0)
@@ -47,7 +70,7 @@ def create_ditto_train_file(match_csv, non_match_csv, output_file):
         if i + 1 < len(df_non_match):
             record1 = format_record(df_non_match.iloc[i])
             record2 = format_record(df_non_match.iloc[i + 1])
-            line = f"0\t{record1}\t{record2}"
+            line = f"{record1} \t {record2} \t 0"
             train_lines.append(line)
 
     # Mescola (shuffle) le linee
@@ -60,6 +83,9 @@ def create_ditto_train_file(match_csv, non_match_csv, output_file):
 
     print(f"✅ File di training salvato in {output_file}")
 
-
 # Esempio di utilizzo:
-create_ditto_train_file("../../data/record_linkage/ditto/train/match.csv", "../../data/record_linkage/ditto/train/not_match.csv", "../../data/record_linkage/ditto/train/ditto_train.txt")
+create_ditto_train_file(
+    "../../data/record_linkage/ditto/train/match.csv",
+    "../../data/record_linkage/ditto/train/not_match.csv",
+    "../../ditto-master/data/train/ditto_train.txt"
+)
