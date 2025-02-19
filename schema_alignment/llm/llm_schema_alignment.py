@@ -123,3 +123,10 @@ def align_schemas():
 
     return aligned_schemas
 
+
+if __name__ == "__main__":
+    # test_schema_alignment()
+    aligned_schemas = align_schemas()
+    print(aligned_schemas)
+
+
