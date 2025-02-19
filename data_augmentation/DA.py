@@ -108,12 +108,12 @@ def duplicate_and_augment_rows(df, n=1):
 if __name__ == "__main__":
 
     input_csv = "../data/record_linkage/matches.tsv"  # Change this to your input CSV file
-    output_csv = "../data/record_linkage/augmented_matches.csv"  # Change this to your output CSV file
+    output_csv = "../data/record_linkage/augmented_matches.tsv"  # Change this to your output CSV file
     df = pd.read_csv(input_csv, sep='\t')
 
     # Duplicate rows and apply augmentation
     augmented_df = duplicate_and_augment_rows(df, n=3)  # Duplicate each row 3 times, for example
 
     # Save the augmented data to CSV
-    augmented_df.to_csv(output_csv, index=False)
+    augmented_df.to_csv(output_csv, index=False, sep='\t')
     print(f"Augmented data saved to {output_csv}")
