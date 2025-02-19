@@ -1,37 +1,46 @@
 {
   "analysis_summary": {
-    "total_strategies_evaluated": 21,
+    "total_strategies_evaluated": 33,
     "best_strategy": {
-      "strategy_name": "Company SNM-3",
-      "total_pairs": 1262,
-      "matches_strict": 7,
-      "matches_moderate": 7,
-      "matches_relaxed": 21,
-      "avg_similarity_strict": 0.9000000000000001,
-      "avg_similarity_moderate": 0.9000000000000001,
-      "reduction_ratio": 0.9974734734734735,
-      "execution_time": 0.020650386810302734,
+      "strategy_name": "Website",
+      "total_pairs": 19,
+      "matches_strict": 16,
+      "matches_moderate": 17,
+      "matches_relaxed": 18,
+      "avg_similarity_strict": 0.9062499999999999,
+      "avg_similarity_moderate": 0.8999999999999999,
+      "reduction_ratio": 0.9999984796959391,
+      "execution_time": 0.008644819259643555,
       "category": "single_field",
       "threshold_level": "relaxed",
-      "score": 0.9251955267852677
+      "score": 0.8649520652004713
     },
-    "execution_timestamp": "2025-02-19 18:03:04.946684"
+    "execution_timestamp": "2025-02-19 19:14:12.185620"
   },
   "detailed_results": [
     {
-      "strategy_name": "Country Block",
-      "total_pairs": 99538,
-      "matches_strict": 6,
-      "matches_moderate": 6,
-      "matches_relaxed": 16,
-      "avg_similarity_strict": 0.9,
-      "avg_similarity_moderate": 0.9,
-      "reduction_ratio": 0.8007247247247247,
-      "execution_time": 0.6702463626861572,
+      "strategy_name": "Name Block",
+      "total_pairs": 4473,
+      "matches_strict": 21,
+      "matches_moderate": 21,
+      "matches_relaxed": 44,
+      "avg_similarity_strict": 0.8999999999999998,
+      "avg_similarity_moderate": 0.8999999999999998,
+      "reduction_ratio": 0.9996420884176835,
+      "execution_time": 0.03229546546936035,
       "sample_matches": [
         {
-          "level_0": 40845,
-          "level_1": 40839,
+          "level_0": 35706,
+          "level_1": 34661,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 36521,
+          "level_1": 36184,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -48,8 +57,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 30634,
-          "level_1": 28042,
+          "level_0": 40879,
+          "level_1": 38012,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -57,17 +66,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 31356,
-          "level_1": 30081,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 28073,
-          "level_1": 29835,
+          "level_0": 40403,
+          "level_1": 37257,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -77,19 +77,89 @@
       ],
       "category": "single_field",
       "threshold_level": "strict",
-      "score": 0.7799602316920446
+      "score": 0.8618709009136875
+    },
+    {
+      "strategy_name": "Country Block",
+      "total_pairs": 2560701,
+      "matches_strict": 57,
+      "matches_moderate": 58,
+      "matches_relaxed": 334,
+      "avg_similarity_strict": 0.9052631578947369,
+      "avg_similarity_moderate": 0.9034482758620691,
+      "reduction_ratio": 0.7951029405881176,
+      "execution_time": 15.82038950920105,
+      "sample_matches": [
+        {
+          "level_0": 35706,
+          "level_1": 34661,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 34385,
+          "level_1": 34955,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 40845,
+          "level_1": 40839,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 38107,
+          "level_1": 40899,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 41297,
+          "level_1": 40623,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "single_field",
+      "threshold_level": "strict",
+      "score": 0.6345456216310281
     },
     {
       "strategy_name": "Industry Block",
-      "total_pairs": 20316,
-      "matches_strict": 6,
-      "matches_moderate": 6,
-      "matches_relaxed": 7,
-      "avg_similarity_strict": 0.9,
-      "avg_similarity_moderate": 0.9,
-      "reduction_ratio": 0.9593273273273273,
-      "execution_time": 0.1095421314239502,
+      "total_pairs": 501691,
+      "matches_strict": 56,
+      "matches_moderate": 56,
+      "matches_relaxed": 134,
+      "avg_similarity_strict": 0.9053571428571429,
+      "avg_similarity_moderate": 0.9053571428571429,
+      "reduction_ratio": 0.9598566913382677,
+      "execution_time": 2.6204607486724854,
       "sample_matches": [
+        {
+          "level_0": 35706,
+          "level_1": 34661,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
         {
           "level_0": 40845,
           "level_1": 40839,
@@ -100,8 +170,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 40403,
-          "level_1": 37257,
+          "level_0": 38404,
+          "level_1": 41280,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -109,8 +179,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 31356,
-          "level_1": 30081,
+          "level_0": 38107,
+          "level_1": 40899,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -118,17 +188,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 30634,
-          "level_1": 28042,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 28073,
-          "level_1": 29835,
+          "level_0": 38583,
+          "level_1": 37562,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -138,18 +199,18 @@
       ],
       "category": "single_field",
       "threshold_level": "strict",
-      "score": 0.8880527323305132
+      "score": 0.7273022365685039
     },
     {
       "strategy_name": "City Block",
-      "total_pairs": 434835,
-      "matches_strict": 6,
-      "matches_moderate": 6,
-      "matches_relaxed": 14,
-      "avg_similarity_strict": 0.9,
-      "avg_similarity_moderate": 0.9,
-      "reduction_ratio": 0.12945945945945947,
-      "execution_time": 1.0239202976226807,
+      "total_pairs": 10852698,
+      "matches_strict": 54,
+      "matches_moderate": 55,
+      "matches_relaxed": 312,
+      "avg_similarity_strict": 0.9055555555555556,
+      "avg_similarity_moderate": 0.9036363636363636,
+      "reduction_ratio": 0.13161048209641923,
+      "execution_time": 78.21787023544312,
       "sample_matches": [
         {
           "level_0": 31356,
@@ -199,18 +260,79 @@
       ],
       "category": "single_field",
       "threshold_level": "strict",
-      "score": 0.5576559584105315
+      "score": 0.4250310004046876
+    },
+    {
+      "strategy_name": "Website",
+      "total_pairs": 19,
+      "matches_strict": 15,
+      "matches_moderate": 15,
+      "matches_relaxed": 15,
+      "avg_similarity_strict": 0.9000000000000001,
+      "avg_similarity_moderate": 0.9000000000000001,
+      "reduction_ratio": 0.9999984796959391,
+      "execution_time": 0.009885787963867188,
+      "sample_matches": [
+        {
+          "level_0": 40879,
+          "level_1": 38012,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 40403,
+          "level_1": 37257,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 38404,
+          "level_1": 41280,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 37730,
+          "level_1": 40570,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 40730,
+          "level_1": 38800,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "single_field",
+      "threshold_level": "strict",
+      "score": 0.8639240936841569
     },
     {
       "strategy_name": "Company SNM-3",
-      "total_pairs": 1262,
-      "matches_strict": 5,
-      "matches_moderate": 5,
-      "matches_relaxed": 12,
-      "avg_similarity_strict": 0.9,
-      "avg_similarity_moderate": 0.9,
-      "reduction_ratio": 0.9974734734734735,
-      "execution_time": 0.02061772346496582,
+      "total_pairs": 9574,
+      "matches_strict": 37,
+      "matches_moderate": 37,
+      "matches_relaxed": 156,
+      "avg_similarity_strict": 0.9027027027027025,
+      "avg_similarity_moderate": 0.9027027027027025,
+      "reduction_ratio": 0.999233926785357,
+      "execution_time": 0.07471179962158203,
       "sample_matches": [
         {
           "level_0": 31356,
@@ -240,8 +362,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 33242,
-          "level_1": 32855,
+          "level_0": 37862,
+          "level_1": 40714,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -249,8 +371,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 40403,
-          "level_1": 37257,
+          "level_0": 34040,
+          "level_1": 32032,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -260,22 +382,153 @@
       ],
       "category": "single_field",
       "threshold_level": "strict",
-      "score": 0.9052017979837733
+      "score": 0.8614574658789275
+    },
+    {
+      "strategy_name": "Name-Employees",
+      "total_pairs": 6131,
+      "matches_strict": 22,
+      "matches_moderate": 22,
+      "matches_relaxed": 45,
+      "avg_similarity_strict": 0.8999999999999997,
+      "avg_similarity_moderate": 0.8999999999999997,
+      "reduction_ratio": 0.9995094218843769,
+      "execution_time": 0.04273509979248047,
+      "sample_matches": [
+        {
+          "level_0": 32693,
+          "level_1": 32805,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 33242,
+          "level_1": 32855,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 34040,
+          "level_1": 32032,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 34385,
+          "level_1": 34955,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 35168,
+          "level_1": 32086,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "multi_field",
+      "threshold_level": "strict",
+      "score": 0.8602835457389433
+    },
+    {
+      "strategy_name": "Name-Website",
+      "total_pairs": 4478,
+      "matches_strict": 22,
+      "matches_moderate": 22,
+      "matches_relaxed": 45,
+      "avg_similarity_strict": 0.8999999999999997,
+      "avg_similarity_moderate": 0.8999999999999997,
+      "reduction_ratio": 0.9996416883376675,
+      "execution_time": 0.03129768371582031,
+      "sample_matches": [
+        {
+          "level_0": 7780,
+          "level_1": 9165,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 32693,
+          "level_1": 32805,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 33242,
+          "level_1": 32855,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 34385,
+          "level_1": 34955,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 35168,
+          "level_1": 32086,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "multi_field",
+      "threshold_level": "strict",
+      "score": 0.8624503843196442
     },
     {
       "strategy_name": "Country-Industry",
-      "total_pairs": 110509,
-      "matches_strict": 6,
-      "matches_moderate": 6,
-      "matches_relaxed": 16,
-      "avg_similarity_strict": 0.9,
-      "avg_similarity_moderate": 0.9,
-      "reduction_ratio": 0.7787607607607607,
-      "execution_time": 0.7607941627502441,
+      "total_pairs": 2829113,
+      "matches_strict": 57,
+      "matches_moderate": 58,
+      "matches_relaxed": 348,
+      "avg_similarity_strict": 0.9052631578947369,
+      "avg_similarity_moderate": 0.903448275862069,
+      "reduction_ratio": 0.7736256851370273,
+      "execution_time": 16.771713733673096,
       "sample_matches": [
         {
-          "level_0": 28073,
-          "level_1": 29835,
+          "level_0": 770,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1162,
+          "level_1": 2098,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -283,8 +536,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 30634,
-          "level_1": 28042,
+          "level_0": 3270,
+          "level_1": 9998,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -292,8 +545,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 31356,
-          "level_1": 30081,
+          "level_0": 3502,
+          "level_1": 8479,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -301,17 +554,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 33242,
-          "level_1": 32855,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 40403,
-          "level_1": 37257,
+          "level_0": 4816,
+          "level_1": 640,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -321,22 +565,31 @@
       ],
       "category": "multi_field",
       "threshold_level": "strict",
-      "score": 0.7672133389873492
+      "score": 0.6274659526374557
     },
     {
-      "strategy_name": "Country-Name-SNM",
-      "total_pairs": 105692,
-      "matches_strict": 6,
-      "matches_moderate": 6,
-      "matches_relaxed": 16,
-      "avg_similarity_strict": 0.9,
-      "avg_similarity_moderate": 0.9,
-      "reduction_ratio": 0.7884044044044044,
-      "execution_time": 0.7253479957580566,
+      "strategy_name": "Country-Name",
+      "total_pairs": 2674631,
+      "matches_strict": 57,
+      "matches_moderate": 58,
+      "matches_relaxed": 353,
+      "avg_similarity_strict": 0.9052631578947369,
+      "avg_similarity_moderate": 0.903448275862069,
+      "reduction_ratio": 0.7859867173434687,
+      "execution_time": 18.73092007637024,
       "sample_matches": [
         {
-          "level_0": 28073,
-          "level_1": 29835,
+          "level_0": 770,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1162,
+          "level_1": 2098,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -344,8 +597,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 30634,
-          "level_1": 28042,
+          "level_0": 3270,
+          "level_1": 9998,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -353,8 +606,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 31356,
-          "level_1": 30081,
+          "level_0": 3502,
+          "level_1": 8479,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -362,17 +615,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 33242,
-          "level_1": 32855,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 40403,
-          "level_1": 37257,
+          "level_0": 4816,
+          "level_1": 640,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -382,22 +626,31 @@
       ],
       "category": "multi_field",
       "threshold_level": "strict",
-      "score": 0.7724399652654534
+      "score": 0.630056798334226
     },
     {
-      "strategy_name": "Country-Industry-SNM",
-      "total_pairs": 118360,
-      "matches_strict": 6,
-      "matches_moderate": 6,
-      "matches_relaxed": 16,
-      "avg_similarity_strict": 0.9,
-      "avg_similarity_moderate": 0.9,
-      "reduction_ratio": 0.763043043043043,
-      "execution_time": 0.8246884346008301,
+      "strategy_name": "Name-Website-Country",
+      "total_pairs": 2675500,
+      "matches_strict": 57,
+      "matches_moderate": 58,
+      "matches_relaxed": 353,
+      "avg_similarity_strict": 0.9052631578947369,
+      "avg_similarity_moderate": 0.903448275862069,
+      "reduction_ratio": 0.7859171834366874,
+      "execution_time": 16.16655659675598,
       "sample_matches": [
         {
-          "level_0": 28073,
-          "level_1": 29835,
+          "level_0": 770,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1162,
+          "level_1": 2098,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -405,8 +658,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 30634,
-          "level_1": 28042,
+          "level_0": 3270,
+          "level_1": 9998,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -414,8 +667,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 31356,
-          "level_1": 30081,
+          "level_0": 3502,
+          "level_1": 8479,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -423,17 +676,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 33242,
-          "level_1": 32855,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 40403,
-          "level_1": 37257,
+          "level_0": 4816,
+          "level_1": 640,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -443,22 +687,22 @@
       ],
       "category": "complex",
       "threshold_level": "strict",
-      "score": 0.7585206663284993
+      "score": 0.6315501235534638
     },
     {
-      "strategy_name": "Country Block",
-      "total_pairs": 99538,
-      "matches_strict": 8,
-      "matches_moderate": 9,
-      "matches_relaxed": 38,
-      "avg_similarity_strict": 0.8999999999999999,
-      "avg_similarity_moderate": 0.8888888888888888,
-      "reduction_ratio": 0.8007247247247247,
-      "execution_time": 0.6562163829803467,
+      "strategy_name": "Name Block",
+      "total_pairs": 4473,
+      "matches_strict": 21,
+      "matches_moderate": 21,
+      "matches_relaxed": 45,
+      "avg_similarity_strict": 0.8999999999999998,
+      "avg_similarity_moderate": 0.8999999999999998,
+      "reduction_ratio": 0.9996420884176835,
+      "execution_time": 0.028326034545898438,
       "sample_matches": [
         {
-          "level_0": 40845,
-          "level_1": 40839,
+          "level_0": 35706,
+          "level_1": 34661,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -466,22 +710,13 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 9935,
-          "level_1": 4273,
+          "level_0": 36521,
+          "level_1": 36184,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
           "city_sim": 0.0,
           "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 6750,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 0.0,
-          "city_sim": 1.0,
-          "weighted_score": 0.7999999999999999
         },
         {
           "level_0": 33242,
@@ -493,33 +728,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 30634,
-          "level_1": 28042,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        }
-      ],
-      "category": "single_field",
-      "threshold_level": "moderate",
-      "score": 0.806530140970612
-    },
-    {
-      "strategy_name": "Industry Block",
-      "total_pairs": 20316,
-      "matches_strict": 7,
-      "matches_moderate": 7,
-      "matches_relaxed": 11,
-      "avg_similarity_strict": 0.9000000000000001,
-      "avg_similarity_moderate": 0.9000000000000001,
-      "reduction_ratio": 0.9593273273273273,
-      "execution_time": 0.10844063758850098,
-      "sample_matches": [
-        {
-          "level_0": 40845,
-          "level_1": 40839,
+          "level_0": 40879,
+          "level_1": 38012,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -534,355 +744,41 @@
           "industry_sim": 1.0,
           "city_sim": 0.0,
           "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 31356,
-          "level_1": 30081,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 30634,
-          "level_1": 28042,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 28073,
-          "level_1": 29835,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
         }
       ],
       "category": "single_field",
       "threshold_level": "moderate",
-      "score": 0.8982318571761978
-    },
-    {
-      "strategy_name": "City Block",
-      "total_pairs": 434835,
-      "matches_strict": 6,
-      "matches_moderate": 7,
-      "matches_relaxed": 34,
-      "avg_similarity_strict": 0.9,
-      "avg_similarity_moderate": 0.8857142857142858,
-      "reduction_ratio": 0.12945945945945947,
-      "execution_time": 3.2775206565856934,
-      "sample_matches": [
-        {
-          "level_0": 31356,
-          "level_1": 30081,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 40403,
-          "level_1": 37257,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 33242,
-          "level_1": 32855,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 28073,
-          "level_1": 29835,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 30634,
-          "level_1": 28042,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        }
-      ],
-      "category": "single_field",
-      "threshold_level": "moderate",
-      "score": 0.509879609208181
-    },
-    {
-      "strategy_name": "Company SNM-3",
-      "total_pairs": 1262,
-      "matches_strict": 7,
-      "matches_moderate": 7,
-      "matches_relaxed": 21,
-      "avg_similarity_strict": 0.9000000000000001,
-      "avg_similarity_moderate": 0.9000000000000001,
-      "reduction_ratio": 0.9974734734734735,
-      "execution_time": 0.021292448043823242,
-      "sample_matches": [
-        {
-          "level_0": 31356,
-          "level_1": 30081,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 28073,
-          "level_1": 29835,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 40845,
-          "level_1": 40839,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 4273,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 33242,
-          "level_1": 32855,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        }
-      ],
-      "category": "single_field",
-      "threshold_level": "moderate",
-      "score": 0.9250723356891544
-    },
-    {
-      "strategy_name": "Country-Industry",
-      "total_pairs": 110509,
-      "matches_strict": 8,
-      "matches_moderate": 9,
-      "matches_relaxed": 39,
-      "avg_similarity_strict": 0.8999999999999999,
-      "avg_similarity_moderate": 0.8888888888888888,
-      "reduction_ratio": 0.7787607607607607,
-      "execution_time": 0.7250640392303467,
-      "sample_matches": [
-        {
-          "level_0": 5874,
-          "level_1": 8615,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 4273,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 6750,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 0.0,
-          "city_sim": 1.0,
-          "weighted_score": 0.7999999999999999
-        },
-        {
-          "level_0": 28073,
-          "level_1": 29835,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 30634,
-          "level_1": 28042,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        }
-      ],
-      "category": "multi_field",
-      "threshold_level": "moderate",
-      "score": 0.7951215086749894
-    },
-    {
-      "strategy_name": "Country-Name-SNM",
-      "total_pairs": 105692,
-      "matches_strict": 8,
-      "matches_moderate": 9,
-      "matches_relaxed": 38,
-      "avg_similarity_strict": 0.8999999999999999,
-      "avg_similarity_moderate": 0.8888888888888888,
-      "reduction_ratio": 0.7884044044044044,
-      "execution_time": 0.7201085090637207,
-      "sample_matches": [
-        {
-          "level_0": 5874,
-          "level_1": 8615,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 4273,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 6750,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 0.0,
-          "city_sim": 1.0,
-          "weighted_score": 0.7999999999999999
-        },
-        {
-          "level_0": 28073,
-          "level_1": 29835,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 30634,
-          "level_1": 28042,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        }
-      ],
-      "category": "multi_field",
-      "threshold_level": "moderate",
-      "score": 0.7983486114483562
-    },
-    {
-      "strategy_name": "Country-Industry-SNM",
-      "total_pairs": 118360,
-      "matches_strict": 8,
-      "matches_moderate": 9,
-      "matches_relaxed": 39,
-      "avg_similarity_strict": 0.8999999999999999,
-      "avg_similarity_moderate": 0.8888888888888888,
-      "reduction_ratio": 0.763043043043043,
-      "execution_time": 0.8186087608337402,
-      "sample_matches": [
-        {
-          "level_0": 5874,
-          "level_1": 8615,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 4273,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 6750,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 0.0,
-          "city_sim": 1.0,
-          "weighted_score": 0.7999999999999999
-        },
-        {
-          "level_0": 28073,
-          "level_1": 29835,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 30634,
-          "level_1": 28042,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        }
-      ],
-      "category": "complex",
-      "threshold_level": "moderate",
-      "score": 0.7844426445019711
+      "score": 0.8626187662319375
     },
     {
       "strategy_name": "Country Block",
-      "total_pairs": 99538,
-      "matches_strict": 9,
-      "matches_moderate": 10,
-      "matches_relaxed": 55,
-      "avg_similarity_strict": 0.8999999999999999,
-      "avg_similarity_moderate": 0.89,
-      "reduction_ratio": 0.8007247247247247,
-      "execution_time": 0.6674299240112305,
+      "total_pairs": 2560701,
+      "matches_strict": 102,
+      "matches_moderate": 109,
+      "matches_relaxed": 887,
+      "avg_similarity_strict": 0.9058823529411769,
+      "avg_similarity_moderate": 0.8990825688073399,
+      "reduction_ratio": 0.7951029405881176,
+      "execution_time": 15.017940759658813,
       "sample_matches": [
+        {
+          "level_0": 35706,
+          "level_1": 34661,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 34385,
+          "level_1": 34955,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
         {
           "level_0": 40845,
           "level_1": 40839,
@@ -893,7 +789,7 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 37645,
+          "level_0": 37255,
           "level_1": 38008,
           "name_sim": 1.0,
           "country_sim": 1.0,
@@ -902,8 +798,33 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 9935,
-          "level_1": 4273,
+          "level_0": 40638,
+          "level_1": 39367,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "single_field",
+      "threshold_level": "moderate",
+      "score": 0.653395007218851
+    },
+    {
+      "strategy_name": "Industry Block",
+      "total_pairs": 501691,
+      "matches_strict": 100,
+      "matches_moderate": 100,
+      "matches_relaxed": 319,
+      "avg_similarity_strict": 0.9060000000000004,
+      "avg_similarity_moderate": 0.9060000000000004,
+      "reduction_ratio": 0.9598566913382677,
+      "execution_time": 2.5421054363250732,
+      "sample_matches": [
+        {
+          "level_0": 35706,
+          "level_1": 34661,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -911,13 +832,74 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 9935,
-          "level_1": 6750,
+          "level_0": 40845,
+          "level_1": 40839,
           "name_sim": 1.0,
           "country_sim": 1.0,
-          "industry_sim": 0.0,
-          "city_sim": 1.0,
-          "weighted_score": 0.7999999999999999
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 36852,
+          "level_1": 38694,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 37255,
+          "level_1": 38008,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 40418,
+          "level_1": 38700,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "single_field",
+      "threshold_level": "moderate",
+      "score": 0.7460362867551108
+    },
+    {
+      "strategy_name": "City Block",
+      "total_pairs": 10852698,
+      "matches_strict": 97,
+      "matches_moderate": 104,
+      "matches_relaxed": 841,
+      "avg_similarity_strict": 0.9061855670103095,
+      "avg_similarity_moderate": 0.8990384615384618,
+      "reduction_ratio": 0.13161048209641923,
+      "execution_time": 80.46910977363586,
+      "sample_matches": [
+        {
+          "level_0": 31356,
+          "level_1": 30081,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 40403,
+          "level_1": 37257,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
         },
         {
           "level_0": 33242,
@@ -927,23 +909,547 @@
           "industry_sim": 1.0,
           "city_sim": 0.0,
           "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 28073,
+          "level_1": 29835,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 30634,
+          "level_1": 28042,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
         }
       ],
       "category": "single_field",
-      "threshold_level": "relaxed",
-      "score": 0.8161624880437576
+      "threshold_level": "moderate",
+      "score": 0.4423377611658594
     },
     {
-      "strategy_name": "Industry Block",
-      "total_pairs": 20316,
-      "matches_strict": 8,
-      "matches_moderate": 8,
-      "matches_relaxed": 20,
-      "avg_similarity_strict": 0.8999999999999999,
+      "strategy_name": "Website",
+      "total_pairs": 19,
+      "matches_strict": 16,
+      "matches_moderate": 17,
+      "matches_relaxed": 18,
+      "avg_similarity_strict": 0.9062499999999999,
       "avg_similarity_moderate": 0.8999999999999999,
-      "reduction_ratio": 0.9593273273273273,
-      "execution_time": 0.12927460670471191,
+      "reduction_ratio": 0.9999984796959391,
+      "execution_time": 0.011780500411987305,
       "sample_matches": [
+        {
+          "level_0": 40879,
+          "level_1": 38012,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 40403,
+          "level_1": 37257,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 9935,
+          "level_1": 6750,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 38404,
+          "level_1": 41280,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 37730,
+          "level_1": 40570,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "single_field",
+      "threshold_level": "moderate",
+      "score": 0.8643375433581636
+    },
+    {
+      "strategy_name": "Company SNM-3",
+      "total_pairs": 9574,
+      "matches_strict": 44,
+      "matches_moderate": 45,
+      "matches_relaxed": 237,
+      "avg_similarity_strict": 0.9045454545454544,
+      "avg_similarity_moderate": 0.9022222222222221,
+      "reduction_ratio": 0.999233926785357,
+      "execution_time": 0.07740473747253418,
+      "sample_matches": [
+        {
+          "level_0": 31356,
+          "level_1": 30081,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 28073,
+          "level_1": 29835,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 40845,
+          "level_1": 40839,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 9935,
+          "level_1": 4273,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 37862,
+          "level_1": 40714,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "single_field",
+      "threshold_level": "moderate",
+      "score": 0.863937386725378
+    },
+    {
+      "strategy_name": "Name-Employees",
+      "total_pairs": 6131,
+      "matches_strict": 22,
+      "matches_moderate": 22,
+      "matches_relaxed": 46,
+      "avg_similarity_strict": 0.8999999999999997,
+      "avg_similarity_moderate": 0.8999999999999997,
+      "reduction_ratio": 0.9995094218843769,
+      "execution_time": 0.04486346244812012,
+      "sample_matches": [
+        {
+          "level_0": 32693,
+          "level_1": 32805,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 33242,
+          "level_1": 32855,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 34040,
+          "level_1": 32032,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 34385,
+          "level_1": 34955,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 35168,
+          "level_1": 32086,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "multi_field",
+      "threshold_level": "moderate",
+      "score": 0.859892846927162
+    },
+    {
+      "strategy_name": "Name-Website",
+      "total_pairs": 4478,
+      "matches_strict": 23,
+      "matches_moderate": 24,
+      "matches_relaxed": 49,
+      "avg_similarity_strict": 0.9043478260869561,
+      "avg_similarity_moderate": 0.8999999999999999,
+      "reduction_ratio": 0.9996416883376675,
+      "execution_time": 0.03216886520385742,
+      "sample_matches": [
+        {
+          "level_0": 6890,
+          "level_1": 8543,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.9999999999999999
+        },
+        {
+          "level_0": 7780,
+          "level_1": 9165,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 9935,
+          "level_1": 6750,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 32693,
+          "level_1": 32805,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 33242,
+          "level_1": 32855,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "multi_field",
+      "threshold_level": "moderate",
+      "score": 0.8630710149468314
+    },
+    {
+      "strategy_name": "Country-Industry",
+      "total_pairs": 2829113,
+      "matches_strict": 102,
+      "matches_moderate": 109,
+      "matches_relaxed": 939,
+      "avg_similarity_strict": 0.9058823529411769,
+      "avg_similarity_moderate": 0.8990825688073399,
+      "reduction_ratio": 0.7736256851370273,
+      "execution_time": 17.25959038734436,
+      "sample_matches": [
+        {
+          "level_0": 770,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1162,
+          "level_1": 2098,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 1866,
+          "level_1": 385,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 2211,
+          "level_1": 770,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 2211,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        }
+      ],
+      "category": "multi_field",
+      "threshold_level": "moderate",
+      "score": 0.6454189793260491
+    },
+    {
+      "strategy_name": "Country-Name",
+      "total_pairs": 2674631,
+      "matches_strict": 102,
+      "matches_moderate": 109,
+      "matches_relaxed": 920,
+      "avg_similarity_strict": 0.9058823529411769,
+      "avg_similarity_moderate": 0.8990825688073399,
+      "reduction_ratio": 0.7859867173434687,
+      "execution_time": 19.075420379638672,
+      "sample_matches": [
+        {
+          "level_0": 770,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1162,
+          "level_1": 2098,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 1866,
+          "level_1": 385,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 2211,
+          "level_1": 770,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 2211,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        }
+      ],
+      "category": "multi_field",
+      "threshold_level": "moderate",
+      "score": 0.6481365722469683
+    },
+    {
+      "strategy_name": "Name-Website-Country",
+      "total_pairs": 2675500,
+      "matches_strict": 102,
+      "matches_moderate": 109,
+      "matches_relaxed": 921,
+      "avg_similarity_strict": 0.9058823529411769,
+      "avg_similarity_moderate": 0.8990825688073399,
+      "reduction_ratio": 0.7859171834366874,
+      "execution_time": 16.7429039478302,
+      "sample_matches": [
+        {
+          "level_0": 770,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1162,
+          "level_1": 2098,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 1866,
+          "level_1": 385,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 2211,
+          "level_1": 770,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 2211,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        }
+      ],
+      "category": "complex",
+      "threshold_level": "moderate",
+      "score": 0.6494253925646855
+    },
+    {
+      "strategy_name": "Name Block",
+      "total_pairs": 4473,
+      "matches_strict": 21,
+      "matches_moderate": 21,
+      "matches_relaxed": 45,
+      "avg_similarity_strict": 0.8999999999999998,
+      "avg_similarity_moderate": 0.8999999999999998,
+      "reduction_ratio": 0.9996420884176835,
+      "execution_time": 0.03260993957519531,
+      "sample_matches": [
+        {
+          "level_0": 35706,
+          "level_1": 34661,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 36521,
+          "level_1": 36184,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 33242,
+          "level_1": 32855,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 40879,
+          "level_1": 38012,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 40403,
+          "level_1": 37257,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "single_field",
+      "threshold_level": "relaxed",
+      "score": 0.861811897849561
+    },
+    {
+      "strategy_name": "Country Block",
+      "total_pairs": 2560701,
+      "matches_strict": 244,
+      "matches_moderate": 255,
+      "matches_relaxed": 1732,
+      "avg_similarity_strict": 0.902459016393443,
+      "avg_similarity_moderate": 0.8980392156862746,
+      "reduction_ratio": 0.7951029405881176,
+      "execution_time": 15.46242094039917,
+      "sample_matches": [
+        {
+          "level_0": 35706,
+          "level_1": 34661,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 34385,
+          "level_1": 34955,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
         {
           "level_0": 40845,
           "level_1": 40839,
@@ -963,26 +1469,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 40403,
-          "level_1": 37257,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 31356,
-          "level_1": 30081,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 30634,
-          "level_1": 28042,
+          "level_0": 39367,
+          "level_1": 41210,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -992,18 +1480,79 @@
       ],
       "category": "single_field",
       "threshold_level": "relaxed",
-      "score": 0.904903039494162
+      "score": 0.7098954498775641
+    },
+    {
+      "strategy_name": "Industry Block",
+      "total_pairs": 501691,
+      "matches_strict": 232,
+      "matches_moderate": 232,
+      "matches_relaxed": 746,
+      "avg_similarity_strict": 0.9025862068965519,
+      "avg_similarity_moderate": 0.9025862068965519,
+      "reduction_ratio": 0.9598566913382677,
+      "execution_time": 2.609999895095825,
+      "sample_matches": [
+        {
+          "level_0": 35706,
+          "level_1": 34661,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 40845,
+          "level_1": 40839,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 37645,
+          "level_1": 38008,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 36852,
+          "level_1": 38700,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 36852,
+          "level_1": 38694,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "single_field",
+      "threshold_level": "relaxed",
+      "score": 0.7953735459767604
     },
     {
       "strategy_name": "City Block",
-      "total_pairs": 434835,
-      "matches_strict": 7,
-      "matches_moderate": 8,
-      "matches_relaxed": 49,
-      "avg_similarity_strict": 0.9000000000000001,
-      "avg_similarity_moderate": 0.8875,
-      "reduction_ratio": 0.12945945945945947,
-      "execution_time": 3.3517978191375732,
+      "total_pairs": 10852698,
+      "matches_strict": 233,
+      "matches_moderate": 243,
+      "matches_relaxed": 1688,
+      "avg_similarity_strict": 0.9025751072961377,
+      "avg_similarity_moderate": 0.8983539094650208,
+      "reduction_ratio": 0.13161048209641923,
+      "execution_time": 80.96414732933044,
       "sample_matches": [
         {
           "level_0": 31356,
@@ -1053,18 +1602,79 @@
       ],
       "category": "single_field",
       "threshold_level": "relaxed",
-      "score": 0.5197958552623778
+      "score": 0.49655891732770696
+    },
+    {
+      "strategy_name": "Website",
+      "total_pairs": 19,
+      "matches_strict": 16,
+      "matches_moderate": 17,
+      "matches_relaxed": 18,
+      "avg_similarity_strict": 0.9062499999999999,
+      "avg_similarity_moderate": 0.8999999999999999,
+      "reduction_ratio": 0.9999984796959391,
+      "execution_time": 0.008644819259643555,
+      "sample_matches": [
+        {
+          "level_0": 40879,
+          "level_1": 38012,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 40403,
+          "level_1": 37257,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 9935,
+          "level_1": 6750,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 38404,
+          "level_1": 41280,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 37730,
+          "level_1": 40570,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "single_field",
+      "threshold_level": "relaxed",
+      "score": 0.8649520652004713
     },
     {
       "strategy_name": "Company SNM-3",
-      "total_pairs": 1262,
-      "matches_strict": 7,
-      "matches_moderate": 7,
-      "matches_relaxed": 21,
-      "avg_similarity_strict": 0.9000000000000001,
-      "avg_similarity_moderate": 0.9000000000000001,
-      "reduction_ratio": 0.9974734734734735,
-      "execution_time": 0.020650386810302734,
+      "total_pairs": 9574,
+      "matches_strict": 45,
+      "matches_moderate": 46,
+      "matches_relaxed": 248,
+      "avg_similarity_strict": 0.9044444444444444,
+      "avg_similarity_moderate": 0.9021739130434782,
+      "reduction_ratio": 0.999233926785357,
+      "execution_time": 0.07743406295776367,
       "sample_matches": [
         {
           "level_0": 31356,
@@ -1103,8 +1713,8 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 33242,
-          "level_1": 32855,
+          "level_0": 37862,
+          "level_1": 40714,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -1114,40 +1724,144 @@
       ],
       "category": "single_field",
       "threshold_level": "relaxed",
-      "score": 0.9251955267852677
+      "score": 0.8643051674247941
+    },
+    {
+      "strategy_name": "Name-Employees",
+      "total_pairs": 6131,
+      "matches_strict": 22,
+      "matches_moderate": 22,
+      "matches_relaxed": 46,
+      "avg_similarity_strict": 0.8999999999999997,
+      "avg_similarity_moderate": 0.8999999999999997,
+      "reduction_ratio": 0.9995094218843769,
+      "execution_time": 0.04390311241149902,
+      "sample_matches": [
+        {
+          "level_0": 32693,
+          "level_1": 32805,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 33242,
+          "level_1": 32855,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 34040,
+          "level_1": 32032,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 34385,
+          "level_1": 34955,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 35168,
+          "level_1": 32086,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "multi_field",
+      "threshold_level": "relaxed",
+      "score": 0.8600689390048938
+    },
+    {
+      "strategy_name": "Name-Website",
+      "total_pairs": 4478,
+      "matches_strict": 23,
+      "matches_moderate": 24,
+      "matches_relaxed": 49,
+      "avg_similarity_strict": 0.9043478260869561,
+      "avg_similarity_moderate": 0.8999999999999999,
+      "reduction_ratio": 0.9996416883376675,
+      "execution_time": 0.03143739700317383,
+      "sample_matches": [
+        {
+          "level_0": 6890,
+          "level_1": 8543,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.9999999999999999
+        },
+        {
+          "level_0": 7780,
+          "level_1": 9165,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 9935,
+          "level_1": 6750,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 32693,
+          "level_1": 32805,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        },
+        {
+          "level_0": 33242,
+          "level_1": 32855,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 1.0,
+          "city_sim": 0.0,
+          "weighted_score": 0.8999999999999999
+        }
+      ],
+      "category": "multi_field",
+      "threshold_level": "relaxed",
+      "score": 0.8632084292114366
     },
     {
       "strategy_name": "Country-Industry",
-      "total_pairs": 110509,
-      "matches_strict": 9,
-      "matches_moderate": 10,
-      "matches_relaxed": 61,
-      "avg_similarity_strict": 0.8999999999999999,
-      "avg_similarity_moderate": 0.89,
-      "reduction_ratio": 0.7787607607607607,
-      "execution_time": 0.7422850131988525,
+      "total_pairs": 2829113,
+      "matches_strict": 244,
+      "matches_moderate": 255,
+      "matches_relaxed": 1845,
+      "avg_similarity_strict": 0.902459016393443,
+      "avg_similarity_moderate": 0.8980392156862746,
+      "reduction_ratio": 0.7736256851370273,
+      "execution_time": 17.24185347557068,
       "sample_matches": [
         {
-          "level_0": 5874,
-          "level_1": 8615,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 4273,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 6750,
+          "level_0": 49,
+          "level_1": 4729,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 0.0,
@@ -1155,8 +1869,17 @@
           "weighted_score": 0.7999999999999999
         },
         {
-          "level_0": 28073,
-          "level_1": 29835,
+          "level_0": 770,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1162,
+          "level_1": 2098,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -1164,51 +1887,42 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 30634,
-          "level_1": 28042,
+          "level_0": 1414,
+          "level_1": 2360,
           "name_sim": 1.0,
           "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1866,
+          "level_1": 385,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
         }
       ],
       "category": "multi_field",
       "threshold_level": "relaxed",
-      "score": 0.8044200094149343
+      "score": 0.7022671899991655
     },
     {
-      "strategy_name": "Country-Name-SNM",
-      "total_pairs": 105692,
-      "matches_strict": 9,
-      "matches_moderate": 10,
-      "matches_relaxed": 56,
-      "avg_similarity_strict": 0.8999999999999999,
-      "avg_similarity_moderate": 0.89,
-      "reduction_ratio": 0.7884044044044044,
-      "execution_time": 0.7215325832366943,
+      "strategy_name": "Country-Name",
+      "total_pairs": 2674631,
+      "matches_strict": 244,
+      "matches_moderate": 255,
+      "matches_relaxed": 1808,
+      "avg_similarity_strict": 0.902459016393443,
+      "avg_similarity_moderate": 0.8980392156862746,
+      "reduction_ratio": 0.7859867173434687,
+      "execution_time": 16.742391347885132,
       "sample_matches": [
         {
-          "level_0": 5874,
-          "level_1": 8615,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 4273,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 6750,
+          "level_0": 49,
+          "level_1": 4729,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 0.0,
@@ -1216,8 +1930,17 @@
           "weighted_score": 0.7999999999999999
         },
         {
-          "level_0": 28073,
-          "level_1": 29835,
+          "level_0": 770,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1162,
+          "level_1": 2098,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -1225,51 +1948,42 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 30634,
-          "level_1": 28042,
+          "level_0": 1414,
+          "level_1": 2360,
           "name_sim": 1.0,
           "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1866,
+          "level_1": 385,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
         }
       ],
       "category": "multi_field",
       "threshold_level": "relaxed",
-      "score": 0.8086968743997158
+      "score": 0.7062841391145345
     },
     {
-      "strategy_name": "Country-Industry-SNM",
-      "total_pairs": 118360,
-      "matches_strict": 9,
-      "matches_moderate": 10,
-      "matches_relaxed": 62,
-      "avg_similarity_strict": 0.8999999999999999,
-      "avg_similarity_moderate": 0.89,
-      "reduction_ratio": 0.763043043043043,
-      "execution_time": 0.8147542476654053,
+      "strategy_name": "Name-Website-Country",
+      "total_pairs": 2675500,
+      "matches_strict": 244,
+      "matches_moderate": 255,
+      "matches_relaxed": 1809,
+      "avg_similarity_strict": 0.902459016393443,
+      "avg_similarity_moderate": 0.8980392156862746,
+      "reduction_ratio": 0.7859171834366874,
+      "execution_time": 19.1248836517334,
       "sample_matches": [
         {
-          "level_0": 5874,
-          "level_1": 8615,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 4273,
-          "name_sim": 1.0,
-          "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
-        },
-        {
-          "level_0": 9935,
-          "level_1": 6750,
+          "level_0": 49,
+          "level_1": 4729,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 0.0,
@@ -1277,8 +1991,17 @@
           "weighted_score": 0.7999999999999999
         },
         {
-          "level_0": 28073,
-          "level_1": 29835,
+          "level_0": 770,
+          "level_1": 6034,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1162,
+          "level_1": 2098,
           "name_sim": 1.0,
           "country_sim": 1.0,
           "industry_sim": 1.0,
@@ -1286,18 +2009,27 @@
           "weighted_score": 0.8999999999999999
         },
         {
-          "level_0": 30634,
-          "level_1": 28042,
+          "level_0": 1414,
+          "level_1": 2360,
           "name_sim": 1.0,
           "country_sim": 1.0,
-          "industry_sim": 1.0,
-          "city_sim": 0.0,
-          "weighted_score": 0.8999999999999999
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
+        },
+        {
+          "level_0": 1866,
+          "level_1": 385,
+          "name_sim": 1.0,
+          "country_sim": 1.0,
+          "industry_sim": 0.0,
+          "city_sim": 1.0,
+          "weighted_score": 0.7999999999999999
         }
       ],
       "category": "complex",
       "threshold_level": "relaxed",
-      "score": 0.7951206725901753
+      "score": 0.7049287869583235
     }
   ],
   "configuration": {
@@ -1321,6 +2053,6 @@
         "city": 0.75
       }
     },
-    "sample_size": 1000
+    "sample_size": 5000
   }
 }

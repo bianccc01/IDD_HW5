@@ -124,7 +124,7 @@ def train():
 def test_prediction(dataframe):
 
     # load the model
-    with open('flexmatcher2.pkl.model', 'rb') as f:
+    with open('flexmatcher.pkl.model', 'rb') as f:
         fm = pkl.load(f)
 
     # remove file_name column

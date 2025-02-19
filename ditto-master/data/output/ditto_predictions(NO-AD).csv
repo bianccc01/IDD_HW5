@@ -1,0 +1,30 @@
+company_name1,company_country1,company_employees1,company_website1,company_name2,company_country2,company_employees2,company_website2,match,match_confidence,ground_truth
+Apple Hospitality Reit,USA,"'4,035'|'Virginia'|'63'|nan|nan",https://applehospitalityreit.com,Apple,USA,"""'1'|'California'|'154,000'|'Tim Cook'|""'Steve Jobs'",'Steve Wozniak',0,0.8445,0
+Apple,USA,"""'1'|'California'|'154,000'|'Tim Cook'|""'Steve Jobs'",'Steve Wozniak',IBM,United States,Unknown,Unknown,0,0.7952,0
+TESLA MOTORS INC.,USA,"108,000",https://www.teslamotors.com/,Microsoft Corporation,USA,"218,000",https://www.microsoft.com/,0,0.8182,0
+SAP,Germany,"100,000",https://www.sap.com/,Volkswagen,Germany,"662,575",https://www.volkswagen.com/,0,0.7823,0
+Delta Air Lines,USA,"'794'|'Georgia'|'83,000'|'Ed Bastian'|'Collett E. Woolman'",https://www.delta.com/,Delta Electronics,Taiwan,"'790'|nan|'80,000'|'Ping Zheng'|nan",https://www.deltaww.com/,0,0.8038,0
+Sony Electronics,Japan,"109,000",https://www.sony-electronics.com/,Sony Technologies,Japan,"110,500",https://www.sony-technologies.com/,1,0.3963,1
+International Business Machines Corp,United States of America,"307,600",Unknown,TESLA MOTORS INC.,USA,"108,000",https://www.teslamotors.com/,0,0.8094,0
+Siemens Engineering,Germany,"303,500",https://www.siemens-engineering.com/,Volkswagen Motors,Germany,"661,000",https://www.volkswagen-motors.com/,1,0.2573,0
+Procter & Gamble Company,USA,106000,https://www.pg.com,P&G,USA,104500,https://www.pg.com,1,0.2788,1
+SAP Technologies,Germany,"100,200",https://www.sap-technologies.com/,Volkswagen Motors,Germany,"661,000",https://www.volkswagen-motors.com/,0,0.8314,0
+SAP Global,Germany,"99,800",https://www.sap-global.com/,SAP Technologies,Germany,"100,200",https://www.sap-technologies.com/,1,0.4342,0
+Apple,USA,"""'1'|'California'|'154,000'|'Tim Cook'|""'Steve Jobs'",'Steve Wozniak',Tesla,USA,"110,000",https://www.tesla.com/,0,0.8287,0
+Nvidia Corporation,USA,26500,https://www.nvidia.com,Nvidia,USA,27000,https://www.nvidia.com,1,0.4373,1
+Delta Air Lines,USA,"'794'|'Georgia'|'83,000'|'Ed Bastian'|'Collett E. Woolman'",https://www.delta.com/,Delta Electronics Inc,Taiwan,"68,000",Unknown,0,0.8188,0
+Apple,USA,"""'1'|'California'|'154,000'|'Tim Cook'|""'Steve Jobs'",'Steve Wozniak',Sony,Japan,"109,700",https://www.sony.com/,0,0.8415,0
+Apple Hospitality Reit,USA,"'4,035'|'Virginia'|'63'|nan|nan",https://applehospitalityreit.com,APPLE INC.,'California(CA)'|'UNITED STATES','3192'|nan,https://www.info-clipper.com/en/company/united-states/apple-inc.usd10543w.html,0,0.8274,0
+Toyota Auto,Japan,"365,500",https://www.toyota-auto.com/,Toyota Corporation,Japan,"367,000",https://www.toyota-corporation.com/,1,0.3513,1
+Tesla,USA,"110,000",https://www.tesla.com/,Toyota,Japan,"366,283",https://www.toyota-global.com/,1,0.4065,0
+Volkswagen,Germany,"662,575",https://www.volkswagen.com/,Toyota,Japan,"366,283",https://www.toyota-global.com/,0,0.7658,0
+SAP,Germany,"100,000",https://www.sap.com/,SAP Global,Germany,"99,800",https://www.sap-global.com/,1,0.3573,1
+McDonald's Corporation,USA,200000,https://www.mcdonalds.com,McDonald's,USA,198500,https://www.mcdonalds.com,1,0.3615,1
+Amazon.com,USA,"'5'|'Washington'|'1,335,000'|'Andy Jassy'|'Jeff Bezos'",https://www.amazon.com/,Microsoft,USA,"221,000",https://www.microsoft.com/,0,0.849,0
+Sony,Japan,"109,700",https://www.sony.com/,Sony Electronics,Japan,"109,000",https://www.sony-electronics.com/,1,0.3402,1
+Tesla,USA,127855,https://www.tesla.com,Tesla Inc.,USA,125800,https://www.tesla.com,1,0.3841,1
+SAP Technologies,Germany,"100,200",https://www.sap-technologies.com/,Volkswagen Manufacturing,Germany,"663,500",https://www.volkswagen-manufacturing.com/,0,0.8232,0
+SAP Global,Germany,"99,800",https://www.sap-global.com/,Volkswagen Motors,Germany,"661,000",https://www.volkswagen-motors.com/,0,0.7866,0
+Microsoft,USA,"221,000",https://www.microsoft.com/,Google,USA,"150,000",https://www.google.com/,1,0.4486,0
+Ibm,USA,"'123'|'New York'|'375,300'|'Arvind Krishna'|'Charles Ranlett Flint'",https://www.ibm.com/,SAP,Germany,"100,000",https://www.sap.com/,0,0.8345,0
+Siemens,Germany,"303,000",https://www.siemens.com/,Siemens Engineering,Germany,"303,500",https://www.siemens-engineering.com/,1,0.3644,1

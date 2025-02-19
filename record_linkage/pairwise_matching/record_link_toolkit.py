@@ -19,6 +19,7 @@ class PairwiseMatchingAnalyzer:
         self.results = []
         self.best_strategy = None
         self.similarity_thresholds = {
+
             'strict': {
                 'name': 0.85,
                 'country': 0.9,
@@ -80,20 +81,24 @@ class PairwiseMatchingAnalyzer:
     def create_blocking_strategies(self) -> Dict:
         return {
             'single_field': [
+                {'name': 'Name Block', 'fields': ['company_name']},
                 {'name': 'Country Block', 'fields': ['company_country']},
                 {'name': 'Industry Block', 'fields': ['company_industry']},
                 {'name': 'City Block', 'fields': ['headquarters_region_city']},
+                {'name': 'Website', 'fields': ['company_website']},
                 {'name': 'Company SNM-3', 'fields': ['company_name'],
                  'method': 'sorted_neighbourhood', 'window': 3}
             ],
             'multi_field': [
+                {'name': 'Name-Employees', 'fields': ['company_name', 'company_employees']},
+                {'name': 'Name-Website', 'fields': ['company_name', 'company_website']},
+
                 {'name': 'Country-Industry', 'fields': ['company_country', 'company_industry']},
-                {'name': 'Country-Name-SNM', 'fields': ['company_country', 'company_name'],
+                {'name': 'Country-Name', 'fields': ['company_country', 'company_name'],
                  'method': 'sorted_neighbourhood', 'window': 3}
             ],
             'complex': [
-                {'name': 'Country-Industry-SNM',
-                 'fields': ['company_country', 'company_industry', 'company_name'],
+                {'name': 'Name-Website-Country', 'fields': ['company_name', 'company_website', 'company_country'],
                  'method': 'sorted_neighbourhood', 'window': 3}
             ]
         }
@@ -276,7 +281,7 @@ class PairwiseMatchingAnalyzer:
 def main():
     analyzer = PairwiseMatchingAnalyzer(
         data_path="../../data/schema_alignment/created/fm/merged/merged_data.csv",
-        sample_size=1000
+        sample_size=5000
     )
 
     print("Avvio analisi...")

@@ -27,7 +27,7 @@ def format_record(row):
 def create_ditto_train_test_val(input_csv, train_file, test_file, val_file, jsonl_file,
                                 train_csv, test_csv, val_csv,
                                 test_size=0.2, val_size=0.2):
-    df = pd.read_csv(input_csv, sep="\t")
+    df = pd.read_csv(input_csv)
     df = df.fillna("Unknown")
     df = df.applymap(clean_value)
 
@@ -96,7 +96,7 @@ def create_ditto_train_test_val(input_csv, train_file, test_file, val_file, json
 
 
 create_ditto_train_test_val(
-    "../../data/record_linkage/ditto/train/augmented_matches.tsv",
+    "../../data/record_linkage/ditto/train/matches.csv",
     "../../data/record_linkage/ditto/train/ditto_train.txt",
     "../../data/record_linkage/ditto/train/ditto_test.txt",
     "../../data/record_linkage/ditto/train/ditto_val.txt",

@@ -2,26 +2,30 @@ ANALISI STRATEGIE DI BLOCKING
 ==================================================
 
 MIGLIORE STRATEGIA:
-strategy_name: Company SNM-3
-total_pairs: 1262
-matches_strict: 7
-matches_moderate: 7
-matches_relaxed: 21
-avg_similarity_strict: 0.9000000000000001
-avg_similarity_moderate: 0.9000000000000001
-reduction_ratio: 0.9974734734734735
-execution_time: 0.020650386810302734
+strategy_name: Website
+total_pairs: 19
+matches_strict: 16
+matches_moderate: 17
+matches_relaxed: 18
+avg_similarity_strict: 0.9062499999999999
+avg_similarity_moderate: 0.8999999999999999
+reduction_ratio: 0.9999984796959391
+execution_time: 0.008644819259643555
 category: single_field
 threshold_level: relaxed
-score: 0.9251955267852677
+score: 0.8649520652004713
 
 CONFRONTO STRATEGIE:
                       matches_moderate  avg_similarity_moderate  reduction_ratio  execution_time
 strategy_name                                                                                   
-City Block                       7.000                    0.891            0.129           2.551
-Company SNM-3                    6.333                    0.900            0.997           0.021
-Country Block                    8.333                    0.893            0.801           0.665
-Country-Industry                 8.333                    0.893            0.779           0.743
-Country-Industry-SNM             8.333                    0.893            0.763           0.819
-Country-Name-SNM                 8.333                    0.893            0.788           0.722
-Industry Block                   7.000                    0.900            0.959           0.116
+City Block                     134.000                    0.900            0.132          79.884
+Company SNM-3                   42.667                    0.902            0.999           0.077
+Country Block                  140.667                    0.900            0.795          15.434
+Country-Industry               140.667                    0.900            0.774          17.091
+Country-Name                   140.667                    0.900            0.786          18.183
+Industry Block                 129.333                    0.905            0.960           2.591
+Name Block                      21.000                    0.900            1.000           0.031
+Name-Employees                  22.000                    0.900            1.000           0.044
+Name-Website                    23.333                    0.900            1.000           0.032
+Name-Website-Country           140.667                    0.900            0.786          17.345
+Website                         16.333                    0.900            1.000           0.010
