@@ -1,0 +1,30 @@
+company_name1,company_country1,company_employees1,company_website1,company_name2,company_country2,company_employees2,company_website2,match,match_confidence
+Sony,Japan,"109,700",https://www.sony.com/,Sony Electronics,Japan,"109,000",https://www.sony-electronics.com/,1,0.7335
+Sony Electronics,Japan,"109,000",https://www.sony-electronics.com/,Sony Technologies,Japan,"110,500",https://www.sony-technologies.com/,1,0.7165
+IBM,United States,Unknown,Unknown,Alphabet Inc,USA,"148,000",https://www.abc.xyz/,0,0.9527
+SAP Technologies,Germany,"100,200",https://www.sap-technologies.com/,Volkswagen Manufacturing,Germany,"663,500",https://www.volkswagen-manufacturing.com/,0,0.9436
+SAP Global,Germany,"99,800",https://www.sap-global.com/,SAP Technologies,Germany,"100,200",https://www.sap-technologies.com/,1,0.7212
+Ibm,USA,"'123'|'New York'|'375,300'|'Arvind Krishna'|'Charles Ranlett Flint'",https://www.ibm.com/,Siemens,Germany,"303,000",https://www.siemens.com/,0,0.9237
+Microsoft,USA,"221,000",https://www.microsoft.com/,Google,USA,"150,000",https://www.google.com/,0,0.3968
+Ibm,USA,"'123'|'New York'|'375,300'|'Arvind Krishna'|'Charles Ranlett Flint'",https://www.ibm.com/,Google,USA,"150,000",https://www.google.com/,0,0.44
+Toyota,Japan,"366,283",https://www.toyota-global.com/,Sony Electronics,Japan,"109,000",https://www.sony-electronics.com/,0,0.9476
+Apple,USA,"""'1'|'California'|'154,000'|'Tim Cook'|""'Steve Jobs'",'Steve Wozniak',Sony,Japan,"109,700",https://www.sony.com/,0,0.6503
+Volkswagen Motors,Germany,"661,000",https://www.volkswagen-motors.com/,Toyota,Japan,"366,283",https://www.toyota-global.com/,0,0.9369
+Tesla,USA,127855,https://www.tesla.com,Tesla Inc.,USA,125800,https://www.tesla.com,1,0.7338
+TESLA MOTORS INC.,USA,"108,000",https://www.teslamotors.com/,Microsoft Corporation,USA,"218,000",https://www.microsoft.com/,0,0.8324
+Siemens Engineering,Germany,"303,500",https://www.siemens-engineering.com/,Volkswagen Motors,Germany,"661,000",https://www.volkswagen-motors.com/,0,0.8632
+SAP,Germany,"100,000",https://www.sap.com/,SAP Technologies,Germany,"100,200",https://www.sap-technologies.com/,1,0.735
+IBM,United States,Unknown,Unknown,SAP Technologies,Germany,"100,200",https://www.sap-technologies.com/,0,0.9852
+SAP Technologies,Germany,"100,200",https://www.sap-technologies.com/,Siemens Group,Germany,"302,500",https://www.siemens-group.com/,0,0.648
+Procter & Gamble Company,USA,106000,https://www.pg.com,P&G,USA,104500,https://www.pg.com,1,0.6578
+SAP Technologies,Germany,"100,200",https://www.sap-technologies.com/,Volkswagen Motors,Germany,"661,000",https://www.volkswagen-motors.com/,0,0.9665
+International Business Machines Corp,United States of America,"307,600",Unknown,Alphabet Inc,USA,"148,000",https://www.abc.xyz/,0,0.3626
+Berkshire Hathaway,USA,383000,https://www.berkshirehathaway.com,Berkshire Hathaway Inc.,USA,385000,https://www.berkshirehathaway.com,1,0.7365
+Ibm,USA,"'123'|'New York'|'375,300'|'Arvind Krishna'|'Charles Ranlett Flint'",https://www.ibm.com/,SAP,Germany,"100,000",https://www.sap.com/,0,0.8388
+Siemens,Germany,"303,000",https://www.siemens.com/,Siemens Engineering,Germany,"303,500",https://www.siemens-engineering.com/,1,0.7305
+J.P. Morgan Chase & Co,USA,250000,https://www.jpmorganchase.com,J.P. Morgan,USA,248000,https://www.jpmorgan.com,1,0.6908
+SAP Global,Germany,"99,800",https://www.sap-global.com/,Volkswagen Motors,Germany,"661,000",https://www.volkswagen-motors.com/,0,0.9307
+Apple Hospitality Reit,USA,"'4,035'|'Virginia'|'63'|nan|nan",https://applehospitalityreit.com,Apple,USA,"""'1'|'California'|'154,000'|'Tim Cook'|""'Steve Jobs'",'Steve Wozniak',0,0.3674
+Siemens Group,Germany,"302,500",https://www.siemens-group.com/,Volkswagen Motors,Germany,"661,000",https://www.volkswagen-motors.com/,0,0.8296
+Delta Air Lines,USA,"'794'|'Georgia'|'83,000'|'Ed Bastian'|'Collett E. Woolman'",https://www.delta.com/,Delta Electronics Inc,Taiwan,"68,000",Unknown,0,0.4874
+SAP,Germany,"100,000",https://www.sap.com/,Siemens,Germany,"303,000",https://www.siemens.com/,0,0.568
