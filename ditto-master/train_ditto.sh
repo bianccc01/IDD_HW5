@@ -1,10 +1,11 @@
 python3 train_ditto.py \
   --task companies \
-  --batch_size 64 \
-  --max_len 64 \
-  --lr 3e-5 \
-  --n_epochs 40 \
-  --lm distilbert \
+  --batch_size 8 \
+  --max_len 128 \
+  --lr 5e-5 \
+  --n_epochs 100 \
+  --lm roberta-base \
   --da del \
-  --dk product \
-  --summarize
+  --dk entity \
+  --summarize \
+  --save_model

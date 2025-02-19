@@ -219,30 +219,28 @@ def predict(input_path, output_path, config,
         predictions, logits = classify(pairs, model, lm=lm,
                                        max_len=max_len,
                                        threshold=threshold)
-        # try:
-        #     predictions, logits = classify(pairs, model, lm=lm,
-        #                                    max_len=max_len,
-        #                                    threshold=threshold)
-        # except:
-        #     # ignore the whole batch
-        #     return
         scores = softmax(logits, axis=1)
         for row, pred, score in zip(rows, predictions, scores):
-            output = f"{row[0]}\t{row[1][:-1]}\t{pred}\t{score[int(pred)]:.4f}\n"
+            # Costruisco un dizionario per ogni record
+            output = {
+                'left': row[0],
+                'right': row[1],
+                'match': pred,
+                'match_confidence': round(score[int(pred)], 4)
+            }
             writer.write(output)
 
-    # input_path can also be train/valid/test.txt
-    # convert to jsonlines
+    # Se l'input_path finisce in ".txt", lo convertiamo in JSONL
     if '.txt' in input_path:
         with jsonlines.open(input_path + '.jsonl', mode='w') as writer:
             for line in open(input_path, encoding='utf-8', errors="replace"):
                 writer.write(line.split('\t')[:2])
         input_path += '.jsonl'
 
-    # batch processing
+    # Usare jsonlines per scrivere l'output in formato JSONL
     start_time = time.time()
-    with jsonlines.open(input_path) as reader,\
-        open(output_path, mode='w', encoding='utf-8') as writer:
+    with jsonlines.open(input_path) as reader, \
+         jsonlines.open(output_path, mode='w') as writer:
         pairs = []
         rows = []
         for idx, row in tqdm(enumerate(reader)):
@@ -257,8 +255,9 @@ def predict(input_path, output_path, config,
             process_batch(rows, pairs, writer)
 
     run_time = time.time() - start_time
-    run_tag = '%s_lm=%s_dk=%s_su=%s' % (config['name'], lm, str(dk_injector != None), str(summarizer != None))
+    run_tag = '%s_lm=%s_dk=%s_su=%s' % (config['name'], lm, str(dk_injector is not None), str(summarizer is not None))
     os.system('echo %s %f >> log.txt' % (run_tag, run_time))
+
 
 
 def tune_threshold(config, model, hp):

@@ -4,7 +4,7 @@
     "task_type": "classification",
     "vocab": ["0", "1"],
     "trainset": "data/train/ditto_train.txt",
-    "validset": "data/train/DITTO_valid_set.txt",
-    "testset": "data/train/DITTO_valid_set.txt"
+    "validset": "data/train/ditto_val.txt",
+    "testset": "data/train/ditto_test.txt"
   }
 ]

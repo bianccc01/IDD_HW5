@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 import random
+import json
+from sklearn.model_selection import train_test_split
+
 
 def clean_value(x):
     if pd.isna(x):
@@ -8,9 +11,14 @@ def clean_value(x):
     if isinstance(x, (list, pd.Series, np.ndarray)):
         return '|'.join(map(str, x))
     if isinstance(x, str):
-        if x.startswith('[') and x.endswith(']'):
-            x = x[1:-1]
+        # Rimuovi le parentesi quadre esterne, se presenti
+        x = x.strip("[]")
+        # Sostituisci le virgole con pipe
+        x = x.replace(", ", "|")
+        # Rimuovi eventuali parentesi quadre residue
+        x = x.replace('[', '').replace(']', '')
     return str(x)
+
 
 
 def format_record(row):
@@ -21,71 +29,89 @@ def format_record(row):
     """
     parts = []
     for col, value in row.items():
-        parts.append(f"COL {col} VAL {value}")
+        parts.append(f"[COL] {col} [VAL] {value}")
     return " ".join(parts)
 
-def create_ditto_train_file(match_csv, non_match_csv, output_file):
+
+def create_ditto_train_test_val(input_csv, train_file, test_file, val_file, jsonl_file, test_size=0.2):
     """
-    Crea il file di training per Ditto combinando coppie matching e non-matching.
-
-    :param match_csv: percorso del CSV con le coppie matching (righe in coppia)
-    :param non_match_csv: percorso del CSV con le coppie non-matching (righe in coppia)
-    :param output_file: percorso del file di output (es. "ditto_train.txt")
+    Carica un CSV contenente coppie consecutive e il valore di match,
+    lo splitta in train/test/validation e lo salva in formato Ditto e JSONL.
     """
-    # Carica i CSV
-    df_match = pd.read_csv(match_csv)
-    df_non_match = pd.read_csv(non_match_csv)
+    df = pd.read_csv(input_csv)
+    df = df.fillna("Unknown")
+    df = df.applymap(clean_value)
 
-    # Applica la pulizia dei dati a tutte le colonne
-    for col in df_match.columns:
-        df_match[col] = df_match[col].apply(clean_value)
-    for col in df_non_match.columns:
-        df_non_match[col] = df_non_match[col].apply(clean_value)
+    # Seleziona solo le colonne necessarie
+    df = df[['company_name_1', 'company_name_2', 'company_country_1', 'company_country_2',
+             'company_employees_1', 'company_employees_2', 'company_website_1', 'company_website_2', 'match']]
 
-    # Rimuove la colonna file_name se presente
-    if 'file_name' in df_match.columns:
-        df_match = df_match.drop(columns=['file_name'])
-    if 'file_name' in df_non_match.columns:
-        df_non_match = df_non_match.drop(columns=['file_name'])
+    # Split train/test
+    train_df, test_df = train_test_split(df, test_size=test_size, random_state=42, stratify=df['match'])
+    val_df = test_df.copy()  # Validation uguale al test
 
-    df_match = df_match.fillna("Unknown")
-    df_non_match = df_non_match.fillna("Unknown")
+    def process_and_save(df, output_file):
+        lines = []
+        for _, row in df.iterrows():
+            record1 = format_record({
+                'company_name': row['company_name_1'],
+                'company_country': row['company_country_1'],
+                'company_employees': row['company_employees_1'],
+                'company_website': row['company_website_1']
+            })
+            record2 = format_record({
+                'company_name': row['company_name_2'],
+                'company_country': row['company_country_2'],
+                'company_employees': row['company_employees_2'],
+                'company_website': row['company_website_2']
+            })
+            label = int(row['match'])
+            lines.append(f"{record1} \t {record2} \t {label}")
 
-    #take only company_name column
-    df_match = df_match[['company_name']]
-    df_non_match = df_non_match[['company_name']]
+        random.shuffle(lines)
+        with open(output_file, "w", encoding="utf-8") as f:
+            for line in lines:
+                f.write(line + "\n")
 
-    train_lines = []
+    def create_jsonl(df, output_file):
+        records = []
+        for _, row in df.iterrows():
+            record = {
+                "record1": {
+                    "company_name": row['company_name_1'],
+                    "company_country": row['company_country_1'],
+                    "company_employees": row['company_employees_1'],
+                    "company_website": row['company_website_1']
+                },
+                "record2": {
+                    "company_name": row['company_name_2'],
+                    "company_country": row['company_country_2'],
+                    "company_employees": row['company_employees_2'],
+                    "company_website": row['company_website_2']
+                }
+            }
+            records.append(json.dumps(record))
 
-    # Processa le coppie matching (etichetta 1)
-    for i in range(0, len(df_match), 2):
-        if i + 1 < len(df_match):
-            record1 = format_record(df_match.iloc[i])
-            record2 = format_record(df_match.iloc[i + 1])
-            line = f"{record1} \t {record2} \t 1"
-            train_lines.append(line)
+        with open(output_file, "w", encoding="utf-8") as f:
+            for record in records:
+                f.write(record + "\n")
 
-    # Processa le coppie non-matching (etichetta 0)
-    for i in range(0, len(df_non_match), 2):
-        if i + 1 < len(df_non_match):
-            record1 = format_record(df_non_match.iloc[i])
-            record2 = format_record(df_non_match.iloc[i + 1])
-            line = f"{record1} \t {record2} \t 0"
-            train_lines.append(line)
+    process_and_save(train_df, train_file)
+    process_and_save(test_df, test_file)
+    process_and_save(val_df, val_file)
+    create_jsonl(test_df, jsonl_file)
 
-    # Mescola (shuffle) le linee
-    random.shuffle(train_lines)
+    print(f"✅ File di training salvato in {train_file}")
+    print(f"✅ File di test salvato in {test_file}")
+    print(f"✅ File di validazione salvato in {val_file}")
+    print(f"✅ File JSONL per la predizione salvato in {jsonl_file}")
 
-    # Salva il file di training
-    with open(output_file, "w", encoding="utf-8") as f:
-        for line in train_lines:
-            f.write(line + "\n")
-
-    print(f"✅ File di training salvato in {output_file}")
 
 # Esempio di utilizzo:
-create_ditto_train_file(
-    "../../data/record_linkage/ditto/train/match.csv",
-    "../../data/record_linkage/ditto/train/not_match.csv",
-    "../../ditto-master/data/train/ditto_train.txt"
+create_ditto_train_test_val(
+    "../../data/record_linkage/ditto/train/matches.csv",
+    "../../data/record_linkage/ditto/train/ditto_train.txt",
+    "../../data/record_linkage/ditto/train/ditto_test.txt",
+    "../../data/record_linkage/ditto/train/ditto_val.txt",
+    "../../data/record_linkage/ditto/train/ditto_input.jsonl"
 )
