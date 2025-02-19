@@ -3,7 +3,7 @@ python3 train_ditto.py \
   --batch_size 8 \
   --max_len 128 \
   --lr 5e-5 \
-  --n_epochs 100 \
+  --n_epochs 25 \
   --lm roberta-base \
   --da del \
   --dk entity \

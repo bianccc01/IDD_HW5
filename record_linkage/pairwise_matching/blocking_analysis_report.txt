@@ -1,0 +1,27 @@
+ANALISI STRATEGIE DI BLOCKING
+==================================================
+
+MIGLIORE STRATEGIA:
+strategy_name: Company SNM-3
+total_pairs: 1262
+matches_strict: 7
+matches_moderate: 7
+matches_relaxed: 21
+avg_similarity_strict: 0.9000000000000001
+avg_similarity_moderate: 0.9000000000000001
+reduction_ratio: 0.9974734734734735
+execution_time: 0.020650386810302734
+category: single_field
+threshold_level: relaxed
+score: 0.9251955267852677
+
+CONFRONTO STRATEGIE:
+                      matches_moderate  avg_similarity_moderate  reduction_ratio  execution_time
+strategy_name                                                                                   
+City Block                       7.000                    0.891            0.129           2.551
+Company SNM-3                    6.333                    0.900            0.997           0.021
+Country Block                    8.333                    0.893            0.801           0.665
+Country-Industry                 8.333                    0.893            0.779           0.743
+Country-Industry-SNM             8.333                    0.893            0.763           0.819
+Country-Name-SNM                 8.333                    0.893            0.788           0.722
+Industry Block                   7.000                    0.900            0.959           0.116

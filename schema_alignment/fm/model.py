@@ -15,7 +15,6 @@ def train_flexmatcher(schema_list, mapping_list):
 
 
 
-
 def train():
 
     dataframes = extraction.extract_data('../../data/schema_alignment/train')
