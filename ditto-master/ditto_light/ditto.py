@@ -216,6 +216,7 @@ def train(trainset, validset, testset, run_tag, hp):
                         'epoch': epoch}
                 torch.save(ckpt, ckpt_path)
 
+        #print the results and precision/recall
         print(f"epoch {epoch}: dev_f1={dev_f1}, f1={test_f1}, best_f1={best_test_f1}")
 
         # logging

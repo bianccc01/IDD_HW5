@@ -2,6 +2,8 @@ import jsonlines
 import csv
 import argparse
 
+import pandas as pd
+
 
 def parse_record(s):
     """
@@ -22,22 +24,25 @@ def parse_record(s):
     return record
 
 
-def jsonl_to_csv(jsonl_file, csv_file):
+def jsonl_to_csv(jsonl_file, csv_file, val_csv):
     """
     Legge il file JSONL e scrive un CSV con le colonne:
     company_name1, company_country1, company_employees1, company_website1,
     company_name2, company_country2, company_employees2, company_website2, match, match_confidence
     """
+
+    val_csv = pd.read_csv(val_csv)
+
     fieldnames = [
         'company_name1', 'company_country1', 'company_employees1', 'company_website1',
         'company_name2', 'company_country2', 'company_employees2', 'company_website2',
-        'match', 'match_confidence'
+        'match', 'match_confidence', 'ground_truth'
     ]
 
     with jsonlines.open(jsonl_file) as reader, open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
-        for obj in reader:
+        for obj, row in zip(reader, val_csv.itertuples(index=False)):
             left_str = obj.get("left", "")
             right_str = obj.get("right", "")
             left_record = parse_record(left_str)
@@ -53,7 +58,8 @@ def jsonl_to_csv(jsonl_file, csv_file):
                 'company_employees2': right_record.get("company_employees", ""),
                 'company_website2': right_record.get("company_website", ""),
                 'match': obj.get("match", ""),
-                'match_confidence': obj.get("match_confidence", "")
+                'match_confidence': obj.get("match_confidence", ""),
+                'ground_truth': row.match
             }
             writer.writerow(row)
 
@@ -62,6 +68,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Converte un file JSONL in CSV")
     parser.add_argument("--jsonl", type=str, required=True, help="Percorso del file JSONL di input")
     parser.add_argument("--csv", type=str, required=True, help="Percorso del file CSV di output")
+    parser.add_argument("--val_csv", type=str, required=True, help="Percorso del file CSV di output per il validation set")
     args = parser.parse_args()
 
-    jsonl_to_csv(args.jsonl, args.csv)
+    jsonl_to_csv(args.jsonl, args.csv, args.val_csv)
